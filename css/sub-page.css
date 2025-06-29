@@ -1,0 +1,182 @@
+/* css/sub-page.css */
+
+/* 각 주요 페이지의 첫 섹션이 헤더 아래로 오도록 */
+main {
+    padding-top: 70px; /* 헤더 높이 + 여유 공간 */
+}
+
+/* 각 주요 페이지 내 하위 섹션 공통 스타일 */
+.main-page-section {
+    padding: 80px 0; /* 충분한 패딩 */
+    border-bottom: 1px solid #eee;
+}
+
+.main-page-section:nth-of-type(odd) {
+    background: #f9f9f9;
+}
+
+.main-page-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.2em;
+}
+
+/* JavaScript로 제어될 숨김/표시 상태 */
+.main-page-section {
+    display: none; /* 기본적으로 모든 하위 섹션을 숨김 */
+}
+
+.main-page-section.active {
+    display: block; /* 'active' 클래스가 있으면 보이게 함 */
+}
+
+/* 사업 분야 아이템 */
+.business-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.business-item h3 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+/* 현직자 소통 (testimonial) */
+.testimonial {
+    background: #e6f2ff;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    margin: 20px auto;
+    font-style: italic;
+    color: #555;
+    max-width: 700px;
+    border-radius: 5px;
+}
+
+/* 매거진 아티클 (하위 페이지용) */
+.magazine-article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.magazine-article h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.magazine-article p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* 채용 직무 (job-opening) */
+.job-opening {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.job-opening h3 {
+    margin: 0;
+    color: #333;
+}
+
+.job-opening p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* 합격 사례 (case-study) */
+.case-study {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.case-study h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.case-study p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* 문의 양식 (하위 페이지용) */
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 전체 목록 페이지 (특허/인증 상세 페이지) */
+.full-list-page-section {
+    padding: 80px 0;
+    min-height: 80vh; /* 최소 높이 설정 */
+    background: #f0f2f5;
+}
+
+.full-list-page-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.full-list-page-section ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.full-list-page-section li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.full-list-page-section li:last-child {
+    border-bottom: none;
+}
+
+.full-list-page-section li strong {
+    color: #007bff;
+}
+
+/* 반응형 (sub-page.css 내에 포함) */
+@media (max-width: 768px) {
+    /* 모바일에서는 모든 하위 섹션이 기본적으로 보이도록 */
+    .main-page-section {
+        display: block;
+    }
+}
