@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="login-bg">
+    <form class="login-box" id="loginForm">
+      <h2>LOGIN</h2>
+      <div class="input-group">
+        <i class="fa fa-user"></i>
+        <input type="text" id="username" placeholder="Username" required>
+      </div>
+      <div class="input-group">
+        <i class="fa fa-lock"></i>
+        <input type="password" id="password" placeholder="Password" required>
+      </div>
+      <div class="remember-me">
+        <input type="checkbox" id="rememberMe">
+        <label for="rememberMe">Remember me</label>
+      </div>
+      <button type="submit" class="login-btn">LOGIN</button>
+      <a href="#" class="forgot-link">Forgot your password?</a>
+      <!-- 회원가입 안내를 박스 내부에, 구분선 위에 -->
+      <div class="signup-box">
+        <span>아직 계정이 없으신가요?</span>
+        <a href="register.html" class="signup-link">회원가입</a>
+      </div>
+      <div id="result"></div>
+    </form>
+  </div>
+  <script>
+    // ... 기존 JS는 그대로 사용 ...
+    window.addEventListener('DOMContentLoaded', function() {
+      const savedId = getCookie('rememberId');
+      if (savedId) {
+        document.getElementById('username').value = savedId;
+        document.getElementById('rememberMe').checked = true;
+      }
+    });
+
+    document.getElementById('loginForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+      const rememberMe = document.getElementById('rememberMe').checked;
+
+      if (rememberMe) {
+        setCookie('rememberId', username, 30);
+      } else {
+        setCookie('rememberId', '', -1);
+      }
+
+      const response = await fetch('/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+      const data = await response.json();
+      if (response.ok) {
+        document.getElementById('result').innerText = '로그인 성공!';
+        setTimeout(function() {
+          window.location.href = '/main';
+        }, 700);
+      } else {
+        document.getElementById('result').innerText = data.error || '로그인 실패';
+      }
+    });
+
+    function setCookie(name, value, days) {
+      let expires = "";
+      if (days) {
+        let date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + encodeURIComponent(value || "") + expires + "; path=/";
+    }
+    function getCookie(name) {
+      let nameEQ = name + "=";
+      let ca = document.cookie.split(';');
+      for(let i=0;i < ca.length;i++) {
+        let c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length,c.length));
+      }
+      return null;
+    }
+  </script>
+</body>
+</html>

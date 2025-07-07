@@ -1,0 +1,121 @@
+body {
+  background: #222; /* 더 어둡게 */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+.login-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-box {
+  width: 370px;
+  background: #505050;
+  border-radius: 28px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.22);
+  padding: 38px 32px 20px 32px;
+  position: relative;
+}
+.login-box h2 {
+  color: #fff;
+  margin-bottom: 28px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+.input-group i {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  color: #aaa;
+}
+.input-group input {
+  width: 100%;
+  padding: 12px 14px 12px 38px;
+  border: none;
+  border-radius: 18px;
+  background: #b3b3b3;
+  color: #222;
+  font-size: 15px;
+  outline: none;
+}
+.remember-me {
+  color: #eee;
+  margin-bottom: 16px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.remember-me input[type="checkbox"] {
+  margin-right: 7px;
+}
+.login-btn {
+  width: 100%;
+  padding: 12px 0;
+  background: #44aaff;
+  border: none;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.17s;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+.login-btn:hover {
+  background: #337fcc;
+}
+.forgot-link {
+  color: #dbe9ff;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  margin-top: 6px;
+  text-decoration: none;
+}
+#result {
+  margin-top: 14px;
+  color: #fff2b2;
+  text-align: center;
+  font-size: 15px;
+  min-height: 20px;
+}
+.signup-box {
+  margin-top: 24px;
+  text-align: center;
+  background: #444;
+  padding: 12px 0 8px 0;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.11);
+}
+.signup-link {
+  color: #44aaff;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.signup-link:hover {
+  color: #89c3fa;
+
+}
+.input-group input {
+  width: 100%;
+  padding: 12px 14px 12px 38px;
+  border: none;
+  border-radius: 18px;
+  background: #b3b3b3;
+  color: #222;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+}
