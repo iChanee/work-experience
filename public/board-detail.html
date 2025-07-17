@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>게시글 상세 | 커뮤니티</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/sub-page.css">
+  <link rel="stylesheet" href="css/board.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="home.html"><img src="images/company_logo.jpg" alt="회사 로고"></a>
+      </div>
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a href="company-intro.html">회사 소개</a>
+            <div class="dropdown-content">
+              <a href="company-intro.html#greeting">인사말</a>
+              <a href="company-intro.html#business-areas">사업 분야</a>
+              <a href="company-intro.html#partners">협력사</a>
+              <a href="company-intro.html#welfare">복리후생</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="cti-media.html">CTI Media</a>
+            <div class="dropdown-content">
+              <a href="cti-media.html#company-landscape">회사 풍경</a>
+              <a href="cti-media.html#employee-talk">현직자 소통</a>
+              <a href="cti-media.html#web-magazine-full">웹 매거진</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="board.html" class="active">게시판</a>
+            <div class="dropdown-content">
+              <a href="board.html#community">커뮤니티</a>
+              <a href="question.html">문의</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="careers.html">인재/채용</a>
+            <div class="dropdown-content">
+              <a href="careers.html#ideal-talent">인재상</a>
+              <a href="careers.html#job-categories">직무 구분</a>
+              <a href="careers.html#successful-cases">우수 합격 사례</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="detail-wrap">
+      <div class="post-detail-card">
+        <div class="detail-author-row">
+          <span class="detail-author" id="detailAuthor">익명</span>
+          <span class="detail-date" id="detailDate">-</span>
+        </div>
+        <div class="detail-title" id="detailTitle">로딩 중...</div>
+        <div class="detail-content" id="detailContent">불러오는 중...</div>
+        <a class="back-link-btn" href="board.html">&larr; 목록으로</a>
+      </div>
+      <!-- 댓글 입력 + 댓글 리스트 -->
+      <div class="comments-section">
+        <form id="commentForm" class="comment-form">
+          <textarea id="commentInput" placeholder="댓글을 입력하세요" required></textarea>
+          <button type="submit" class="comment-submit-btn">댓글 등록</button>
+        </form>
+        <div class="comment-list" id="commentList"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 회사명. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Facebook</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    // 쿼리스트링에서 id 추출
+    function getParam(name) {
+      return new URLSearchParams(location.search).get(name);
+    }
+    function formatDate(dateStr) {
+      if (!dateStr) return '';
+      const d = new Date(dateStr);
+      const pad = n => n.toString().padStart(2, "0");
+      return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+    }
+    async function loadDetailAndComments() {
+      const postId = getParam('id');
+      if (!postId) return;
+      // 게시글 불러오기
+      try {
+        const res = await fetch('/api/posts/' + postId);
+        if (!res.ok) throw new Error('게시글을 불러올 수 없습니다.');
+        const data = await res.json();
+        document.getElementById('detailTitle').textContent = data.title;
+        document.getElementById('detailAuthor').textContent = data.author || '익명';
+        document.getElementById('detailDate').textContent = formatDate(data.created_at);
+        document.getElementById('detailContent').textContent = data.content || '';
+      } catch (err) {
+        document.getElementById('detailTitle').textContent = '불러오기 오류';
+        document.getElementById('detailContent').textContent = err.message;
+      }
+      // 댓글 불러오기
+      await loadComments(postId);
+    }
+    async function loadComments(postId) {
+      try {
+        const cres = await fetch(`/api/comments?post_id=${postId}`);
+        const commentData = cres.ok ? await cres.json() : [];
+        renderComments(commentData, document.getElementById('commentList'));
+      } catch (err) {
+        document.getElementById('commentList').innerHTML = '<div style="color:#aaa;margin:16px;">댓글을 불러오지 못했습니다.</div>';
+      }
+    }
+    // 댓글 트리 렌더링
+    function renderComments(comments, parentEl) {
+      parentEl.innerHTML = '';
+      comments.forEach(c => {
+        const el = document.createElement('div');
+        el.className = 'comment';
+        el.innerHTML = `
+          <div class="comment-body">
+            <div class="comment-author-row">
+              <span class="comment-author">${c.author}</span>
+              <span class="comment-date">${c.date || ''}</span>
+            </div>
+            <div class="comment-content">${c.content}</div>
+          </div>
+        `;
+        parentEl.appendChild(el);
+        if (c.children && c.children.length > 0) {
+          const childBox = document.createElement('div');
+          childBox.className = 'comment-children';
+          el.appendChild(childBox);
+          renderComments(c.children, childBox);
+        }
+      });
+    }
+    // 댓글 입력
+    document.addEventListener("DOMContentLoaded", () => {
+      loadDetailAndComments();
+      document.getElementById('commentForm').onsubmit = async function(e) {
+        e.preventDefault();
+        const postId = getParam('id');
+        const content = document.getElementById('commentInput').value.trim();
+        if (!content) return;
+        const res = await fetch('/api/comments', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ post_id: postId, content })
+        });
+        if (res.ok) {
+          document.getElementById('commentInput').value = '';
+          await loadComments(postId);
+        } else {
+          alert('댓글 등록 실패!');
+        }
+      };
+    });
+  </script>
+</body>
+</html>
