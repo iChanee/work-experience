@@ -58,7 +58,7 @@ function renderPosts(posts) {
             <div class="post-title">${escapeHTML(post.title)}</div>
             <div class="post-content">${escapeHTML(post.content).replace(/\n/g," ").substring(0, 64)}${post.content.length > 64 ? '...' : ''}</div>
             <div class="post-meta">
-                <span class="comment-count">💬 ${post.comment_count || 0}</span>
+                <span class="comment-count">💬 ${post.comments || 0}</span>
                 <span class="post-time">${formatTime(post.created_at)}</span>
                 <span class="post-author">${post.isAnonymous ? "익명" : escapeHTML(post.author)}</span>
             </div>

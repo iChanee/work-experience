@@ -228,6 +228,12 @@
     color: #333;
 }
 
+.full-list-page-section h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .full-list-page-section ul {
     list-style: none;
     padding: 0;
@@ -653,4 +659,36 @@
 @media (max-width: 900px) {
     .board-wrapper { min-width: 0; width: 98%; }
 }
+
+/* 특허 사진 */
+
+.business_type1 .business_info { width:100%; margin-bottom:50px;}
+.business_type1 .business_info:after { content:""; display:block; clear:both;}
+.business_type1 .business_info li {float:left; overflow:hidden; position:relative; width:25%; height:450px; text-align:center; box-sizing:border-box; border-right:1px solid #fff;}
+#patent-page-full .business_type1 .business_info li:nth-child(1) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_01.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(2) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_02.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(3) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_03.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(4) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_04.jpg')no-repeat 50% ;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(5) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_05.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(6) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_06.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(7) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_07.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(8) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_08.jpg')no-repeat 50% 0;  background-size:cover;}
+#patent-page-full .business_type1 .business_info li:nth-child(9) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_09.jpg')no-repeat 50% 0;  background-size:cover; border-right:0px;}
+#certification-page-full .business_type1 .business_info li:nth-child(1) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_10.jpg')no-repeat 50% 0;  background-size:cover;}
+#certification-page-full .business_type1 .business_info li:nth-child(2) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_11.jpg')no-repeat 50% 0;  background-size:cover;}
+#certification-page-full .business_type1 .business_info li:nth-child(3) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_12.jpg')no-repeat 50% 0;  background-size:cover;}
+#certification-page-full .business_type1 .business_info li:nth-child(4) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_13.jpg')no-repeat 50% 0;  background-size:cover;}
+#certification-page-full .business_type1 .business_info li:nth-child(5) {background:url('https://www.cti-korea.com/theme/business/html/certificate/image/c_14.jpg')no-repeat 50% 0;  background-size:cover;}
+.business_type1 .business_info li .summary {position:absolute; width:100%; height:100%; cursor:pointer; z-index:10; transition:all .5s ease; -moz-transition:all .5s ease; -ms-transition:all .5s ease; -webkit-transition:all .5s ease; -o-transition:all .5s ease;}
+.business_type1 .business_info li .summary:after{ content:""; display:block; clear:both;}
+.business_type1 .business_info li .summary p.title {position:absolute; top:45%; width:100%;  color:#fff; font-size:1.5em; text-shadow: 0px 0px 2px #000; }
+.business_type1 .business_info li .summary p.title:after { display: block; content: ""; width:7%; height:1px; margin:10px auto; background: #eee; }
+.business_type1 .business_info li .summary span.txt { display:none;}
+.business_type1 .business_info li .summary a { display:none; }
+.business_type1 .business_info li:hover .summary, .business_type1 .business_info li.on .summary { position:absolute; width:100%; height:100%; background:rgba(0,0,0,.7); }
+.business_type1 .business_info li:hover .summary p.title, .business_type1 .business_info li.on .summary p.title { display:block; top:10%; left:5%; margin-left:0; text-align:left; text-shadow:none; }
+.business_type1 .business_info li:hover .summary p.title:after, .business_type1 .business_info li.on .summary p.title:after { display: block; content: ""; width:90%; height:1px; margin:10px 0; background: #eee; text-align:left; }
+.business_type1 .business_info li:hover .summary span.txt, .business_type1 .business_info li.on .summary span.txt { position:absolute; display:inline-block; left:5%; top:25%; width:100%; color:#fff; font-size:0.95em; text-align:left;  }
+.business_type1 .business_info li:hover .summary a, .business_type1 .business_info li.on .summary a{position:absolute; display:inline-block; left:5%; bottom:5%; width:40%; height:40px; line-height:40px; font-size:1em; color:#fff;  text-decoration:none; background:rgba(0,0,0,0);  border:1px solid #fff;  margin:20px auto; transition: 0.5s all ease;   }
+.business_type1 .business_info li:hover .summary a:hover, .business_type1 .business_info li.on .summary a:hover{color:#000; background:#fff; border:1px solid #fff;}
 

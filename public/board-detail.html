@@ -13,7 +13,7 @@
   <header>
     <div class="container">
       <div class="logo">
-        <a href="home.html"><img src="images/company_logo.jpg" alt="회사 로고"></a>
+        <a href="index.html"><img src="images/company_logo.jpg" alt="회사 로고"></a>
       </div>
       <nav>
         <ul>
@@ -60,6 +60,9 @@
         <div class="detail-author-row">
           <span class="detail-author" id="detailAuthor">익명</span>
           <span class="detail-date" id="detailDate">-</span>
+          <button id="postDeleteBtn" style="display:none; margin-left:16px; color:#d12e2e; background:transparent; border:none; cursor:pointer; font-size:1em;">
+            글 삭제
+          </button>
         </div>
         <div class="detail-title" id="detailTitle">로딩 중...</div>
         <div class="detail-content" id="detailContent">불러오는 중...</div>
@@ -77,17 +80,52 @@
   </div>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2025 회사명. All rights reserved.</p>
-      <div class="social-links">
-        <a href="#">Facebook</a> |
-        <a href="#">LinkedIn</a> |
-        <a href="#">Twitter</a>
-      </div>
-    </div>
-  </footer>
+		<section id="footer">
+        <!--
+			<div class="copy_bar">
+				<div>
+					<p class="copy_menu"><a href="https://www.cti-korea.com/bbs/content.php?co_id=privacy" >개인정보처리방침</a>  &nbsp;&nbsp;&nbsp; <a href="https://www.cti-korea.com/bbs/content.php?co_id=provision" >이용약관</a> &nbsp;&nbsp;&nbsp; <a href="https://www.cti-korea.com/bbs/board.php?bo_table=notice" alt="공지사항" title="공지사항">공지사항</a></p>
+				</div>
+			</div>
+            //-->
+			<div class="copy_area">
+				<div class="copyright">
+					<p>
+						<span>씨티아이코리아 주식회사</span>
+						<span>대표 : 채현병</span>
+						<span>주소 : 충남 천안시 서북구 백석공단1로 10 천안미래에이스하이테크시티 M동 327호</span>
+						<span>사업자등록번호 : 312-86-05805</span><br class="pc_br">
+						<span>TEL : 041-557-5200</span>
+						<span>FAX : 041-557-5204</span>
+						<span>개인정보책임관리자 : 채현병</span>
+						<span>이메일 : cti@cti-korea.com</span><br class="pc_br">
+						<span>Copyright 2020 CTI Korea Co.,Ltd. All Rights Reserved.</span>
+					</p>
+				</div>
+			</div>
+
+
+		</section>
+	</footer>
   
   <script>
+    // 현재 로그인 사용자 fetch (전역)
+    window.currentUser = null;
+    let postAuthor = null;
+
+    async function fetchCurrentUser() {
+        try {
+            const res = await fetch('/api/me', { credentials: "include" });
+            const data = await res.json();
+            if (data.loggedIn) {
+                window.currentUser = { ID: data.ID };
+            } else {
+                window.currentUser = null;
+            }
+        } catch (e) {
+            window.currentUser = null;
+        }
+    }
     // 쿼리스트링에서 id 추출
     function getParam(name) {
       return new URLSearchParams(location.search).get(name);
@@ -110,6 +148,30 @@
         document.getElementById('detailAuthor').textContent = data.author || '익명';
         document.getElementById('detailDate').textContent = formatDate(data.created_at);
         document.getElementById('detailContent').textContent = data.content || '';
+        postAuthor = data.author; // 글 작성자 기억해두기
+
+        // 글 삭제 버튼 보이기/숨기기
+        const postDeleteBtn = document.getElementById('postDeleteBtn');
+        if (window.currentUser && postAuthor && window.currentUser.ID === postAuthor) {
+            postDeleteBtn.style.display = 'inline-block';
+            postDeleteBtn.onclick = async function() {
+                if (confirm('정말 이 글을 삭제하시겠습니까?')) {
+                    const res = await fetch(`/api/posts/${postId}`, {
+                        method: 'DELETE',
+                        credentials: 'include'
+                    });
+                    const result = await res.json();
+                    if (res.ok) {
+                        alert('글이 삭제되었습니다.');
+                        location.href = 'board.html'; // 글 목록으로 이동
+                    } else {
+                        alert('글 삭제 실패\n' + (result.error || ''));
+                    }
+                }
+            };
+        } else {
+            postDeleteBtn.style.display = 'none';
+        }
       } catch (err) {
         document.getElementById('detailTitle').textContent = '불러오기 오류';
         document.getElementById('detailContent').textContent = err.message;
@@ -137,39 +199,77 @@
             <div class="comment-author-row">
               <span class="comment-author">${c.author}</span>
               <span class="comment-date">${c.date || ''}</span>
+              ${
+            (window.currentUser && window.currentUser.ID === c.author)
+              ? `<button class="comment-delete-btn" data-comment-id="${c.comment_id}" style="margin-left:8px;font-size:0.95em;color:#d12e2e;background:transparent;border:none;cursor:pointer;">삭제</button>`
+              : ''
+          }
             </div>
             <div class="comment-content">${c.content}</div>
           </div>
         `;
         parentEl.appendChild(el);
-        if (c.children && c.children.length > 0) {
-          const childBox = document.createElement('div');
-          childBox.className = 'comment-children';
-          el.appendChild(childBox);
-          renderComments(c.children, childBox);
-        }
+        // if (c.children && c.children.length > 0) {
+        //   const childBox = document.createElement('div');
+        //   childBox.className = 'comment-children';
+        //   el.appendChild(childBox);
+        //   renderComments(c.children, childBox);
+        // }
       });
+      //댓글 삭제
+      parentEl.querySelectorAll('.comment-delete-btn').forEach(btn => {
+            btn.onclick = async function() {
+                if (confirm('정말 이 댓글을 삭제하시겠습니까?')) {
+                    const commentId = this.getAttribute('data-comment-id');
+                    const res = await fetch(`/api/comments/${commentId}`, {
+                        method: 'DELETE',
+                        credentials: 'include'
+                    });
+                    if (res.ok) {
+                        alert('댓글이 삭제되었습니다.');
+                        const postId = getParam('id');
+                        await loadComments(postId);
+                        await loadDetailAndComments(); // 댓글 수도 즉시 반영
+                    } else {
+                        alert('댓글 삭제에 실패했습니다.');
+                    }
+                }
+            };
+        });
     }
     // 댓글 입력
-    document.addEventListener("DOMContentLoaded", () => {
-      loadDetailAndComments();
-      document.getElementById('commentForm').onsubmit = async function(e) {
-        e.preventDefault();
-        const postId = getParam('id');
-        const content = document.getElementById('commentInput').value.trim();
-        if (!content) return;
-        const res = await fetch('/api/comments', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ post_id: postId, content })
-        });
-        if (res.ok) {
-          document.getElementById('commentInput').value = '';
-          await loadComments(postId);
-        } else {
-          alert('댓글 등록 실패!');
-        }
-      };
+    document.addEventListener("DOMContentLoaded", async () => {
+        await fetchCurrentUser();    // 반드시 먼저 호출
+        await loadDetailAndComments();
+        document.getElementById('commentForm').onsubmit = async function(e) {
+            e.preventDefault();
+            // *** 로그인 체크 ***
+            if (!window.currentUser) {
+                await fetchCurrentUser();
+            }
+            if (!window.currentUser) {
+                if (confirm('로그인 후 댓글을 작성할 수 있습니다.\n로그인 페이지로 이동하시겠습니까?')) {
+                    location.href = '/login.html';
+                }
+                return;
+            }
+            const postId = getParam('id');
+            const content = document.getElementById('commentInput').value.trim();
+            if (!content) return;
+            const res = await fetch('/api/comments', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'include',
+                body: JSON.stringify({ post_id: postId, content })
+            });
+            if (res.ok) {
+                document.getElementById('commentInput').value = '';
+                await loadComments(postId);
+                await loadDetailAndComments(); // 댓글 수 즉시 반영
+            } else {
+                alert('댓글 등록 실패!');
+            }
+        };
     });
   </script>
 </body>

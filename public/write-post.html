@@ -94,19 +94,35 @@
       e.preventDefault();
       const title = document.getElementById('title').value.trim();
       const content = document.getElementById('content').value.trim();
+      //로그인 체크
+      try {
+        const loginRes = await fetch('/api/me', { credentials: 'include' });
+        const loginData = await loginRes.json();
+        if (!loginData.loggedIn) {
+          alert('로그인 후 글쓰기가 가능합니다.');
+          location.href = '/login.html';
+          return;
+        }
+      } catch {
+        alert('로그인 상태 확인 중 오류가 발생했습니다.');
+        return;
+      }
+      //글 등록 요청
       try {
         const res = await fetch('/api/posts', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
           body: JSON.stringify({ title, content })
         });
-        if (res.ok) {
-          document.getElementById('result').style.color = '#127d12';
-          document.getElementById('result').textContent = '글이 정상적으로 등록되었습니다.';
-          this.reset();
-          updateRuleGuide();
+        const data = await res.json();
+        if (res.ok && data.post_id) {
+          // 등록된 글 상세페이지로 이동
+          location.href = `board-detail.html?id=${data.post_id}`;
+        } else if (res.status === 401) {
+          alert('로그인 후 글쓰기가 가능합니다.');
+          location.href = '/login.html';
         } else {
-          const data = await res.json();
           document.getElementById('result').style.color = '#d00';
           document.getElementById('result').textContent = '등록 실패: ' + (data.message || '오류');
         }

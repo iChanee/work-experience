@@ -108,7 +108,7 @@ app.get('/api/posts', (req, res) => {
   });
 });
 
-// 글 등록 (로그인 필요)
+// 글 등록 (로그인 필요, write-post.html에서 사용)
 app.post('/api/posts', (req, res) => {
   if (!req.session.loggedIn) {
     return res.status(401).json({ error: '로그인 필요' });
@@ -120,10 +120,40 @@ app.post('/api/posts', (req, res) => {
     [title, content, author],
     (err, result) => {
       if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+      // 글 등록 성공 시 새 글의 post_id 반환
       res.json({ message: '글 등록 성공', post_id: result.insertId });
     }
   );
 });
+
+// 글 삭제 (본인만 가능)
+app.delete('/api/posts/:post_id', (req, res) => {
+    if (!req.session.loggedIn) {
+        return res.status(401).json({ error: '로그인 필요' });
+    }
+    const post_id = req.params.post_id;
+    const user_id = req.session.ID;
+    // 1. 권한 확인: 본인 글인지
+    db.query(
+        "SELECT author FROM board WHERE post_id = ?",
+        [post_id],
+        (err, rows) => {
+            if (err || rows.length === 0) return res.status(404).json({ error: '글을 찾을 수 없습니다.' });
+            const { author } = rows[0];
+            if (author !== user_id) return res.status(403).json({ error: '본인 글만 삭제할 수 있습니다.' });
+            // 2. 글 삭제 (댓글은 ON DELETE CASCADE 등으로 같이 삭제 권장)
+            db.query(
+                "DELETE FROM board WHERE post_id = ?",
+                [post_id],
+                (err2) => {
+                    if (err2) return res.status(500).json({ error: '글 삭제 실패' });
+                    res.json({ message: '글 삭제 성공' });
+                }
+            );
+        }
+    );
+});
+
 
 // 메인페이지(인증 필요)
 app.get('/main', (req, res) => {
@@ -147,6 +177,91 @@ app.get('/api/posts/:id', (req, res) => {
     }
   );
 });
+
+
+// 댓글 등록 (로그인 필요)
+app.post('/api/comments', (req, res) => {
+    if (!req.session.loggedIn) {
+        return res.status(401).json({ error: '로그인 필요' });
+    }
+    const { post_id, content } = req.body;
+    const author = req.session.ID;
+    if (!post_id || !content) {
+        return res.status(400).json({ error: '필수값 누락' });
+    }
+    db.query(
+        "INSERT INTO comments (post_id, author, content) VALUES (?, ?, ?)",
+        [post_id, author, content],
+        (err, result) => {
+            if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+            // 댓글 카운트 +1
+            db.query(
+                "UPDATE board SET comments = comments + 1 WHERE post_id = ?",
+                [post_id],
+                (err2) => {
+                    if (err2) return res.status(500).json({ error: '댓글 등록은 성공, 카운트 업데이트 실패: ' + err2.message });
+                    res.json({ message: '댓글 등록 성공', comment_id: result.insertId });
+                }
+            );
+        }
+    );
+});
+
+// 댓글 목록 (특정 게시글)
+app.get('/api/comments', (req, res) => {
+    const post_id = req.query.post_id;
+    if (!post_id) return res.status(400).json({ error: 'post_id 필요' });
+    db.query(
+        "SELECT comment_id, author, content, created_at FROM comments WHERE post_id = ? ORDER BY created_at ASC",
+        [post_id],
+        (err, rows) => {
+            if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+            // 반드시 comment_id 포함
+            const comments = rows.map(row => ({
+                comment_id: row.comment_id,
+                author: row.author,
+                content: row.content,
+                date: row.created_at
+            }));
+            res.json(comments);
+        }
+    );
+});
+
+
+// 댓글 삭제 API
+app.delete('/api/comments/:comment_id', (req, res) => {
+    if (!req.session.loggedIn) {
+        return res.status(401).json({ error: '로그인 필요' });
+    }
+    const comment_id = req.params.comment_id;
+    const user_id = req.session.ID;
+    db.query(
+        "SELECT post_id, author FROM comments WHERE comment_id = ?",
+        [comment_id],
+        (err, rows) => {
+            if (err || rows.length === 0) return res.status(404).json({ error: '댓글 없음' });
+            const { post_id, author } = rows[0];
+            if (author !== user_id) return res.status(403).json({ error: '본인 댓글만 삭제할 수 있습니다.' });
+            db.query(
+                "DELETE FROM comments WHERE comment_id = ?",
+                [comment_id],
+                (err2) => {
+                    if (err2) return res.status(500).json({ error: 'DB 오류' });
+                    db.query(
+                        "UPDATE board SET comments = GREATEST(comments - 1, 0) WHERE post_id = ?",
+                        [post_id],
+                        (err3) => {
+                            if (err3) return res.status(500).json({ error: '카운트 동기화 실패' });
+                            res.json({ message: '댓글 삭제 성공' });
+                        }
+                    );
+                }
+            );
+        }
+    );
+});
+
 
 const PORT = 3000;
 app.listen(PORT, () => {

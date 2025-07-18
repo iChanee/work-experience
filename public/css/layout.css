@@ -19,6 +19,10 @@ header .container {
     align-items: center;
 }
 
+#sub_visual{width:100%; height:170px; text-align:center; background:#e8e9eb; }
+.backgroundimg{position:relative; width:100%; text-align:center; margin:0 auto; height:170px; z-index:0; }
+.visual_area {width:100%; max-width:1920px; height:170px; margin:0 auto; }
+
 /* 로고 */
 .logo a {
     display: block;
@@ -87,31 +91,20 @@ nav ul li a:hover {
     display: block; /* 마우스 오버 시 드롭다운 보이기 */
 }
 
-/* 푸터 */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 30px 0;
-    font-size: 0.9em;
-    margin-top: auto; /* 페이지 하단에 고정 (flexbox body 사용시) */
-}
-
-footer .social-links {
-    margin-top: 10px;
-}
-
-footer .social-links a {
-    color: #fff;
-    margin: 0 8px;
-    opacity: 0.8;
-}
-
-
-footer .social-links a:hover {
-    opacity: 1;
-    text-decoration: underline;
-}
+/*푸터*/
+#footer{ clear:both; width:100%; margin:0; padding-bottom:70px;border-top:1px solid #ddd; }
+#footer:after{ content:""; display:block; clear:both;}
+#footer .copy_bar{ width:100%;}
+#footer .copy_bar div{width:100%; max-width:1200px; text-align:center; margin:0 auto;}
+#footer .copy_bar div .copy_menu { padding-top:20px; }
+#footer .copy_bar div .copy_menu a{color:#888; }
+#footer .copy_bar div .copy_menu a:hover{color:#fd7701; }
+#footer .copy_area{position:relative; width:100%; max-width:1200px; margin:0 auto; padding-top:20px; }
+#footer .copyright{float:left; width:100%; text-align:center; padding:0; }
+#footer .copyright p{width:100%; color:#888; padding-top:10px; }
+#footer .copyright p span{ display:inline-block; color:#888; margin-right:15px;}
+#footer .copyright p span:nth-child(5) {display:block; background:blue;}
+#footer .copyright p span.pc_br { padding:0; margin:0; display:inline-block; background:Red;}
 
 /* 반응형을 위한 기본 미디어 쿼리 (layout.css 내에 포함) */
 @media (max-width: 768px) {
