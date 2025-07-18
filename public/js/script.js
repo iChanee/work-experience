@@ -201,3 +201,21 @@ document.addEventListener('DOMContentLoaded', function() {
         updatePartnersCarousel(); // 초기 로드 시 캐러셀 위치 설정
     }
 });
+
+// 로그인 로그아웃 버튼
+async function updateLoginStateButton() {
+  let btnLi = document.getElementById('loginStateBtnLi');
+  if (!btnLi) return;
+  let res = await fetch('/api/me', { credentials: 'include' });
+  let data = await res.json();
+  if (data.loggedIn) {
+    btnLi.innerHTML = `<button id="logoutBtn" class="nav-auth-btn">로그아웃</button>`;
+    document.getElementById('logoutBtn').onclick = async function() {
+      await fetch('/logout', { method: 'POST', credentials: 'include' });
+      location.reload();
+    };
+  } else {
+    btnLi.innerHTML = `<a href="login.html" class="nav-auth-btn">로그인</a>`;
+  }
+}
+document.addEventListener('DOMContentLoaded', updateLoginStateButton);

@@ -79,12 +79,37 @@
   <div class="container main-content">
     <div class="top-bar">
       <span class="main-title">커뮤니티</span>
-      <button class="write-btn" onclick="location.href='write-post.html'">✎ 글쓰기</button>
+      <button class="write-btn" id="writeBtn">✎ 글쓰기</button>
     </div>
     <div class="main-desc">자유롭게 의견을 나누고 소통하는 공간입니다.</div>
     <div class="post-list"></div>
   </div>
   <script src="js/board.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const writeBtn = document.getElementById('writeBtn');
+      if (writeBtn) {
+        writeBtn.addEventListener('click', async function(e) {
+          e.preventDefault();
+          // 로그인 상태 확인
+          try {
+            const res = await fetch('/api/me', { credentials: 'include' });
+            const data = await res.json();
+            if (!data.loggedIn) {
+              if (confirm('로그인한 사용자만 글쓰기가 가능합니다.\n로그인 페이지로 이동하시겠습니까?')) {
+                location.href = '/login.html';
+              }
+              return;
+            }
+            // 로그인 상태면 글쓰기 페이지로 이동
+            location.href = 'write-post.html';
+          } catch (err) {
+            alert('로그인 상태 확인 중 오류가 발생했습니다.');
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
 
@@ -117,3 +142,5 @@
 
 		</section>
 	</footer>
+
+  

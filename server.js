@@ -46,10 +46,10 @@ db.connect(err => {
   }
 });
 
-// 루트에서 무조건 로그인 페이지로
-app.get('/', (req, res) => {
-  res.redirect('/login.html');
-});
+// // 루트에서 무조건 로그인 페이지로
+// app.get('/', (req, res) => {
+//   res.redirect('/login.html');
+// });
 
 // 로그인 상태 확인 API (프론트에서 /api/me fetch)
 app.get('/api/me', (req, res) => {
@@ -155,14 +155,6 @@ app.delete('/api/posts/:post_id', (req, res) => {
 });
 
 
-// 메인페이지(인증 필요)
-app.get('/main', (req, res) => {
-  if (req.session.loggedIn) {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
-  } else {
-    res.redirect('/login.html');
-  }
-});
 
 // 게시글 상세정보 라우터 추가
 app.get('/api/posts/:id', (req, res) => {

@@ -63,7 +63,7 @@
       if (response.ok) {
         document.getElementById('result').innerText = '로그인 성공!';
         setTimeout(function() {
-          window.location.href = '/main';
+          window.location.href = '/index';
         }, 700);
       } else {
         document.getElementById('result').innerText = data.error || '로그인 실패';

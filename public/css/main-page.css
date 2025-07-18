@@ -5,21 +5,28 @@ main {
     padding-top: 70px; /* 헤더 높이에 따라 조절 */
 }
 
-    /* main-page.css 등에 추가 */
-    .logout-btn {
-        background: #444;
-        color: #fff;
-        border: none;
-        padding: 8px 22px;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 16px;
-        margin-left: 16px;
-        transition: background 0.15s;
-    }
-    .logout-btn:hover {
-        background: #285af5;
-    }
+/* main-page.css 등에 추가 */
+.nav-auth-btn {
+    display: inline-block;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: background 0.18s;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0 1px 5px rgba(50,100,200,0.07);
+}
+.nav-auth-btn:hover {
+    background: #0b42a8;
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* 히어로 비디오 섹션 */
 .hero-video-section {
