@@ -102,7 +102,6 @@ app.post('/logout', (req, res) => {
 });
 
 
-
 // 글 목록
 app.get('/api/posts', (req, res) => {
   db.query("SELECT * FROM board ORDER BY post_id DESC", (err, rows) => {
@@ -160,8 +159,6 @@ app.delete('/api/posts/:post_id', (req, res) => {
     );
 });
 
-
-
 // 게시글 상세정보 라우터 추가
 app.get('/api/posts/:id', (req, res) => {
   const postId = req.params.id;
@@ -175,7 +172,6 @@ app.get('/api/posts/:id', (req, res) => {
     }
   );
 });
-
 
 // 댓글 등록 (로그인 필요)
 app.post('/api/comments', (req, res) => {
@@ -225,7 +221,6 @@ app.get('/api/comments', (req, res) => {
         }
     );
 });
-
 
 // 댓글 삭제 API
 app.delete('/api/comments/:comment_id', (req, res) => {
@@ -314,10 +309,42 @@ app.delete('/api/webmagazine/:post_id', (req, res) => {
   });
 });
 
+// GPT 챗봇 라우터 (에러 상세 출력)
+app.post('/api/chat', async (req, res) => {
+  try {
+    const userMsg = req.body.message;
+    const gptRes = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: "gpt-4o",
+        messages: [{ role: "user", content: userMsg }]
+      })
+    });
+    const data = await gptRes.json();
 
+    // 에러 응답이면 로그 남기고 상세 응답
+    if (data.error) {
+      console.error('[OpenAI API 오류]', data.error);
+      res.json({ reply: 'OpenAI API 오류: ' + (data.error.message || '알 수 없는 에러') });
+      return;
+    }
+    if (data.choices && data.choices[0] && data.choices[0].message) {
+      res.json({ reply: data.choices[0].message.content });
+    } else {
+      console.error('[GPT 응답 이상]', data);
+      res.json({ reply: "GPT API 응답이 올바르지 않습니다." });
+    }
+  } catch (err) {
+    console.error('[서버 오류]', err);
+    res.json({ reply: "서버 오류 발생" });
+  }
+});
 
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
-

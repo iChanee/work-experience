@@ -51,8 +51,6 @@
                     <li id="loginStateBtnLi"></li>
                 </ul>
             </nav>
-            <!-- 로그아웃 버튼(오른쪽) -->
-            <!-- <button id="logoutBtn" class="logout-btn">로그아웃</button> -->
         </div>
     </header>
 
@@ -162,15 +160,38 @@
         </section>
     </main>
 
+    <!-- GPT 챗봇 UI 시작 (footer 바로 위에 추가) -->
+    <!-- 오른쪽 하단 챗봇 플로팅 버튼 & 팝업 대화창 UI -->
+    <div id="chatbot-fab" style="position:fixed; right:32px; bottom:32px; z-index:1000;">
+        <!-- 챗봇 아이콘 버튼 -->
+        <button id="open-chatbot-btn" style="background:#2c5bff; color:#fff; border:none; width:60px; height:60px; border-radius:50%; box-shadow:0 2px 12px #3333; font-size:32px; cursor:pointer; display:flex; justify-content:center; align-items:center;">
+            💬
+        </button>
+        <!-- 챗봇 대화창 (초기엔 숨김) -->
+        <div id="chatbot-popup" style="display:none; flex-direction:column; position:absolute; bottom:70px; right:0; width:350px; height:430px; background:#fff; border-radius:18px; box-shadow:0 4px 24px #2225; border:1px solid #cfd8dc;">
+            <div style="background:#2c5bff; color:#fff; padding:18px 16px; border-top-left-radius:18px; border-top-right-radius:18px; font-size:18px; font-weight:600; display:flex; justify-content:space-between; align-items:center;">
+                <span>챗봇 상담</span>
+                <button id="close-chatbot-btn" style="background:none; border:none; color:#fff; font-size:22px; cursor:pointer;">✕</button>
+            </div>
+            <div id="chat-history" style="flex:1; overflow-y:auto; background:#f7f8fa; padding:12px; font-size:15px;"></div>
+            <div style="display:flex; padding:8px; border-top:1px solid #ececec; background:#fff;">
+                <input type="text" id="chat-input" placeholder="메시지를 입력하세요" style="flex:1; padding:8px; border-radius:6px; border:1px solid #b0bec5;">
+                <button id="send-btn" style="margin-left:6px; padding:8px 14px; background:#2c5bff; color:#fff; border:none; border-radius:6px; font-weight:600; cursor:pointer;">전송</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/chatbot.js"></script>
+    <!-- GPT 챗봇 UI 끝 -->
+
     <footer>
 		<section id="footer">
-        <!--
+			<!--
 			<div class="copy_bar">
 				<div>
 					<p class="copy_menu"><a href="https://www.cti-korea.com/bbs/content.php?co_id=privacy" >개인정보처리방침</a>  &nbsp;&nbsp;&nbsp; <a href="https://www.cti-korea.com/bbs/content.php?co_id=provision" >이용약관</a> &nbsp;&nbsp;&nbsp; <a href="https://www.cti-korea.com/bbs/board.php?bo_table=notice" alt="공지사항" title="공지사항">공지사항</a></p>
 				</div>
 			</div>
-            //-->
+            -->
 			<div class="copy_area">
 				<div class="copyright">
 					<p>
@@ -186,15 +207,13 @@
 					</p>
 				</div>
 			</div>
-
-
 		</section>
 	</footer>
 
     <script src="js/script.js"></script>
     <script>
       // 로그아웃 버튼 동작
-      document.getElementById('logoutBtn').addEventListener('click', async function() {
+      document.getElementById('logoutBtn')?.addEventListener('click', async function() {
         const response = await fetch('/logout', { method: 'POST' });
         if (response.ok) {
           window.location.href = '/login.html';
