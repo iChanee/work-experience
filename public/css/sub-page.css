@@ -780,3 +780,113 @@
 .webzine-write-btn:hover {
   background: #0b42a8;
 }
+
+
+/* 회사 풍경 페이지 */
+.office-photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+.office-photo-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 18px 0 rgba(30, 50, 120, 0.13);
+    overflow: hidden;
+    width: 310px;
+    min-width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.13s;
+}
+.office-photo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.18s;
+}
+.office-photo-card:hover img { transform: scale(1.03);}
+.photo-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(28,40,80,0.36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.16s;
+    color: #fff;
+    font-weight: 600;
+    pointer-events: none;
+}
+.office-photo-card:hover .photo-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+.zoom-icon {
+    font-size: 2.6em;
+    margin-bottom: 12px;
+    filter: drop-shadow(0 2px 8px #2226);
+}
+.photo-caption {
+    font-size: 1.18em;
+    letter-spacing: 0.02em;
+    text-shadow: 0 2px 12px #222b;
+}
+/* 라이트박스 */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 2001;
+    left: 0; top: 0; width: 100vw; height: 100vh;
+    background: rgba(18,24,40,0.84);
+    justify-content: center; align-items: center;
+    flex-direction: column;
+    animation: fadeIn .2s;
+}
+.lightbox.active { display: flex; }
+.lightbox-img {
+    max-width: 98vw;
+    max-height: 92vh;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 40px #222d;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.lightbox-caption {
+    color: #fff;
+    font-size: 1.19em;
+    text-align: center;
+    text-shadow: 0 2px 12px #000c;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.lightbox .close {
+    color: #fff;
+    position: absolute;
+    top: 28px;
+    right: 44px;
+    font-size: 2.7em;
+    font-weight: bold;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 16px #000b);
+    transition: color 0.18s;
+    z-index: 10;
+}
+.lightbox .close:hover { color: #ff7676; }
+@media (max-width: 1000px) {
+    .office-photo-row { flex-direction: column; align-items: center; gap: 20px;}
+    .office-photo-card { width: 90vw; max-width: 400px; height: 180px;}
+}
+
+

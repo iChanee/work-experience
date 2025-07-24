@@ -57,9 +57,40 @@
         <section id="company-landscape" class="main-page-section">
             <div class="container">
                 <h2>회사 풍경</h2>
-                <p>저희 회사의 활기찬 업무 환경과 편의 시설을 소개합니다.</p>
-                <img src="images/office_view1.jpg" alt="회사 내부 사진1" class="img-responsive">
-                <img src="images/office_view2.jpg" alt="회사 내부 사진2" class="img-responsive">
+                <h3 style="margin-bottom:32px; text-align:center;">한눈에 보는 우리 회사, 미리 확인해 보세요!</h3>
+                <div class="office-photo-row">
+                    <!-- 카드 하나마다 썸네일과 원본 이미지 경로 분리 -->
+                    <div class="office-photo-card" data-caption="회사 입구"
+                        data-full="https://pds.saramin.co.kr/workenv-bg/202303/28/rs7qir_o8db-yd17ij_workenv-bg.jpg">
+                        <img src="https://pds.saramin.co.kr/workenv-bg/202303/28/rs7qir_o8db-yd17ij_workenv-bg.jpg/sri/resize/306x220" alt="회사 입구" />
+                        <div class="photo-overlay">
+                            <span class="zoom-icon">&#128269;</span>
+                            <span class="photo-caption">회사 입구</span>
+                        </div>
+                    </div>
+                    <div class="office-photo-card" data-caption="회의실"
+                        data-full="https://pds.saramin.co.kr/workenv-bg/202303/28/rs7qjl_nqvp-yd17ij_workenv-bg.jpg">
+                        <img src="https://pds.saramin.co.kr/workenv-bg/202303/28/rs7qjl_nqvp-yd17ij_workenv-bg.jpg/sri/resize/306x220" alt="회의실" />
+                        <div class="photo-overlay">
+                            <span class="zoom-icon">&#128269;</span>
+                            <span class="photo-caption">회의실</span>
+                        </div>
+                    </div>
+                    <div class="office-photo-card" data-caption="사무실 복도"
+                        data-full="https://pds.saramin.co.kr/workenv-bg/202303/28/rs7rdh_ww3c-yd17ij_workenv-bg.jpg">
+                        <img src="https://pds.saramin.co.kr/workenv-bg/202303/28/rs7rdh_ww3c-yd17ij_workenv-bg.jpg/sri/resize/306x220" alt="사무실 복도" />
+                        <div class="photo-overlay">
+                            <span class="zoom-icon">&#128269;</span>
+                            <span class="photo-caption">사무실 복도</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 라이트박스 모달 -->
+            <div id="lightbox" class="lightbox">
+                <span class="close">&times;</span>
+                <img class="lightbox-img" src="" alt="">
+                <div class="lightbox-caption"></div>
             </div>
         </section>
 

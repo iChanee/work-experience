@@ -219,3 +219,35 @@ async function updateLoginStateButton() {
   }
 }
 document.addEventListener('DOMContentLoaded', updateLoginStateButton);
+
+
+// 오피스 사진 카드 클릭 시 라이트박스 표시
+document.addEventListener("DOMContentLoaded", function() {
+  const officePhotoCards = document.querySelectorAll('.office-photo-card');
+  const lightbox = document.getElementById('lightbox');
+  if (officePhotoCards.length && lightbox) {
+    officePhotoCards.forEach(card => {
+      card.addEventListener('click', function() {
+        const fullsrc = card.getAttribute('data-full');
+        const caption = card.getAttribute('data-caption') || '';
+        document.querySelector('.lightbox-img').src = fullsrc;
+        document.querySelector('.lightbox-caption').textContent = caption;
+        lightbox.classList.add('active');
+      });
+    });
+    lightbox.querySelector('.close').onclick = function() {
+      lightbox.classList.remove('active');
+      document.querySelector('.lightbox-img').src = '';
+      document.querySelector('.lightbox-caption').textContent = '';
+    };
+    // 배경 클릭 시 닫기
+    lightbox.addEventListener('click', function(e) {
+      if (e.target === this) {
+        this.classList.remove('active');
+        document.querySelector('.lightbox-img').src = '';
+        document.querySelector('.lightbox-caption').textContent = '';
+      }
+    });
+  }
+});
+
