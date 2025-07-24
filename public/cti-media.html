@@ -74,21 +74,29 @@
         </section>
 
         <section id="web-magazine-full" class="main-page-section">
-            <div class="container">
-                <h2>웹 매거진</h2>
-                <p>회사의 최신 소식, 업계 트렌드, 흥미로운 스토리를 웹 매거진에서 만나보세요.</p>
-                <div class="magazine-article">
-                    <h3>[제목] 미래 기술 트렌드를 이끄는 [회사명]</h3>
-                    <p>2025년 6월 25일</p>
-                    <a href="#">더 읽기</a>
-                </div>
-                <div class="magazine-article">
-                    <h3>[제목] [회사명]의 사회 공헌 활동</h3>
-                    <p>2025년 6월 15일</p>
-                    <a href="#">더 읽기</a>
-                </div>
-                </div>
-        </section>
+  <div class="container webmagazine-container">
+    <div class="webmagazine-header">
+      <h2>웹 매거진</h2>
+      <div style="flex:1"></div>
+      <button id="webzineWriteBtn" class="webzine-write-btn" style="display:none;">글쓰기</button>
+    </div>
+    <p style="margin-bottom: 24px; color:#555;">
+      회사의 최신 소식, 업계 트렌드, 흥미로운 스토리를 웹 매거진에서 만나보세요.
+    </p>
+    <table class="webzine-table">
+      <thead>
+        <tr>
+          <th style="width:70px;">번호</th>
+          <th>제목</th>
+          <th style="width:100px;"></th>
+        </tr>
+      </thead>
+      <tbody id="webzineList"></tbody>
+    </table>
+    <div id="webzine-empty" style="display:none; text-align:center; color:#888; padding:50px 0;">등록된 매거진이 없습니다.</div>
+  </div>
+</section>
+
     </main>
 
     <footer>
@@ -121,5 +129,61 @@
 	</footer>
 
     <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+  // 관리자 여부 확인
+  let isAdmin = false;
+  try {
+    const meRes = await fetch('/api/me', { credentials: 'include' });
+    const me = await meRes.json();
+    isAdmin = me.role === 'admin';
+  } catch {}
+  // 글쓰기 버튼
+  const writeBtn = document.getElementById('webzineWriteBtn');
+  if (isAdmin) writeBtn.style.display = '';
+  else writeBtn.style.display = 'none';
+  writeBtn.onclick = () => location.href = 'write-webmagazine.html';
+
+  // 글 목록 불러오기
+  const res = await fetch('/api/webmagazine');
+  const posts = await res.json();
+  const tbody = document.getElementById('webzineList');
+  const emptyDiv = document.getElementById('webzine-empty');
+  if (!posts.length) {
+    emptyDiv.style.display = '';
+    return;
+  } else {
+    emptyDiv.style.display = 'none';
+  }
+  posts.forEach((p, idx) => {
+    const tr = document.createElement('tr');
+    let manageTd = '';
+    // 관리자면 삭제 버튼 노출
+    if (isAdmin) {
+      manageTd = `<td>
+        <button class="webzine-manage-btn" onclick="deleteWebzine(${p.post_id})">삭제</button>
+      </td>`;
+    } else {
+      manageTd = `<td></td>`;
+    }
+    tr.innerHTML = `<td style="text-align:center;">${posts.length - idx}</td>
+      <td><a href="webmagazine-detail.html?id=${p.post_id}" class="webzine-title-link">${p.title}</a></td>
+      ${manageTd}`;
+    tbody.appendChild(tr);
+  });
+
+  // 삭제 함수(관리자만)
+  window.deleteWebzine = async function(postId) {
+    if (!confirm('정말 삭제하시겠습니까?')) return;
+    const res = await fetch(`/api/webmagazine/${postId}`, {
+      method: 'DELETE',
+      credentials: 'include'
+    });
+    if (res.ok) location.reload();
+    else alert('삭제 실패 (권한 또는 서버 오류)');
+  };
+});
+
+    </script>
 </body>
 </html>

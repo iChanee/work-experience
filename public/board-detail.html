@@ -118,7 +118,7 @@
             const res = await fetch('/api/me', { credentials: "include" });
             const data = await res.json();
             if (data.loggedIn) {
-                window.currentUser = { ID: data.ID };
+                window.currentUser = { ID: data.ID, role: data.role };
             } else {
                 window.currentUser = null;
             }
@@ -152,7 +152,10 @@
 
         // 글 삭제 버튼 보이기/숨기기
         const postDeleteBtn = document.getElementById('postDeleteBtn');
-        if (window.currentUser && postAuthor && window.currentUser.ID === postAuthor) {
+        if (
+            window.currentUser &&
+            (window.currentUser.ID === postAuthor || window.currentUser.role === 'admin')
+        ) {
             postDeleteBtn.style.display = 'inline-block';
             postDeleteBtn.onclick = async function() {
                 if (confirm('정말 이 글을 삭제하시겠습니까?')) {
@@ -200,10 +203,11 @@
               <span class="comment-author">${c.author}</span>
               <span class="comment-date">${c.date || ''}</span>
               ${
-            (window.currentUser && window.currentUser.ID === c.author)
-              ? `<button class="comment-delete-btn" data-comment-id="${c.comment_id}" style="margin-left:8px;font-size:0.95em;color:#d12e2e;background:transparent;border:none;cursor:pointer;">삭제</button>`
-              : ''
-          }
+                (window.currentUser &&
+                  (window.currentUser.ID === c.author || window.currentUser.role === 'admin'))
+                ? `<button class="comment-delete-btn" data-comment-id="${c.comment_id}" style="margin-left:8px;font-size:0.95em;color:#d12e2e;background:transparent;border:none;cursor:pointer;">삭제</button>`
+                : ''
+              }
             </div>
             <div class="comment-content">${c.content}</div>
           </div>

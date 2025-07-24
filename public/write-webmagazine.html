@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>웹 매거진 글쓰기</title>
+  <meta name="viewport" content="width=700, initial-scale=1.0">
+  <style>
+    body { background: #f5f8fc; font-family: 'Apple SD Gothic Neo', Arial, sans-serif; }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 4px 24px #e6eaf1;
+      padding: 40px 38px 28px 38px;
+    }
+    .write-label { font-weight: bold; display: block; margin-top: 18px; margin-bottom: 8px; }
+    .write-title {
+      width: 100%; padding: 10px 14px; font-size: 1.07rem; border: 1px solid #aad2ff;
+      border-radius: 8px; margin-bottom: 16px; background: #f6faff;
+    }
+    .write-content-wrap { position: relative; min-height: 240px; }
+    .write-content {
+      width: 100%; min-height: 230px; max-height: 280px;
+      padding: 13px 14px; border: 1px solid #aad2ff;
+      border-radius: 8px; font-size: 1.04rem; resize: vertical; background: #f6faff; box-sizing: border-box; z-index: 1;
+    }
+    .rule-guide {
+      position: absolute; left: 0; top: 0; right: 0; height: 100%;
+      padding: 13px 14px; color: #1d54a5; font-size: 0.97rem; line-height: 1.7;
+      pointer-events: none; white-space: pre-line; z-index: 2; background: transparent;
+      overflow-y: auto; box-sizing: border-box; transition: opacity .18s;
+    }
+    .write-actions { display: flex; justify-content: flex-end; margin-top: 26px; }
+    .write-btn {
+      background: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 12px 32px;
+      font-size: 1.09rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.18s;
+      box-shadow: 0 2px 10px rgba(38,97,221,0.07);
+    }
+    .write-btn:hover { background: #0b42a8; }
+    #result { margin-top:18px; color:#127d12; }
+    @media (max-width: 700px) {
+      .container { padding: 12px 2vw; }
+      .write-title, .write-content { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form id="writeWebzineForm" autocomplete="off">
+      <label class="write-label" for="title">글 제목</label>
+      <input type="text" id="title" name="title" class="write-title" placeholder="제목을 입력하세요" required />
+
+      <label class="write-label" for="content">내용</label>
+      <div class="write-content-wrap" style="margin-bottom:14px;">
+        <textarea id="content" name="content" class="write-content" required></textarea>
+        <div class="rule-guide" id="ruleGuide">
+※ 웹 매거진 작성 시 유의사항
+- 타인의 권리를 침해하거나 불쾌감을 주는 내용 작성 금지
+- 욕설, 차별, 혐오, 광고, 불법, 회사 내부 기밀 포함 금지
+- 공식 자료, 공지 성격은 반드시 사실관계 확인
+        </div>
+      </div>
+      <div class="write-actions">
+        <button type="submit" class="write-btn">등록</button>
+      </div>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script>
+    // 안내문구 동작 (textarea 안에서만 보이고 스크롤)
+    const textarea = document.getElementById('content');
+    const ruleGuide = document.getElementById('ruleGuide');
+
+    function updateRuleGuide() {
+      if (textarea.value.length === 0 && document.activeElement !== textarea) {
+        ruleGuide.style.opacity = '1';
+      } else {
+        ruleGuide.style.opacity = '0';
+      }
+    }
+
+    textarea.addEventListener('focus', updateRuleGuide);
+    textarea.addEventListener('blur', updateRuleGuide);
+    textarea.addEventListener('input', updateRuleGuide);
+    updateRuleGuide();
+
+    // 글 등록 (웹매거진 전용, 관리자만 가능)
+    document.getElementById('writeWebzineForm').onsubmit = async function(e) {
+      e.preventDefault();
+      const title = document.getElementById('title').value.trim();
+      const content = document.getElementById('content').value.trim();
+      // 관리자 권한 체크
+      try {
+        const loginRes = await fetch('/api/me', { credentials: 'include' });
+        const loginData = await loginRes.json();
+        if (!loginData.loggedIn) {
+          alert('로그인 후 글쓰기가 가능합니다.');
+          location.href = '/login.html';
+          return;
+        }
+        if (loginData.role !== 'admin') {
+          alert('웹 매거진 글쓰기는 관리자만 가능합니다.');
+          return;
+        }
+      } catch {
+        alert('로그인 상태 확인 중 오류가 발생했습니다.');
+        return;
+      }
+      // 글 등록 요청
+      try {
+        const res = await fetch('/api/webmagazine', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
+          body: JSON.stringify({ title, content })
+        });
+        const data = await res.json();
+        if (res.ok && data.post_id) {
+          location.href = `cti-media.html#web-magazine-full`;
+        } else if (res.status === 401 || res.status === 403) {
+          alert('웹 매거진 글쓰기는 관리자만 가능합니다.');
+          location.href = '/login.html';
+        } else {
+          document.getElementById('result').style.color = '#d00';
+          document.getElementById('result').textContent = '등록 실패: ' + (data.message || '오류');
+        }
+      } catch (err) {
+        document.getElementById('result').style.color = '#d00';
+        document.getElementById('result').textContent = '오류 발생: ' + err.message;
+      }
+    };
+  </script>
+</body>
+</html>
