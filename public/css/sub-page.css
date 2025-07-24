@@ -67,9 +67,17 @@
 }
 
 .welfare-icon-img {
-    font-size: 2.5em; /* 아이콘 크기 */
-    color: #007bff; /* 아이콘 색상 */
+    width: 70%;
+    height: 70%;
+    object-fit: cover;  /* 이미지가 원을 꽉 채우게, 비율 유지하면서 넘치는 부분은 잘림 */
+    /*border-radius: 50%;  이미지 자체도 원형 */
+    display: block;
 }
+
+/* .welfare-icon-img {
+    font-size: 2.5em;
+    color: #007bff;
+} */
 
 .welfare-item h3 {
     font-size: 1.5em;
