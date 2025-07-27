@@ -104,67 +104,80 @@ app.post('/logout', (req, res) => {
 
 // 글 목록
 app.get('/api/posts', (req, res) => {
-  db.query("SELECT * FROM board ORDER BY post_id DESC", (err, rows) => {
-    if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-    res.json(rows);
-  });
+  const type = req.query.type || 'board'; // 기본값 board
+  db.query(
+    "SELECT * FROM posts WHERE type = ? ORDER BY created_at DESC",
+    [type],
+    (err, rows) => {
+      if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+      res.json(rows);
+    }
+  );
 });
 
-// 글 등록 (로그인 필요, write-post.html에서 사용)
+// 글 등록 
 app.post('/api/posts', (req, res) => {
   if (!req.session.loggedIn) {
     return res.status(401).json({ error: '로그인 필요' });
   }
-  const { title, content } = req.body;
+  const { title, content, type, img_url } = req.body;
   const author = req.session.ID;
+
+  // 웹매거진 type만 관리자 권한 체크
+  if (type === 'webmagazine' && req.session.role !== 'admin') {
+    return res.status(403).json({ error: '웹매거진 글쓰기는 관리자만 가능합니다.' });
+  }
+  if (!title || !content || !type) {
+    return res.status(400).json({ error: '제목, 내용, type 필수' });
+  }
   db.query(
-    "INSERT INTO board (title, content, author) VALUES (?, ?, ?)",
-    [title, content, author],
+    "INSERT INTO posts (title, content, author, type, img_url) VALUES (?, ?, ?, ?, ?)",
+    [title, content, author, type, img_url || null],
     (err, result) => {
       if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-      // 글 등록 성공 시 새 글의 post_id 반환
       res.json({ message: '글 등록 성공', post_id: result.insertId });
     }
   );
 });
 
+
 // 글 삭제 (본인만 가능)
-app.delete('/api/posts/:post_id', (req, res) => {
-    if (!req.session.loggedIn) {
-        return res.status(401).json({ error: '로그인 필요' });
-    }
-    const post_id = req.params.post_id;
-    const user_id = req.session.ID;
-     const user_role = req.session.role;
-    // 1. 권한 확인: 본인 글인지
-    db.query(
-        "SELECT author FROM board WHERE post_id = ?",
-        [post_id],
-        (err, rows) => {
-            if (err || rows.length === 0) return res.status(404).json({ error: '글을 찾을 수 없습니다.' });
-            const { author } = rows[0];
-            if (author !== user_id && user_role !== 'admin') {
-                // ← 본인도 아니고, 관리자도 아니면 삭제 불가
-                return res.status(403).json({ error: '본인 또는 관리자만 삭제할 수 있습니다.' });
-            }
-            db.query(
-                "DELETE FROM board WHERE post_id = ?",
-                [post_id],
-                (err2) => {
-                    if (err2) return res.status(500).json({ error: '글 삭제 실패' });
-                    res.json({ message: '글 삭제 성공' });
-                }
-            );
+app.delete('/api/posts/:id', (req, res) => {
+  if (!req.session.loggedIn) return res.status(401).json({ error: '로그인 필요' });
+  const postId = req.params.id;
+  const type = req.query.type;
+  const user_id = req.session.ID;
+  const user_role = req.session.role;
+
+  db.query(
+    "SELECT author FROM posts WHERE post_id = ? AND type = ?",
+    [postId, type],
+    (err, rows) => {
+      if (err || rows.length === 0) return res.status(404).json({ error: '글을 찾을 수 없습니다.' });
+      const { author } = rows[0];
+      if (author !== user_id && user_role !== 'admin') {
+        return res.status(403).json({ error: '본인 또는 관리자만 삭제할 수 있습니다.' });
+      }
+      db.query(
+        "DELETE FROM posts WHERE post_id = ? AND type = ?",
+        [postId, type],
+        (err2) => {
+          if (err2) return res.status(500).json({ error: '글 삭제 실패' });
+          res.json({ message: '글 삭제 성공' });
         }
-    );
+      );
+    }
+  );
 });
+
 
 // 게시글 상세정보 라우터 추가
 app.get('/api/posts/:id', (req, res) => {
   const postId = req.params.id;
+  const type = req.query.type;
   db.query(
-    "SELECT * FROM board WHERE post_id = ?",
-    [postId],
+    "SELECT * FROM posts WHERE post_id = ? AND type = ?",
+    [postId, type],
     (err, rows) => {
       if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
       if (rows.length === 0) return res.status(404).json({ error: '글을 찾을 수 없습니다.' });
@@ -173,44 +186,43 @@ app.get('/api/posts/:id', (req, res) => {
   );
 });
 
-// 댓글 등록 (로그인 필요)
+
+// 댓글 등록
 app.post('/api/comments', (req, res) => {
-    if (!req.session.loggedIn) {
-        return res.status(401).json({ error: '로그인 필요' });
-    }
-    const { post_id, content } = req.body;
-    const author = req.session.ID;
-    if (!post_id || !content) {
-        return res.status(400).json({ error: '필수값 누락' });
-    }
-    db.query(
-        "INSERT INTO comments (post_id, author, content) VALUES (?, ?, ?)",
-        [post_id, author, content],
-        (err, result) => {
-            if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-            // 댓글 카운트 +1
-            db.query(
-                "UPDATE board SET comments = comments + 1 WHERE post_id = ?",
-                [post_id],
-                (err2) => {
-                    if (err2) return res.status(500).json({ error: '댓글 등록은 성공, 카운트 업데이트 실패: ' + err2.message });
-                    res.json({ message: '댓글 등록 성공', comment_id: result.insertId });
-                }
-            );
+  if (!req.session.loggedIn) return res.status(401).json({ error: '로그인 필요' });
+  const { post_id, post_type, content } = req.body;
+  const author = req.session.ID;
+  if (!post_id || !post_type || !content) {
+    return res.status(400).json({ error: 'post_id, post_type, content 필수' });
+  }
+  db.query(
+    "INSERT INTO comments (post_id, post_type, author, content) VALUES (?, ?, ?, ?)",
+    [post_id, post_type, author, content],
+    (err, result) => {
+      if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+      // 댓글 카운트 +1
+      db.query(
+        "UPDATE posts SET comments = comments + 1 WHERE post_id = ? AND type = ?",
+        [post_id, post_type],
+        (err2) => {
+          if (err2) return res.status(500).json({ error: '댓글 등록은 성공, 카운트 업데이트 실패: ' + err2.message });
+          res.json({ message: '댓글 등록 성공', comment_id: result.insertId });
         }
-    );
+      );
+    }
+  );
 });
+
 
 // 댓글 목록 (특정 게시글)
 app.get('/api/comments', (req, res) => {
-    const post_id = req.query.post_id;
-    if (!post_id) return res.status(400).json({ error: 'post_id 필요' });
+    const { post_id, post_type } = req.query;
+    if (!post_id || !post_type) return res.status(400).json({ error: 'post_id, post_type 필요' });
     db.query(
-        "SELECT comment_id, author, content, created_at FROM comments WHERE post_id = ? ORDER BY created_at ASC",
-        [post_id],
+        "SELECT comment_id, author, content, created_at FROM comments WHERE post_id = ? AND post_type = ? ORDER BY created_at ASC",
+        [post_id, post_type],
         (err, rows) => {
             if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-            // 반드시 comment_id 포함
             const comments = rows.map(row => ({
                 comment_id: row.comment_id,
                 author: row.author,
@@ -222,92 +234,92 @@ app.get('/api/comments', (req, res) => {
     );
 });
 
+
 // 댓글 삭제 API
 app.delete('/api/comments/:comment_id', (req, res) => {
-    if (!req.session.loggedIn) {
-        return res.status(401).json({ error: '로그인 필요' });
-    }
-    const comment_id = req.params.comment_id;
-    const user_id = req.session.ID;
-    const user_role = req.session.role; // ← 관리자 권한 확인
-    db.query(
-        "SELECT post_id, author FROM comments WHERE comment_id = ?",
-        [comment_id],
-        (err, rows) => {
-            if (err || rows.length === 0) return res.status(404).json({ error: '댓글 없음' });
-            const { post_id, author } = rows[0];
-            if (author !== user_id && user_role !== 'admin') {
-                // ← 본인도 아니고, 관리자도 아니면 삭제 불가
-                return res.status(403).json({ error: '본인 또는 관리자만 삭제할 수 있습니다.' });
-            }
-            db.query(
-                "DELETE FROM comments WHERE comment_id = ?",
-                [comment_id],
-                (err2) => {
-                    if (err2) return res.status(500).json({ error: 'DB 오류' });
-                    db.query(
-                        "UPDATE board SET comments = GREATEST(comments - 1, 0) WHERE post_id = ?",
-                        [post_id],
-                        (err3) => {
-                            if (err3) return res.status(500).json({ error: '카운트 동기화 실패' });
-                            res.json({ message: '댓글 삭제 성공' });
-                        }
-                    );
-                }
-            );
-        }
-    );
-});
-
-// 1. 웹매거진 글 목록 조회 (전체 공개)
-app.get('/api/webmagazine', (req, res) => {
-  db.query('SELECT post_id, title, author, created_at FROM webmagazine ORDER BY post_id DESC', (err, rows) => {
-    if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-    res.json(rows);
-  });
-});
-
-// 2. 웹매거진 글 상세 조회 (전체 공개)
-app.get('/api/webmagazine/:post_id', (req, res) => {
-  const post_id = req.params.post_id;
-  db.query('SELECT * FROM webmagazine WHERE post_id = ?', [post_id], (err, rows) => {
-    if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-    if (rows.length === 0) return res.status(404).json({ error: '글 없음' });
-    res.json(rows[0]);
-  });
-});
-
-// 3. 웹매거진 글 등록 (관리자만)
-app.post('/api/webmagazine', (req, res) => {
-  if (!req.session.loggedIn || req.session.role !== 'admin') {
-    return res.status(403).json({ error: '관리자만 작성 가능' });
-  }
-  const { title, content } = req.body;
-  if (!title || !content) {
-    return res.status(400).json({ error: '제목과 내용 필수' });
-  }
-  const author = req.session.ID; // 로그인한 관리자 ID
+  if (!req.session.loggedIn) return res.status(401).json({ error: '로그인 필요' });
+  const comment_id = req.params.comment_id;
+  const user_id = req.session.ID;
+  const user_role = req.session.role;
   db.query(
-    'INSERT INTO webmagazine (title, content, author) VALUES (?, ?, ?)',
-    [title, content, author],
-    (err, result) => {
-      if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-      res.json({ message: '글 등록 성공', post_id: result.insertId });
+    "SELECT author, post_id, post_type FROM comments WHERE comment_id = ?",
+    [comment_id],
+    (err, rows) => {
+      if (err || rows.length === 0) return res.status(404).json({ error: '댓글 없음' });
+      const { author, post_id, post_type } = rows[0];
+      if (author !== user_id && user_role !== 'admin') {
+        return res.status(403).json({ error: '본인 또는 관리자만 삭제할 수 있습니다.' });
+      }
+      db.query(
+        "DELETE FROM comments WHERE comment_id = ?",
+        [comment_id],
+        (err2) => {
+          if (err2) return res.status(500).json({ error: '댓글 삭제 실패' });
+          // 댓글수 -1 (최소 0)
+          db.query(
+            "UPDATE posts SET comments = GREATEST(comments - 1, 0) WHERE post_id = ? AND type = ?",
+            [post_id, post_type],
+            (err3) => {
+              if (err3) return res.status(500).json({ error: '카운트 동기화 실패' });
+              res.json({ message: '댓글 삭제 성공' });
+            }
+          );
+        }
+      );
     }
   );
 });
 
+
+// 1. 웹매거진 글 목록 조회 (전체 공개)
+// app.get('/api/webmagazine', (req, res) => {
+//   db.query('SELECT post_id, title, author, created_at FROM webmagazine ORDER BY post_id DESC', (err, rows) => {
+//     if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+//     res.json(rows);
+//   });
+// });
+
+// 2. 웹매거진 글 상세 조회 (전체 공개)
+// app.get('/api/webmagazine/:post_id', (req, res) => {
+//   const post_id = req.params.post_id;
+//   db.query('SELECT * FROM webmagazine WHERE post_id = ?', [post_id], (err, rows) => {
+//     if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+//     if (rows.length === 0) return res.status(404).json({ error: '글 없음' });
+//     res.json(rows[0]);
+//   });
+// });
+
+// 3. 웹매거진 글 등록 (관리자만)
+// app.post('/api/webmagazine', (req, res) => {
+//   if (!req.session.loggedIn || req.session.role !== 'admin') {
+//     return res.status(403).json({ error: '관리자만 작성 가능' });
+//   }
+//   const { title, content } = req.body;
+//   if (!title || !content) {
+//     return res.status(400).json({ error: '제목과 내용 필수' });
+//   }
+//   const author = req.session.ID; // 로그인한 관리자 ID
+//   db.query(
+//     'INSERT INTO webmagazine (title, content, author) VALUES (?, ?, ?)',
+//     [title, content, author],
+//     (err, result) => {
+//       if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+//       res.json({ message: '글 등록 성공', post_id: result.insertId });
+//     }
+//   );
+// });
+
 // 4. 웹매거진 글 삭제 (관리자만)
-app.delete('/api/webmagazine/:post_id', (req, res) => {
-  if (!req.session.loggedIn || req.session.role !== 'admin') {
-    return res.status(403).json({ error: '관리자만 삭제 가능' });
-  }
-  const post_id = req.params.post_id;
-  db.query('DELETE FROM webmagazine WHERE post_id = ?', [post_id], (err, result) => {
-    if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-    res.json({ message: '삭제 완료' });
-  });
-});
+// app.delete('/api/webmagazine/:post_id', (req, res) => {
+//   if (!req.session.loggedIn || req.session.role !== 'admin') {
+//     return res.status(403).json({ error: '관리자만 삭제 가능' });
+//   }
+//   const post_id = req.params.post_id;
+//   db.query('DELETE FROM webmagazine WHERE post_id = ?', [post_id], (err, result) => {
+//     if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+//     res.json({ message: '삭제 완료' });
+//   });
+// });
 
 // GPT 챗봇 라우터 (에러 상세 출력)
 app.post('/api/chat', async (req, res) => {

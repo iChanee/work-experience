@@ -176,7 +176,7 @@
   writeBtn.onclick = () => location.href = 'write-webmagazine.html';
 
   // 글 목록 불러오기
-  const res = await fetch('/api/webmagazine');
+  const res = await fetch('/api/posts?type=webmagazine');
   const posts = await res.json();
   const tbody = document.getElementById('webzineList');
   const emptyDiv = document.getElementById('webzine-empty');
@@ -198,7 +198,7 @@
       manageTd = `<td></td>`;
     }
     tr.innerHTML = `<td style="text-align:center;">${posts.length - idx}</td>
-      <td><a href="webmagazine-detail.html?id=${p.post_id}" class="webzine-title-link">${p.title}</a></td>
+      <td><a href="webmagazine-detail.html?id=${p.post_id}&type=webmagazine" class="webzine-title-link">${p.title}</a></td>
       ${manageTd}`;
     tbody.appendChild(tr);
   });
@@ -206,7 +206,7 @@
   // 삭제 함수(관리자만)
   window.deleteWebzine = async function(postId) {
     if (!confirm('정말 삭제하시겠습니까?')) return;
-    const res = await fetch(`/api/webmagazine/${postId}`, {
+    const res = await fetch(`/api/posts/${postId}?type=webmagazine`, {
       method: 'DELETE',
       credentials: 'include'
     });

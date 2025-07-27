@@ -116,11 +116,11 @@
       }
       // 글 등록 요청
       try {
-        const res = await fetch('/api/webmagazine', {
+        const res = await fetch('/api/posts', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'include',
-          body: JSON.stringify({ title, content })
+          body: JSON.stringify({ title, content, type: 'webmagazine' }) 
         });
         const data = await res.json();
         if (res.ok && data.post_id) {

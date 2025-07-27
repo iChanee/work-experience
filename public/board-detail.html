@@ -136,12 +136,19 @@
       const pad = n => n.toString().padStart(2, "0");
       return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
     }
+
+    function getTypeFromUrl() {
+      const params = new URLSearchParams(location.search);
+      return params.get('type') || 'board';
+    }
+
     async function loadDetailAndComments() {
       const postId = getParam('id');
+      const type = getTypeFromUrl();
       if (!postId) return;
       // 게시글 불러오기
       try {
-        const res = await fetch('/api/posts/' + postId);
+        const res = await fetch(`/api/posts/${postId}?type=${encodeURIComponent(type)}`);
         if (!res.ok) throw new Error('게시글을 불러올 수 없습니다.');
         const data = await res.json();
         document.getElementById('detailTitle').textContent = data.title;
@@ -159,7 +166,7 @@
             postDeleteBtn.style.display = 'inline-block';
             postDeleteBtn.onclick = async function() {
                 if (confirm('정말 이 글을 삭제하시겠습니까?')) {
-                    const res = await fetch(`/api/posts/${postId}`, {
+                    const res = await fetch(`/api/posts/${postId}?type=${encodeURIComponent(type)}`, {
                         method: 'DELETE',
                         credentials: 'include'
                     });
@@ -180,11 +187,11 @@
         document.getElementById('detailContent').textContent = err.message;
       }
       // 댓글 불러오기
-      await loadComments(postId);
+      await loadComments(postId, type);
     }
-    async function loadComments(postId) {
+    async function loadComments(postId, type) {
       try {
-        const cres = await fetch(`/api/comments?post_id=${postId}`);
+       const cres = await fetch(`/api/comments?post_id=${postId}&post_type=${encodeURIComponent(type)}`);
         const commentData = cres.ok ? await cres.json() : [];
         renderComments(commentData, document.getElementById('commentList'));
       } catch (err) {
@@ -260,15 +267,16 @@
             const postId = getParam('id');
             const content = document.getElementById('commentInput').value.trim();
             if (!content) return;
+            const type = getTypeFromUrl();
             const res = await fetch('/api/comments', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include',
-                body: JSON.stringify({ post_id: postId, content })
+                body: JSON.stringify({ post_id: postId, post_type: type, content })
             });
             if (res.ok) {
                 document.getElementById('commentInput').value = '';
-                await loadComments(postId);
+                await loadComments(postId, type);
                 await loadDetailAndComments(); // 댓글 수 즉시 반영
             } else {
                 alert('댓글 등록 실패!');

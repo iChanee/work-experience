@@ -16,9 +16,9 @@ async function fetchCurrentUser() {
 }
 
 // 글 목록 fetch
-async function fetchPosts() {
+async function fetchPosts(type = 'board') {
     try {
-        const res = await fetch('/api/posts', { credentials: "include" });
+        const res = await fetch(`/api/posts?type=${encodeURIComponent(type)}`, { credentials: "include" });
         if (!res.ok) {
             console.error('글 목록 API 에러:', res.status, res.statusText);
             return [];
@@ -32,9 +32,9 @@ async function fetchPosts() {
 }
 
 // 글 상세 fetch
-async function fetchPostDetail(post_id) {
+async function fetchPostDetail(post_id, type = 'board') {
     try {
-        const res = await fetch(`/api/posts/${post_id}`, { credentials: "include" });
+        const res = await fetch(`/api/posts/${post_id}?type=${encodeURIComponent(type)}`, { credentials: "include" });
         if (!res.ok) throw new Error('글을 불러올 수 없습니다.');
         return await res.json();
     } catch (e) {
@@ -44,7 +44,7 @@ async function fetchPostDetail(post_id) {
 }
 
 // 카드형 게시글 목록 렌더링
-function renderPosts(posts) {
+function renderPosts(posts, type = 'board') {
     const listDiv = document.querySelector(".post-list");
     listDiv.innerHTML = "";
     if (!posts.length) {
@@ -64,7 +64,7 @@ function renderPosts(posts) {
             </div>
         `;
         // 카드 클릭시 상세 페이지 이동(혹은 상세 모달로)
-        card.onclick = () => window.location.href = `board-detail.html?id=${post.post_id}`;
+        card.onclick = () => window.location.href = `board-detail.html?id=${post.post_id}&type=${encodeURIComponent(type)}`;
         listDiv.appendChild(card);
     });
 }
@@ -86,11 +86,18 @@ function escapeHTML(str) {
     }[c]));
 }
 
+
+function getListTypeFromURL() {
+    const params = new URLSearchParams(location.search);
+    return params.get('type') || 'board';
+}
+
 // 페이지 로드시
 document.addEventListener("DOMContentLoaded", async () => {
     await fetchCurrentUser();
-    let posts = await fetchPosts();
-    renderPosts(posts);
+    const type = getListTypeFromURL(); // board, webmagazine 등
+    let posts = await fetchPosts(type);
+    renderPosts(posts, type);
 
     // 글쓰기 버튼
     const writeBtn = document.querySelector(".write-btn");
@@ -107,7 +114,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 return;
             }
             // write-post.html로 이동
-            window.location.href = "write-post.html";
+            window.location.href = `write-post.html?type=${encodeURIComponent(type)}`;
         });
     }
 });

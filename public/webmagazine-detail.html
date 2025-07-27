@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>웹 매거진 상세</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/sub-page.css">
+  <link rel="stylesheet" href="css/board.css">
+  <style>
+    .comment-submit-btn {
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      border-radius: 7px;
+      padding: 10px 25px;
+      font-size: 1.08rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.13s;
+    }
+    .comment-submit-btn:hover {
+      background: #0b42a8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html"><img src="images/company_logo.jpg" alt="회사 로고"></a>
+      </div>
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a href="company-intro.html">회사 소개</a>
+            <div class="dropdown-content">
+              <a href="company-intro.html#greeting">인사말</a>
+              <a href="company-intro.html#business-areas">사업 분야</a>
+              <a href="company-intro.html#partners">협력사</a>
+              <a href="company-intro.html#welfare">복리후생</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="cti-media.html" class="active">CTI Media</a>
+            <div class="dropdown-content">
+              <a href="cti-media.html#company-landscape">회사 풍경</a>
+              <a href="cti-media.html#employee-talk">현직자 소통</a>
+              <a href="cti-media.html#web-magazine-full">웹 매거진</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="board.html">게시판</a>
+            <div class="dropdown-content">
+              <a href="board.html#community">커뮤니티</a>
+              <a href="question.html">문의</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="careers.html">인재/채용</a>
+            <div class="dropdown-content">
+              <a href="careers.html#ideal-talent">인재상</a>
+              <a href="careers.html#job-categories">직무 구분</a>
+              <a href="careers.html#successful-cases">우수 합격 사례</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="detail-wrap">
+      <div class="post-detail-card">
+        <div class="detail-author-row">
+          <span class="detail-author" id="detailAuthor">익명</span>
+          <span class="detail-date" id="detailDate">-</span>
+          <button id="postDeleteBtn" style="display:none; margin-left:16px; color:#d12e2e; background:transparent; border:none; cursor:pointer; font-size:1em;">
+            글 삭제
+          </button>
+        </div>
+        <div class="detail-title" id="detailTitle">로딩 중...</div>
+        <div class="detail-content" id="detailContent">불러오는 중...</div>
+        <a class="back-link-btn" href="cti-media.html#web-magazine-full">&larr; 목록으로</a>
+      </div>
+      <div class="comments-section">
+        <form id="commentForm" class="comment-form">
+          <textarea id="commentInput" placeholder="댓글을 입력하세요" required></textarea>
+          <button type="submit" class="comment-submit-btn">댓글 등록</button>
+        </form>
+        <div class="comment-list" id="commentList"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <section id="footer">
+      <div class="copy_area">
+        <div class="copyright">
+          <p>
+            <span>씨티아이코리아 주식회사</span>
+            <span>대표 : 채현병</span>
+            <span>주소 : 충남 천안시 서북구 백석공단1로 10 천안미래에이스하이테크시티 M동 327호</span>
+            <span>사업자등록번호 : 312-86-05805</span><br class="pc_br">
+            <span>TEL : 041-557-5200</span>
+            <span>FAX : 041-557-5204</span>
+            <span>개인정보책임관리자 : 채현병</span>
+            <span>이메일 : cti@cti-korea.com</span><br class="pc_br">
+            <span>Copyright 2020 CTI Korea Co.,Ltd. All Rights Reserved.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="js/board.js"></script>
+  <script>
+    let currentUser = null;
+    let currentUserRole = null;
+
+    async function fetchCurrentUser() {
+      try {
+        const res = await fetch('/api/userinfo', { credentials: 'include' });
+        const data = await res.json();
+        if (data.loggedIn) {
+          currentUser = data.ID;
+          currentUserRole = data.role;
+        }
+      } catch {}
+    }
+
+    function getParam(name) {
+      return new URLSearchParams(location.search).get(name);
+    }
+
+    function renderComments(comments, parentEl) {
+      parentEl.innerHTML = '';
+      comments.forEach(c => {
+        const el = document.createElement('div');
+        el.className = 'comment';
+        el.innerHTML = `
+          <div class="comment-body">
+            <div class="comment-author-row">
+              <span class="comment-author">${c.author}</span>
+              <span class="comment-date">${c.date || ''}</span>
+              ${
+                currentUser && (currentUser === c.author || currentUserRole === 'admin')
+                  ? `<button class="comment-delete-btn" data-comment-id="${c.comment_id}" style="margin-left:8px;font-size:0.95em;color:#d12e2e;background:transparent;border:none;cursor:pointer;">삭제</button>`
+                  : ''
+              }
+            </div>
+            <div class="comment-content">${c.content}</div>
+          </div>
+        `;
+        parentEl.appendChild(el);
+      });
+
+      parentEl.querySelectorAll('.comment-delete-btn').forEach(btn => {
+        btn.onclick = async function() {
+          if (!confirm('정말 이 댓글을 삭제하시겠습니까?')) return;
+          const commentId = this.dataset.commentId;
+          const res = await fetch(`/api/comments/${commentId}`, {
+            method: 'DELETE',
+            credentials: 'include'
+          });
+          if (res.ok) {
+            loadComments(getParam('id'));
+          } else {
+            alert('댓글 삭제 실패');
+          }
+        };
+      });
+    }
+
+    async function loadComments(postId, type) {
+      try {
+        const res = await fetch(`/api/comments?post_id=${postId}&post_type=${encodeURIComponent(type)}`);
+        const comments = await res.json();
+        renderComments(comments, document.getElementById('commentList'));
+      } catch {
+        document.getElementById('commentList').innerHTML = '<div style="color:#aaa;margin:16px;">댓글을 불러오지 못했습니다.</div>';
+      }
+    }
+
+    function getTypeFromUrl() {
+        const params = new URLSearchParams(location.search);
+        return params.get('type') || 'webmagazine';
+    }
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      const postId = getParam('id');
+      const type = getTypeFromUrl();
+      if (!postId) return;
+
+      await fetchCurrentUser();
+
+      const res = await fetch(`/api/posts/${postId}?type=${encodeURIComponent(type)}`);
+      const data = await res.json();
+
+      document.getElementById('detailTitle').textContent = data.title;
+      document.getElementById('detailAuthor').textContent = data.author;
+      document.getElementById('detailDate').textContent = data.created_at?.split('T')[0] || '-';
+      document.getElementById('detailContent').textContent = data.content || '';
+      if (data.img_url) {
+        document.getElementById('detailImg').src = data.img_url;
+        document.getElementById('detailImg').style.display = 'block';
+      }
+
+      await loadComments(postId, type);
+
+      document.getElementById('commentForm').onsubmit = async function(e) {
+        e.preventDefault();
+        const content = document.getElementById('commentInput').value.trim();
+        if (!content) return;
+
+        const res = await fetch('/api/comments', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
+          body: JSON.stringify({ post_id: postId, post_type: type, content })
+        });
+        if (res.ok) {
+          document.getElementById('commentInput').value = '';
+          await loadComments(postId, type);
+        } else {
+          alert('댓글 등록 실패');
+        }
+      };
+    });
+  </script>
+</body>
+</html>
