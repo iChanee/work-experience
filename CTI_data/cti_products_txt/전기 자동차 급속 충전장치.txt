@@ -1,0 +1,22 @@
+■ 제품명: 전기 자동차 급속 충전장치
+■ 모델명: 전기자동차 급속 충전장치
+■ 분류명: 충전기
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=6#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_6dQpOVDl_05342410734ad9ee05486055c1df59d6df9080f1_600x319.jpg
+
+[본문이미지 1]: cti_product_imgs/185a7774f938b0269d4e57e3d9d0464e_1599718055_8579.png
+  [본문이미지 OCR]
+Fimal-A. igh-speed charger foran electri vehicl Battery design)
+
+[본문이미지 2]: cti_product_imgs/185a7774f938b0269d4e57e3d9d0464e_1599718059_801.png
+  [본문이미지 OCR]
+
+
+[퀵스펙]
+- 급속 충전 >Charging Voltage: 0 ~ 300V >Charging Current: 0 ~ 160A - 멀티 스텝 충/방전기능 - CC(Constant Current) 및 CV(Constant Voltage)충전 - 충전 계량 - 터치 스크린형 디스플레이
+
+[제품소개]
+CCCV모드 충전 방식으로 충전 대상 배터리의 특성에 맞도록 최적화하여 충전하도록 제어 하는 급속 충전기 입니다.
+
+-----------------------------

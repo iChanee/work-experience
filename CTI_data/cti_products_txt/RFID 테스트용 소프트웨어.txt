@@ -1,0 +1,21 @@
+■ 제품명: RFID 테스트용 소프트웨어
+■ 모델명: RFID 신호분석 S/W 제작
+■ 분류명: RFID 신호 TEST S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=23#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_mgep6GK9_d7cb57dcf54e7a400f994b6dabdfd134f40ff2a7_600x183.jpg
+
+[본문이미지 1]: cti_product_imgs/20220916164043_062950b1f8dd0190510c4c0f8415e871_wf2w.jpg
+  [본문이미지 OCR]
+
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=23&no=1
+
+[퀵스펙]
+- RFID 신호 발생 및 분석 S/W - 고객 맞춤형 S/W 제작
+
+[제품소개]
+- 신호 처리 및 분석 Tool
+- 데이터 저장 및 분석 Tool
+
+-----------------------------

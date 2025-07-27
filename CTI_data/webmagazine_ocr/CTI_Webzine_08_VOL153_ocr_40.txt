@@ -1,0 +1,87 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=90&page=7
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg17080949.jpg]
+CTI korea
+
+ebzine
+
+201714 8월  VOL.153
+
+* Rana ae
+
+-제전바닥
+-제전화
+
+- 작업대/깨트/선반
+
+- 손목띠/머스링
+
+-제전복
+
+-제전의자
+
+-미동대차
+
+=뭔투기
+
+- 제전박스/매거진
+
+-제전비닐
+
+- 제전장갑
+
+- Personal Grounding
+- 도체전위
+
+- 부도체 저항
+
+~ 표면저항, 체적저항       ESD 8B 27
+
+페
+
+payee
+
+때
+
+정전기 측정기 (voltmeter)
+
+* Sana 2 설명
+
+- 도체/부도체 전위
+
+ 비접촉식 정전하 측정 가능
+PCB, Connector Pin,
+
+SHS 소형 및 움직미는
+
+부품 측정 가능
+
+CPM (Charged Plate Monitor)
+
+* Bane
+
+설명
+
+- 제전속도 측정 (Decay time)
+- 012 Balance 측정 (Float Mode)
+
+~ 미오나미져 성능평가 가능
+
+AC Analyzer (Circuit Analyzer)
+
+* 점검대상 및 설명
+q          -접지(설비/전원) 평가
+E
+&                = 라민전압
+a                피크 라민 전압
+ESE
+i     be         ages
+si         AC Gnd Impedance
+^
+~
+se
+en
+
+출남 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보영상융합센터 면구동
+Tel 1 041-557-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

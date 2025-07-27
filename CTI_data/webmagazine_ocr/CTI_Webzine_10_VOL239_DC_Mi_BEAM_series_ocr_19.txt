@@ -1,0 +1,64 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=184
+
+[이미지 1: https://ctiko.cafe24.com/data/editor/2410/20241008150248_6b603dfe2906adcbc140684ce4a68b9b_coq9.jpg]
+~ 구 00054
+
+Webzine
+
+시중 최고 스펙의 Dc 양방향 파워 퍼포먼스
+Mi-BEAM series
+
+Mi-BEAM series
+
+odular intellige  idirectional Energy AMplified
+
+High Performance, Bidirectional, Regenerative, Programmable DC Power System
+
+Mi-BEAM 시리즈는 12100 ~ 37kW9| 전력 레벨과
+
+완전한 DC 소스 및 심크 기능을 갖춘 양방향 DC Power SupplyQILICh
+
+병렬 시스템으로 최대 1.214\까지 확장 가능
+4U 랙 높이에서 최대 37kW9| 최고 전력 밀도를 제공합니다  9 25kW/U)
+
+양방향 DC Power Supply Mi-Beam 특징
+
+표준 동작 모드 포함                                 배터리테스터 모드 /&11657)
+태양광
+
+Model ㅣ^<입력전압옵션086 12250 37kKW                  Transient
+Slew Rate             @Igae ims)
+MiBeam AC2 ARSC | kW 12kW 1800               iano
+Rise tir    Rise tir
+전압(0)               aR”)      (v/ms)|(A/ms)| Geist me | ss re)
+600             50 | 100 | 150    20     50     30      5
+1500             -    50   50    50     25     30      1
+2000             si    50   50    66     7     30      1
+동작 모드           상세내용
+
+에서 UU TS, 반대로도
+
+양방향
+
+3, CC/CP, 0
+
+eLoad
+
+배터리 시뮬레이터
+
+배터리 테스팅
+
+PV 태양광 시뮬레이터
+
+오토모티브 표준 테스팅
+
+드라이브 트레인 테스팅
+
+APPLICATIONS
+
+배터리 시뮬레이션                            태양광 인버터 테스트
+배터리 테스트 (충전/방전)                     DC 모터 테스트
+
+전기 파워트레인 테스트                       고전력 퓨즈, 컨택터 테스트
+연료 전지 테스트                   서킷 브레이커 테스트
+

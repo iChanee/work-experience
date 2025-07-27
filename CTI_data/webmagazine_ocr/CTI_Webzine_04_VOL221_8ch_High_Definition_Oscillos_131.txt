@@ -1,0 +1,122 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=164&page=2
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2304/20230414105017_27dd986317a63eb38e825675e8c03e1c_mr5a.jpg]
+Webzine
+
+202314 048 호 VOL221
+
+8 Ch, 12 Bits, 2 GHz 오실로스코프
+WaveRunner 8000HD series
+
+WRE000HD= 8채널, 12비트 분해능, 최대 주파수 26}12의 오실로스코프입니다.
+
+고전력/3상 전력변화, 자동차 전장 제품, 전력 무결성,
+전력 AAA 및 임베디드 제어의 시스템과 같은 중요한 응용분야에서
+자사의 104096 기술과 15.6" 터치 스크린
+
+|
+채널 수 및 5665의 에큐지션 메모리를 활용합니다.
+
+Hr
+00
+
+문맹           대역폭 입력채널     메모리      분해능
+
+WaveRunner 8038HD 350MHz = 8대      50Mpts/ch      126 0 1065/5
+
+WaveRunner 8058HD 500MHz = 8대      50Mpts/ch      12bit_ —-10GS/s
+
+WaveRunner 8108HD —_1GHz         8ch         S50Mpts/ch  12bit_ 00 1065/5
+
+WaveRunner 8208HD —_2GHz         8Ch         S50Mpts/ch        12bit_ 1065/5
+
+HD4056 기술로 16배 더 정확한 측정
+
+고해상도 12비트 오실로스코프는 독자적인 [24096 기술물 통해
+탁월하고 뛰어난 측정 성능물 제공합니다.
+높은 샘플 속도의 12비트 ADC
+높은 신호대잡음비!
+낮은 노미즈의 시스템 아키텍처 (2 GHz)
+
+텔레다인르크로이의 고해상도 12비트 오실로스코프:
+
+독자적인 104096 기술을 통해 탁월하고 뛰어난 즉정 성능을 제
+
+OH
+
+OF
+몰
+무
+
+ㆍ깨끗하고 선명한 파형 : 노이즈 간섭 최소:
++ Cf 자세한 신호 : 12비트 스코프에서 보이지 않는 파형 확인 가능
+
+ㆍ놀라운 측정 정확도 : 정확한 즉정값, 양자화 노이즈에 SHS 받지 않음
+
+[> rot
+
+S.6pts @ 1065/5
+
+00ms #4 Alb
+125 Mpts @ 6.25 65/s,20,
+ms 포착시간
+o                        100                    200                    300                    400                     500
+시관699
+
+가장 긴 메모리, 간단한 내비게이션
+포착 메모리가 최대 5 Gptel WRSQ00HD 12비트 오실로스코프는
+장시간의 이벤트를 캡쳐하면서도,
+
+가장 작은 세부 정보까지 가시성을 발휘하도록 높은 샘
+
+도를 유지합니다.
+
+ㆍ오토모티브 전자
+
+ㆍ 전원 무결성 및 전원 Aw
+
+se 분해능, 긴 메모리 및 많은 채널 수로 전원 공
+급, 전달 및 소비의 모든 즉면을 검증 및 디버깅할
+수 있어 완벽한 신뢰성 제공
+
+- 정확한 PON 측정
+
+- 특화된 전원 프로브
+
+rt
+ro.
+로
+om
+
+- 긴 캡쳐가 가능한 8채널
+- 포괄적인 프로브 제공
+
+Oscilloscope Probes
+
++ High Voltage Differential Probes
+(                            ~ HVD3102A (1kV, 25MHz)
+
+~ HVD3106A (1kV, 120MHz)
+
+~ HVD3206A (2kV, 120MHz)
+
+~ HVD3220 (2kV, 400MHz)
+
+~ HVD3605A (6kV, 100MHz)
+
++ Current Probes
+
+- 00030, CPO30A (30, SOMHz2)
+
+- CP031, CPO31A (30A, 100MHz)
+
+- CP150 (150A, 10MHz)
+
+- CP500 (500A, 2MHz)
+
++ High Voltage Passive Probes
+
+~ HVP120 (604 400MHz)
+
+- PPEGKV (6kV, S0OMHz)
+

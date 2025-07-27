@@ -1,0 +1,132 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=138&page=4
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2108/20210810161533_bc792ecdb72067b38f0d851a1a5573ac_l1qz.png]
+< \Nabzine
+
+IP 보호
+
+2021년 08월 호 VOL.201
+
+on
+w
+몰
+더
+In
+때
+또
+
+ 등급미란?
+
+물체, 물, 분진 또는 무발적민 접촉메 대한 전기 외함의 보호 정도 또는 밀폐 효과의 등급를 평가하는데 사용되는
+국제 표준 (16C60529) OM, 전기통신, 전자, 전력 S 전기기술 관련 국제 표준화를
+담당하는 국제 전기 기술 위원회메서 발행됩니다.
+wise 방수등급
+[빵진등급]
+
+IPOX : 보호되지 많음
+
+IP1X : 50mm 미살의 고체로부터의 보호(손으로 사용 할 때 보호)
+1P2X : 12mm 미살의 고체로부터의 보호 (손가락 사용할 때 보호)
+IP3X : 2.5mm 미살의 교체로부터의 보호 (전선 크기 정도 보호)
+IP4X : 1.0mm 미살의 교체로부터의 보호 (가는 전선 크기 정도 보호)
+IPSX: 분진, 제한된 수준의 면지로 부터의 보호
+
+IPGX : 먼찌로부터 완벽한 보호
+
+10761 : 수직으로 BONS 낙수로 부터 보호
+10062 : 15도 정도 들미치는 낙수(풍무)로 부터 보호
+10063 : 60도 정도 들미치는 낙수(풍무)로 부터 보호
+10764 : 모든 방향으로 스프레미 되는 물로부터 보호
+0765 : 낮은 압력으로 스프레미 되는 물로 부터 보호
+10766 : 높은 압력으로 스프레미 되는 물로 부터 보호
+IPX7 : 15cm~1m ZOOM 30분간 첨수 상태메서 보호
+10368 : 1m Ol4f BO! 메서 장기간 첨수 상태메서 보호
+10769 : Det, 근거리, 뜨거운 물, MELA 보호
+
+공식적으로 시험되거나 평가되지 많음
+
+IPX1, IPX2
+
+1) Drip of rain area: 600*600(mm)
+
+2) Rainfall: 1-Smm/Min (0.5mm/min)manual adjustment
+3) Dripping aperture: Dia 0.4mm
+
+4) The distance between holes: 20mm
+
+5) Turntable diameter: 600mm
+
+6) Turntable Adjustable Incline:15°
+
+7) Standards compliant: IEC60529
+
+IPX3, IPX4
+
+1) Turntable diameter: ¢ 600mm
+
+2) Rainfall: 1-Smm/Min(+0.5mm/min)
+
+3) Flow adjustment mode: manual setting
+
+4) Turntable Speed: 1 r/min
+
+5) Testing time: 0-999 min
+
+6) Protective device: Leakage, Water shrortage, Short
+circuit
+
+7) Standards compliant: IEC60529
+
+IPXS5, IPX6
+
+1) Turntable diameter(mm): ¢800
+2) IPXS Jet Nozzle(mm): 6.3
+
+3) IPX6 Jet Nozzle(mm): 12.5
+
+4) IPXS Water flow(L/min): 12.540.625
+
+5) IPX6 Water folw(L/min): 10025L/min
+
+6) Water Pressure(Mpa): According to the provisions of
+water flow regulation
+
+7) Jet distance: 2.5m (mechanical fixed)
+
+8) Standard: IEC60529
+
+IPX8
+
+1) Pressure control :Auto control
+2) Control: +0.0002Mpa (Auto)
+
+3) Pressure adjustment range: 0.00-0.3Mpa
+4) Test water depth rage: 0-30M
+
+5) Accuracy: 0.001Mpa
+
+6) Control time: 0-999Min
+
+7) Standard: 1EC60529
+
+IP5X, IP6X
+
+1) Temperature range: RT+10~70°C(adjustable)
+2) Relative humidity: 45%~75%(can not display)
+3) Talcum powder dosage: 2~4kg/m
+
+4) Test dust: Dry talcum powder
+
+5) Total test time: 0-999 hour adjustable
+
+6) Vibration time: 0-999 hour adjustable
+
+7) Timing accuracy: #15
+
+8) Vacuum degree: 0-10Kpa(adjustable)
+
+9) Standard: 1EC60529
+
+출남 천만시 써북구 백석공단1로 10천만미래메미스하메티크시티 ME 327호
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+

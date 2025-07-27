@@ -1,0 +1,126 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=92&page=7
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg17101853.jpg]
+CT Tkorea i
+
+Webzine
+
+데미터 SAS 데미터
+
+2017년 10월 호 00Ｌ.156
+
+수집장비를 소개합니다
+
+데미터로거 - 6.240/6Ｌ840 소개
+
+LOGIC/PULSE 입력
+
+1000 AQ: SAC a           ~
+a
+
+50 카:
+
+In
+‘ly
+of
+
+2
+
+AC HAE AS
+(0C8.5~24V)
+
+USB2.0
+인터페이스
+
+4.3인치 1 『1컬러 액정 디스플레이 (WQGA: 480% 272 dot)
+
+|             i240                          61840
+
+Isolated 20채널(기본)
+Isolated 10재널(고정)
+
+1대의 PCH 최대 10개
+장비 control 7S
+
+최대 200채널 확장(옵션)
+5.7인치 TFT #2] LCD
+
+USB, ETHERNET
+
+1대의 PCE 최대 1074
+장비 또는 500개 A control 가능
+
+7600즉점 시 1107300만 사용가능  7000/즉정 시 RTD Type 44 가능
+
+GL240/GL840 적용분마
+
+액정 디스플레이의 온도시험                           반도체 센서의 환경시험
+
+팔레트에 여러 개의 ANE 설치
+
+Qs &       a]
+역정디스플레이          0000                               vex
+연료전지의 충방전 시험                               대기분석(가스농도 ㆍ온도) 측정
+iy     ~
+마080 | (USB OS
+GL820                                                                   al
+
+가스즉정기
+
+데미터수집장비 - 6ㄴ7000 소개
+
+본체
+디스플레이
+"Voltage Weduie""" "Temperature Module” "High'Speed Voltage!" "High Veltage Module
+Module
+Voltage                 Voltage                  High                 Voltage
+10001               60800                speed                 2ch/urit
+chant                  aoe
+aoe                                  4ch/unit              Tae
+US /s                   Max                   MAX                  AMS/s
+(ams)                   ae                  IMS/s                   (ays)
+Isolated                                          oo                  Isolated
+poled                 Isolate:
+067                  Gu7-M                  GL7-HSV                 GL7-HV
+190 Module      Weltage Output 0000     je/ Pulse Module” "Be Strain Module
+Modul
+Charge
+ee                                Pal               vottage
+4                                                34150
+silat                                       Geh/unit                2chvunit
+MAX                                                               |
+100KS/s                                         MAX                   Mac
+(ops)                  10065                  AMS/s                  100ks/s
+0019                   us)                   (204s)
+Charge
+cu7-cHa’ | PE | GL7-Dco"                   GL7-L/P                  Gi7-Dc8 *
+= 5.7인치 탈부착, 터치패널 미 가능한 LCD Display.
+- 프로그램 한글지원. 다양한 PC 인터페미스 및 저장장치,
+-임베디드시스템(8400) 기
+- Applicationtll 따른다양한 측절 Module
+채널 확장
+- 다양한 타입의 측정 Module
+=M (Temp, V, Humi), HVCIO00V), 18014 S/s)
+1004. 1K S/s), Strain, Charge, L/P. DCO
+-최대 10Unit Module 로 112채널 확장
+GL7000 적용분마
+공조기기용 인버터의 성능시혐                        현장기기 현상을 시뮬레이션으로 재현
+P                                                  현                  시뮬레이션용 기기
+:                                             a?
+
+8,
+
+실외기 a  17000
+
+리듬이온전지의 센서 ECU
+
+리름미온전지
+anecu
+3  .
+wp 9            |   wo?
+0                     자동차
+wines        ane |e
+
+SH 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보영상응합센터 면구동
+Tel 1 041-557-5200 | Fax : 041-857-5204 | E-mail: cti@cti-korea,com
+

@@ -1,0 +1,51 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=134&page=4
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2104/20210406172052_f62896be5110c03ebed46db0563c049a_ho1f.png]
+< \Nabzine
+
+2021년 04월 호 VOL.197
+
+Proof Tracking tester <IEC60112, KC60112 민증시험장비>
+
+전기용품만전기준 관련하며 국가기술표준원메 규정메 의하면
+Bots 재료 평판(0130465)과 기기의 일부 조각 등
+1수 및 WEA 지수의 측정 방법메 대해 규정한다.
+
+또는 미 표준은 필요한 경무 전기적 첨식메 대한 측정 방법도 규정한다" 라고 S|
+
+리
+
+보
+기
+2
+때
+Ba
+im
+a
+ae
+
+<a FAA 사용하는 고:
+
+2. 비교트래킹지수(011, comparative tracking index)
+BOS EDS] BS 전기적 SYS 나타내는 NES 재료들의 특성
+비교 및 기본 특성화 Seal 32 활용.
+Model                                            Tracking Index Test Equipment
+The electrode material                    Rectangular electrode - platinum metal
+The electrode pressure                                      1.0 + 0.05N
+The distance between electrodes                40mm + 0.01mm, angle 60° + 5
+100 ~ 600V (48~60Hz) adjustable short-circuit current 1.0
+직비베재태퇴개재배                      + 0.1A, voltage drop is less than 10%
+Drops of liquid height                            30 ~ 40mm adjustable
+The size of the drops                        44 to 55 drops / tem’ Adjustable
+Drops Time                                    30s + 5s,
+The number of drops                               0 to 9999 times adjustable
+ss      are           Loop current greater than 0.5A and maintain the 2 seconds
+speteetauc seta          the relay to cut off the current, indicating that the sample failed
+The test process           ‘Automatic control of test procedures, independent ventilation
+Reference standards                         1EC601 12-2003, GB/T4207-2003, GB4706.1-2005
+The studio volume                                         0.5 cubic
+The device outer dimensions                1000mm wide x 650mm deep x 1300mm high
+
+출남 천만시 서북구 AS 직산로 110 천만56플라자 601. 602호
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+

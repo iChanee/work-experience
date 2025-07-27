@@ -1,0 +1,20 @@
+■ 제품명: Electric Power Test S/W
+■ 모델명: Electric Power Test S/W
+■ 분류명: 태양전지 모듈 전원공급기록장치
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=22#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_yHeAbjzY_39a4160c516ab6de13fb5c4c725fee44cc38c983_600x217.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=22&no=1
+
+[퀵스펙]
+- 태양전지 모듈 전원공급기록장치 - 신뢰성 테스트용 S/W - 고객 맞춤형 S/W 제작
+
+[제품소개]
+- Electric Power를 다채널로 구성(3ch)
+- 전압(Voltage), 전류(Current) 실시간 모니터링
+- 장시간(물리적으로 무한대)동안 신뢰성 평가가 가능하도록 구현
+- 모니터링 및 원격제어가 가능하도록 S/W 구현
+- .NET Framework 3.5으로 제작
+
+-----------------------------

@@ -1,0 +1,21 @@
+■ 제품명: Electric Load Test S/W
+■ 모델명: Electric Load Test S/W
+■ 분류명: 전자부하기 시험용 소프트웨어
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=27#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_SNOab2jo_b373572030e197538f96ade5497cd4f61b253e9c_600x250.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=27&no=1
+
+[퀵스펙]
+- 자동차 Junction Box 신뢰성 테스트용 S/W 제작 - 고객 맞춤형 S/W 제작
+
+[제품소개]
+- 장시간(수 주 이상) 측정이 가능하도록 구현.
+- 수 초 단위 이내 측정주기를 continue-mode
+- 개별 Loader(10개) 개별 측정 가능하고, 세팅도 가능하도록 구현.
+- Programmable Sequence 작성하여 각 Loader로 전송 가능할 것.
+- 측정 중에도 History 파형 볼 수 있게끔 별도의 Reader SW제작.
+- .net Framework 2.0으로 제작
+
+-----------------------------

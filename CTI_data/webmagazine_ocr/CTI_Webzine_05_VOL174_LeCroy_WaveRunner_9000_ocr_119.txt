@@ -1,0 +1,99 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=111&page=5
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg19050710.jpg]
+< \Nabzine
+
+15.4" 대형 디스플레미 오실로스코프, Lecroy WaveRunner 9000 시리즈 출시 !!
+
+2019년 05월 호 VOL.174
+
++ ERASE
+
+@ 500 MHz - 4 GHz bandwidths
+@ Up to 40 GS/s sample rate
+
+@ MAUI with OneTouch
+
+@ Powerful, Deep Toolbox
+
+@ Exceptional Serial Data Tools
+
+@ 16 digital channels with 1,25 GS/s
+@ Huge Applied Offset Range
+
+@ Optional Application Packages
+
+Unbelievably Powerful. Insanely Easy.
+
+WaveRunner 9000시리즈는 업계에서 가장 심도 깊은 SHAG 가장 완벽한 시리얼 데미터 디버깅 및 검증
+솔루션 컬렉션을 제공하므로 임베디드 시스템, 자동차 및 EMC/EMI 테스트 매플리케미션메 미상적입니다.
+
+Insight so
+retiming “critical design
+decisions sense
+
+Faster Tie to sight is what mater,
+
+@ | UNBELIEVABLY POWERFUL.
+INSANELY EASY.
+
+- MAU! OneTouch 최적화         - 프로토콜 특정 측정 세트민          - Waveflunner 90002 뛰머난
+- 편리성과 효율성                     마미 다미머그램 패키지는 관련            성능를 통해 가장 복잡한
+- 모든 일반적민 작업 가능          업계를 보완 할 수 있는 가장        디버그 Bes 신속하게 해결
+- 한 번의 터치로 수행            직관적민 트리거 및 디코드 패키지
+
+Ordering Information
+fe Model | Bandwidth | Channel | Standard Memory | Sample Rate |
+
+WaveRunner 9054 / WaveRtunner 9054-MS              500바2 47416                32006                    206S/s
+WaveRtunner 9104, WaveRunner 9104-MS                VGHz 47416                32606                    20086
+WaveRtunner 9254 / WaveRunner 9254-MS      25GHz 4/4416      32006        206S/s
+WaveRunner 9404 / WaveRunner 9404-MS      AGH: 4/4416      3205        20096
+WaveRtunner 9254M / WaveRunner 9254M-MS            25012 4/4416               128 Mots                   40GS/s
+WaveRunner 9404M / WaveRunner 9404M-MS     4GHz 4/4416      128 Mpts       406S/s
+
+Single Ended                                                         High-Voltage
+
+(281000 1 GHz, 091 MO High impedance Active Probe      HVP120 100: 400 M50 MO 1 KY High-otage Probe
+
+lzs1500 1.5GHz, 09,1 MO High impedance Active Probe      PPEAKV 00:1 400 MHz 50 MO 4 High-Voltage Probe
+
+lzs2500 2.5GHz, 0.9 pF, 1 MO High Impedance Active Probe      PESKY 1000:1 00 M250 M0 SV High Voltage Probe
+
+25400 4.GHz, 0.6 pF, 1 MO High Impedance Active Probe                 PPEGKV 1000-1 00 MH250 MO GV High Voltage Probe
+
+대이에비                            메이
+
+200    200, 3.5 pF, 1 MO Active Differential Probe, #20     Pog 304 SO MH Curent Probe ~ AC/DC; 30 Arms; 5 Apeak Pulse
+
+2050    500 Hz, 1.0 pF Active ferential Probe, #8        CPO30A 30,50 Mic High Senstity Cunt Probe AIDC, 30A ms,
+
+[201000 1 GHz Active Dtferental Probe                                                   S0APeakPalse, 15 metercale
+
+201500 1.5GHz Active ferential Probe             CPOs 30 100M Curent Probe ~ AC/DC; 30 Arms: 50 Apa Pulse
+
+laposs    500 Mt, Active ferential Probe (1, +10, +100)      CPOGTA 30, 100 MHz High Senstty Current Probe - AC/DC, 30 Ams,
+
+Jost0-A-PB2 —Wavelink Giz, 25 Vp-p ProBus2biferentia Probe           50 A Peak Pulse, 1.5 meter cable
+
+[os20-a-PB2 _ Wavelink 4 Giz, 5 Vpp ProBus2 Oferta Probe                C150 150A; TOMH2 Curent Probe ~ AIDC, 180 Arn’ 50 Apa Pulse
+
+[o400-A-AT-PB2 WaveLink 4 GHz Dif. Amplifer Module wth Adjustable Tip CPS00_—_—800.A,2MHZCutent Probe ~ AC/DC; 500 Arm; 700 Ak Pulse
+1Des025 _Deskew Calibration Soure for CPU90,CPO30A, CPO3T,CPOSTA,
+
+igh Voltage itterental                                                           ‘APO15, CP150, C500
+lHvD3T02A tv, 25 Miz High Voltage Differential Probe         CAI Programmable Curent Senor to ProBus Adapter for use wth
+lHvO3T06A thy, 120 MHz High Voltage Oitferetia Probe                                     thi party curent sensors
+
+IHVO3T06A-6M Tk, 80 MH igh Voltage Differential Probe with 6m cable TPAIO—_—_TekProbe to ProBus Probe Adapter
+
+lHv03206A 2k, 120 Miz High Voltage Differential Probe
+
+|HV03206A-6M 2k, 80 MHz High Voltage Differential Probe with 6m cable Passive
+
+[HVD3605A GRY, 100 MHz High Voltage Differential Probe        Ppoz2 S00 MHz Passive Probe, 25mm, 101,100
+PPO24 __SO0MHzPasive Probe, Sm, 101,100
+
+SH 천만시 ASR 직산읍 직산로 110 천만56플라자 601호. 602호
+Tel 1 041-557-5200 | Fax 1 041-857-5204 ㅣ E-mail : cti@cti-korea,com
+

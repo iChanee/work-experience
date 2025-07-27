@@ -1,0 +1,86 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=137&page=4
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2107/20210706152155_333de397d74855be06ff2f6660a674f6_gq4x.png]
+< \Nabzine
+
+IP 보호
+
+2021년 07월 & VOL.200
+
+on
+w
+몰
+더
+Im
+벼
+과
+It
+
+Ip 등급미란?
+물체, 2, 분진 또는 Sasol 접촉메 대한 전기 외함의 보호 정도 또는 밀폐 효과의 등;
+국제 표준 (16060529) 미매, ASA, 전자, 전력 등 전기기술 관련 국;
+담당하는 국제 전기 기술 위원회메서 발행됩니다.
+
+IP X X
+
+방진등급 방수등급
+
+2S 평가하는데 사용되는
+제         를
+
+시 표:
+
+내
+
+} : 먼지로부터의 보호정도
+} : 액체로부터의 보호정도
+
+ears
+obo
+aS
+
+IP CSO 오는 첫 번째 숫자는 방진를 LIEHSLICE
+전혀 보호되지 못하는 수준민 0등급메서부터, 미세한 먼지부터 완벽하게 보호되는 수준민
+OSETIA 미루머져 있습니다.
+1~4등급은 500001 부터 1010 의 고체메서 보호되는 수준미며, 5등급은 내용물에 손상를 주지 않는
+제한된 수준의 먼지 뮤입을 허용하는 등급입니다.
+
+Test Probe A [10130
+
+1) Ball Diameter : 50mm
+
+2) Baffle Plate Diameter : 45mm
+3) Baffle Plate Thickness : mm
+4) Handle Diameter : 10mm
+
+5) Handle Lenath : 100mm
+
+Test Probe B [IP2X]
+
+1) Knurled Finger Diameter : 12mm
+2) Knurled Finger Length : 80mm
+3) Baffle Plate Diameter : 50mm
+
+4) Baffle Plate Length : 100mm
+
+Test Probe C [IP3X]
+
+1) Test Probe Length : 100mm
+2) Test Probe Diameter : 2.5mm
+3) Dam-sphere Diameter : 35mm
+4) Handle Diameter : 10mm
+
+5) Handle Lenath : 100mm
+
+Test Probe D [10430
+
+1) Test Probe Length : 100mm
+2) Test Probe Diameter : 1.0mm
+3) Dam-sphere Diameter : 35mm
+4) Handle Diameter : 10mm
+
+5) Handle Lenath : 100mm
+
+출남 천만시 써북구 백석공단1로 10천만미래메미스하메티크시티 ME 327호
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+

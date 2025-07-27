@@ -1,0 +1,91 @@
+■ 제품명: 배터리 충/방전 시험시스템 S/W
+■ 모델명: 배터리 충/방전 시험시스템 S/W
+■ 분류명: 배터리 충방전 S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=20#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_hJ2V8Q9E_91ec2926e750aa1cc936f6f4a37668eaf5e0807b_600x193.jpg
+
+[본문이미지 1]: cti_product_imgs/f1914d3ce498a227ef512d353c518548_1599718909_4059.png
+  [본문이미지 OCR]
+‘a frrValuesetting Ss
+
+> Charge-Discharge
+
+© Charge
+
+© Discharge
+
+Charge
+
+Target Votage(Ved :
+
+Test Curentiled)
+‘Break Time(Te)
+
+Aa 4
+Discharge
+
+‘Test Volagecvad : 00 00000
+
+O00 Ely Target Curent : 007 ita
+
+00
+내
+
+Run Time(O0 : (Oj)
+Stop Time(Ta) «0
+Break Time(TA) : 0
+
+ㄷ므리 i)
+
+[본문이미지 2]: cti_product_imgs/f1914d3ce498a227ef512d353c518548_1599718942_6908.png
+  [본문이미지 OCR]
+Charge                              Discharge
+Tost Vottage(Va) =
+
+(© Charge-Discharg®— 아나 Vonaget Ved): 1000             Target Current):
+
+헤매         Test Curent): GD = cA)      un Time(O) :
+Break Time(Te) : 0 0 = [5      Stop Timo( TA
+(© Discharge                                              Break Time(Ta) =
+
+(Gas) | 시점 저장 | | 차인 | aa)
+
+[본문이미지 3]: cti_product_imgs/f1914d3ce498a227ef512d353c518548_1599718975_1734.png
+  [본문이미지 OCR]
+(© Charge-Discharae
+
+© Charge
+
+© Discharge
+
+Charge                               Discharge
+
+Test Volagetve : [100 은 00
+Target VotiagecVe : 000 수 4] Target Curentian : (00 isi a)
+
+Test Curentle) : [000 을 40     Fun Time(Oo : 0 회 [의
+
+Break Time(Te): 01/5   Stop TimeCTad : 0 [si se)
+Break Time(T): © (2\/s 5)
+
+(aa82) (as 저장 | | 화인 | | 위소 ㅣ
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=20&no=1
+
+[퀵스펙]
+- 동작모드 : Single Run Mode / Multi Run Mode - 통신 : RS232C / GPIB / Ethernet
+
+[제품소개]
+Charge Mode
+- 시험 값 설정 : Voltage, Current, Test Time(Interval)
+- 시험 설정 값 저장 및 불러오기
+- 관측 데이터 저장
+Discharge Mode
+- 3가지 Mode 중에서 사용자가 필요로 하는 Mode를 선택하고,
+각 각의 Mode에 따른 시험 값을 설정
+Charge & Discharge Mode
+- 시험 설정 값과 시험 데이터를 Graph를 통해 실시간 비교 관측
+- Graph 우측 상단에서 Voltage 또는 Current의 상세 값 실시간 관측
+
+-----------------------------

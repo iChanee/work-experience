@@ -1,0 +1,83 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=65&page=9
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg15070783.jpg]
+0110                        .
+‘               Webzine             ……
+
+차세대 기술을 선도하는 테크놀로지 기업
+
+VEHICLE SOLUTION - SYSTEM INTEGRATION - TEST & MEASUREMENT
+
+KIKUSUIZ4! 메이전트
+
+AAD 만전성을 기본으로 설계된      5
+DAS 전자부하장치
+
+PLZ-AW Series                                             PLZ-4WH Series
+
+*최대 입력 정격                        *최대 입력 정격
+
+DC 1.5 ~ 150V/200A/1000W               De 5 ~650V/ 100/2000W
+
+ea                               특질
+
+1.정전류저저항 정전압-정전력-정전류 +             스터접속으로 최대 okwid50A 실현
+
+BAL SMe +정전입                    (PLZ1004WH ABALICH)
+
+2. OVEIE 시메도 전체 AFH CHS(PLZ164WA,         2. DNS 관측용 전압 모니터 단자도 장비
+PLZ664WA)                                   3.CC, CRO 더하며 5단계의 6리스폰스 설절미
+3. 스위청 동작의 과도 ARE 5164-1216(4로          aS
+
+설정 가능                                      44. 최대 1024566의 프로그램미 가능한 ANIA
+
+4. 기동 시간:10 기동 시간 환산)의 고속 응답       AS
+
+5. 소프트 스타트 방식의 시간 설정 가능           5. 대용량를 공간절약 & 낮은 베용으로 실현
+
+6. GPIBIRS232C/USB 민터페미스 표준 장비
+
+7.각종보호회로
+
+장착(과전압 과전류 과전력-과열-저전압 soz)
+
+간수
+2200
+
+PLZ-4W SRILP, PLZ-4WH SRILP                    PLZ-4WL Series
+*최대 2a ga                    *최대 입력 정격
+PLZ-4WSRILP -DC 1.5~ 150V/ 26008 /13kW          De 03 ~30V/100/330W
+PLZ-4WH SRILP - DC 5 ~ 650V/650A/ 13kW        “sa
+1.50004부터 동작 가능. 0.3\미하에서는 전류를
+PLZ-4W SRILP Al2] 29} PLZ-4WH SRILP                 저감해 사용 가능
+시리즈는 21004\ 부스터 (PLZ2004WB)S-         2. 부하 VASA St 2.3로 50&468의 슬루률을
+전용 랙 부품으로 조립 한 대용량 모델입니다.       실현
+.3.2차전지의 방전 Ser AO 편리한 자동 로드
+오프 타미머기능,컷오프 전압설정기능
+4655 대용(정전튜,정저항, 정전압, 정전력,
+정전류+정전압, 정저항+정전압)
+5 최소 스템시간 25 가 가능한 시퀸스기능
+점전류
+RAS
+
+PLZ.U Series                                 PCZ1000A,
+최대 입력 청력                       *처대 Be Ba
+De 0~150V/304/ 150W                        AC 14V ~ 280V/100A/ 1000W
+특질                                        특질
+1. 모드메서의 가동, 종료 Slewrate 2.4/4           1.113 전류나 교조파 ARS 부하시험를 용미하게
+(PLZ150U)                         행할수 있는 크레스트 팩터 기능를 탑재 (크레스트
+.2.3 가지 영역 내장 최대 5 자릿수까지            팩터값은 1.4~4.0 까지 설정가능)
+전압전류전력 측정 기능                   .2.5대까지의 원 컨트롤 병렬운전 가능
+3. BOR, 정쩌항 모드에서는 AE Slew-rate 2       3. 42 운전 기능 탑재
+면적 변경 가능                        4, RS-232C Hf 의한외부제매와리드백 가능
+4. 면료 전지의 단셀 시험 시 필수민 ov ee 지원
+5. 각 뮤덧(채널)은 각각 독립 또는 언동 등작미
+aS
+6. 동일한 부하 뮤닛메서 최대 5대까지 병렬 운전
+st
+
+7.외부메서 B24 ON/OFF 제머 가능
+
+출남 천만시 써북구 직산읍 직산로 136 (재출남테크노파크 정보영상융합센터 면구동
+781:041-557-5200 | Fax: 041-557-5204 | E-mail: cti@ct-korea.com
+

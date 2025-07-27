@@ -1,0 +1,82 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=176&page=2
+
+[이미지 1: https://ctiko.cafe24.com/data/editor/2402/20240213114143_4a85fa07ee125b170e50120256451aa8_500m.jpg]
+NEX Series
+
+om       ona 인증    aug
+
+——
+
+고성능 Programmable DC Power Supply
+
+NEX 56065는 고성능, 고효율의 제품으로
+
+최적의 SSS 가진 프로그래머블 0 Power 54001)입니다.
+
+효율, 반응속도, 줄력 안정도에서 동급 최고의 출'
+시스템 구성에도 최적화가 되
+
+을 제공하도록 설계되었으며,
+
+오뽀
+으
+따
+네기
+무
+
+다양한 제어방식을 통한 신뢰성 높은 전원공급기를 사용해보세요!
+
++ 4-Digital Display Resolution
++ OVP, OCP Protection Mode
++ UVL OVL, UCL, OCL Mode
++ Calibration 기능 제공
++ Panel Lock 기능 제공
++ Memory Store & Recall 기능
+ㆍ12가지 Factory Mode
++ RS-232C, RS-485, TCP/IP 기본 통신
+ㆍ외부 제어 기능 (Analog Control)
+
+MEMORY STORE & RECALL  |    센르전기1새저다 Soe ee
+사용상태 등을 저장 및 호출
+
+||     용 중 과전압, 과전류   술력    을
+PROTECTION Mope | 사요 과전압 과전류가 즐력되었
+ . 때 SHS 차단하여 부하원을 보호
+
+|  DUAL CONTROL ENCODER  |
+
+(9 메인 전원 ON/OFF 스위치            @ 출력 WA/AF ON/OFF
+
+® Display                           @ lO/Local 또는 Error Display Key
+
+@ 동작상태 표시 램프                    @ Protection Setting 또는 Front-panel Lock
+
+@ BY ZH Encoder                  @ 전압/전류 설정값 Display Key
+
+© 전류 AW Encoder                  @ Save ££ Calibration Key
+
+© BY Cursor 또는 메뉴 BA Key       @ Recall 또는 Factory Key
+
+제품 Line-Up
+Model                  NEX 2400 series                         NEX 4800 series
+고                                       +
+
+Size      |                   14                   |           24
+200                   30A             60A             90A            120A             180A               240A
+30v                   208             40             60A             804              120A                1604
+50V                   124,             248             36A             486               72&                 9646
+606          10&       206      30A       404        60A         80A
+80v         7.58      15A | 22.5A | 30A        458         606
+1000         6A       12,       18A       240        364         4846
+1500         4A        8A       120       16A        248         32A
+2006         3A        6A        9A       128        18A         248
+3004          26        4A        6A        8A        124         16A
+6000                   2A                   |           4A
+
+NEX series] 대해 궁금한 점이 생기셨거나, 다른 제품에 대해 더 알고싶으시다면
+
+른
+하단의 제품 문의하기를 클릭해주세요.
+
+가
+

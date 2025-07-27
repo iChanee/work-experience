@@ -1,0 +1,18 @@
+■ 제품명: RF 진단 소프트웨어
+■ 모델명: RF 신호 분석 S/W제작
+■ 분류명: 전력설비 진단 S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=25#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_RI94ExWP_f339114e927378512a71483a20debabc713a3680_600x200.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=25&no=1
+
+[퀵스펙]
+- 전력 설비의 이상 징후를 사전에 발견하기 위한 - 진단 설비  S/W 제작 - 고객 맞춤형 S/W 제작
+
+[제품소개]
+- Network Analyzer용 S11/S21 신호 분석 Tool
+- Spectrum Analyzer를 이용한 3차원 신호분석 Tool
+- phi-q, phi-n, q-n 3가지 파라미터 분석 Tool
+
+-----------------------------

@@ -1,0 +1,85 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=116&page=5
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg19100806.jpg]
+< \Nabzine
+
+2019년 10월 호 VOL.179
+
+in
+
+쁘띠
+
+면정
+개발
+
+쁜 ao
+Gb
+iam]
+Bio
+
+HEA 규격 P29)
+모든 종류의 전기자동차메 적용)
+
+th S59 om
+
+4
+
+=
+모
+
+ut
+
+전기 자동차 AAS 평가장비 주요 특징
+
+- Test 전압범위가 100 ~ 1.0004 (104 Step)2 시험 ASS 자유롭게 설정 가능
+(리틀미온 빼터리 등의 배터리 절면저항 검사는 구체적민 시험 전압 값미 정해져 있지 않마 제조사마다 다름)
+- 휴대용으로 AD 만전하게 EVST-P2 모델 조작 가능
+- 국제 전기차 규격 \『29 충족
+류의 전기자동차(4. FCEV, HEV. PEV 등) 적용 가능
+- 빠르고 간편하게 확민
+-1408 1.0004 민가 가능
+- 휴대형, 설치형, 모듈형 제작 가능
+- 뮤지보수 및 사전 만전검사
+- EV 완성차 업체. EV 튜닝업체, 860 기관
+
+- S712, SHAM, 방청 등
+
+6051-830(설치형)                          EVST-P20 (CHS!)
+
+전기 자동차 안전성 평가장비 주요 사양
+
+ELECTRICAL CONTINUITY TEST MODE
+
+Test Voltage Range                   1 30Vde
+Test Voltage Resolution                                           Ide
+Max Short Test Current                1A
+Resistance Measurement Range            10ma ~ 1000
+Resolution                                                             00
+‘Accuracy                                                           [23%
+Pass/ Fail Reference                                         _|_$0.19%@t Min 0.2A)
+Measurement Time                   10~ 120 5/ time(10s Step)
+INSULATION RESISTANCE TEST MODE
+Test Voltage Range                   100 ~ 1,000vde
+Test Voltage Resolution                                           70000
+Test Voltage Accuracy                              4396                                               -
+Max Short Test Current                Toma
+Resistance Measurement Range            51600 ~ 10M
+Resistance Resolution                 10
+Resistance Accuracy                                              33%
+Measurement Time                   10 ~ 120 s/ time(10s Step)
+Suitability Determination                                         Pass/ Fail( 1000 VDC , 5000/ VAC)
+GENERAL SPECIFICATIONS
+Display                                                                  43° TFT LCD Color
+Power Input                                                           12V0C @ 4A,
+Battery Specification                                               Lion battery 3EAG7V, 3050mAh )
+Continuous Use Time                  1 Hour
+Temperature & Humidity(Operating)                         °C ~ 40°C, 20 to 80% RHNon-Condensing)
+‘Temperature & Humidity(Non-Operating)                  “10°C ~ 40, 20 to 80% RH(Non-Condensing)
+Dimensions & Weight                  135% 285 x55mm (WXHXD), 1.4kg
+Warranty                                                               Tear
+a                                                            ‘Manual, Adapter 1EA, Hardcase 1EA,
+Test Lead Set (Alligator type 1EA, Pin type TEA)
+
+출남 천만시 써북구 직산읍 직산로 110 천만56플라자 601. 602호
+Tel 1 041-857-5200 | Fax 1 041-567-5204 | E-mail: cti@cti-korea,com
+

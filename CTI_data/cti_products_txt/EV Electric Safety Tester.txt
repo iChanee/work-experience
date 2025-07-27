@@ -1,0 +1,52 @@
+■ 제품명: EV Electric Safety Tester
+■ 모델명: EVST-P20 (B-Type)
+■ 분류명: EV 안전성 평가 장비
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=2372#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741322_euHmYlds_9c316e523bcbe08eddc2e17855404fdc1eef7a2f_600x290.png
+
+[본문이미지 1]: cti_product_imgs/20240604180329_5349a91022cd8fd6437d58d0785374d5_x32i.jpg
+  [본문이미지 OCR]
+xEV Solution
+EV Safety
+
+Battery Performance
+
+전기자동차 안전성 평가장비
+
+전기자동차의 전기적 연:
+국제 전기차 규격 \29를
+
+- 전류제어 소스에 의한 도체(접지) 연속성 시험 (6451-ㅁ20)
+
+- 절연 저항 측정 전압 범위가 ZOVOC ~ 1,000VDC(1VDc Step)= 시험 전압값을 자유롭게 설정 가능
+(절연저항 측정 전압은 제조사 또는 시험 규격에 따라 다릅니다.)
+
+- 배터리가 내장된 휴대용 제품으로 쉽고 안전하게 사용 가능
+
+- 국제 전기차 규격 WP29 충족
+
+- 모든 종류 전기자동차 (64, FCEV, HEV, PEV 등) 적용 가능
+
+- EV 완성차업체, EV 튜닝업체, 0&0기관, 인증기관, 정비업체 등
+
+- 휴대형, 설치형 솔루션 제공 가능
+- 전기자동차 유지보수 및 사전 안전검사
+
+~ Min. 20V ~ Max. 1,000 9194 2 KS(1V step)
+- Handy Type
+
++ 적용분야
+- xEV(EV, HEV, FCEV, PEV) 정기검사
+-유지 보수 및 사전 안전검사
+
+[본문이미지 2]: cti_product_imgs/20240604180337_5349a91022cd8fd6437d58d0785374d5_50zo.jpg
+  [본문이미지 OCR]
+
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=2372&no=1
+
+[퀵스펙]
+* 기능 - 절연저항 및 전기연속성 통합 측정 * 특징 - Min. 20V ~ Max. 1,000V 인가 가능 - 200mA CC Mode 연속성 측정 - Handy Type
+
+-----------------------------

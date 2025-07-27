@@ -1,0 +1,59 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=37&page=10
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg13030550.jpg]
+=~ Webzine
+
+201314 38 호 VOL.100
+
+차세대 기술을 선도하는 테크놀로지 기업
+
+‘VEHICLE SOLUTION - SYSTEM INTEGRATION «TEST & MEASUREMEN'
+
+El
+Jz
+wa
+Ht
+| of
+
+측정에 관련된 당신이 원하는 모든 것을 제공해드립니다.
+
+배터리 충.빙
+
+방:
+
+전 시스템
+
+@ ASE: Single Mode - 1504, Multi Mode - 3004 (공통 604 DC)
+O@OAUSE : 출전모드/방전모드/자동충방전모드
+@ 걸과확민 : 시험 전압. 전류. 배터리 29) 그래프화,
+
+-기본적으로 출-방전미 10506로 구성되머있으매, 출전 또는 방전
+만으로도 사룡미 가능하도록 구현.
+~2Ch System@2 각 각의 108으로 사용미 가능함.
+
+=
+——— oe
+- 출전 또는 방전의 Target Value(Voltage, Current) 48 가능.
+또는 발전 및
+
+- 출전 또는 방전 및 휴지 시간을 설정 가능.
+
+-설정 Data H2 및 불러오기 가능.
+
+Graph
+
+- 사룡자의 편의를 위해 시험 DNS 한 눈메 볼 수 있도록 그래프
+로 나타냄.
+
+- 시험 중의 Voltage? Current 값를 실시간으로 불 수 있도록 수
+치로 나타냄.
+
+-시혐 시간를 실시간으로 나타냄.
+
+Test&Measurement 추천 제품
+
+12-bit DHS 오실로스:
+
+SU AA NS? 직산을 직산로 136 SULTS 영상미디머센터 면구동
+Tel: 041-55775200 | Fax: 041-557-5204 | E-mail : cti@cti-kores.com
+

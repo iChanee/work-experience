@@ -1,0 +1,85 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=143&page=3
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2201/20220112175154_6f9d1f0a5bafd5c619d2c2bd0b627744_ahag.jpg]
+Webzine
+
+202244 01 호 VOL.206
+
+Tabor Electronics
+Proteus/Lucid 제품군을 소개드립니다.
+
+1. Proteus Series
+
+세계 최초의 임의 파형 트랜시버인 Proteus 단일 기기에서
+디지털 신호 처리를 모두 전송 및 수신을 수행하는 기능을 통합합니다.
+
+시나리오가 극도로 복잡하거나 무한하거나 동
+
+적
+Proteus AWG/TS 사용하여 이를 BSS 수 있습니다.
+
+PXI Express 산업 HES 기반으로 SE PCI Express Gen 3x 8 레인 연결은
+최대 6466/5의 데이터 전송 SES 지원합니다.
+
+[주요 기능]
+
+중          (PXI), 데스크탑 및 벤치탑
+ㆍ듀얼, 4개, 8개 또는 12개 채널 1.2565/5 및 25GS/s 16비트
+또는 16비트 AWG 및 AWTS 구성의 듀얼 채널 965/5
+ㆍ 마이크로파 주파수로의 디지털 업컨버팅을 위한 통합 NCO
+파형 생성을 위해 FPGAS 직접 실시간 데이터 스트리밍
+
+aaa 무한
+ㆍ 피드백 제어 시스템 및 조건부 파형 생성을 위한 9GHz 대역폭,
+2.7GS/s 12삐트 디지타이저 옵션
+상상할 수 있는 모든 시나리오를 생성할 수 있는 최대한의
+작업 지향 Alda 프로그래밍
+Tes 동시에 생성 및 다운로드할 수 있는 최대 1665/5 파형 메모리
+ㆍ 우수한 위상 잡:
+ㆍ복조 디지털 필                   RBS FPGA
+고속 006 GEN3x8 레인 통신 인터페이스
+ㆍ 수백 개의 채널로 쉽게 SS 가능한 SSA 공간 효율적인 PXI Express SHS
+i
++
+Module Platform                   Desktop Platform
+
+Benchtop Platform
+
+2. Lucid RF Signal Generator
+
+SOLE 다이내믹 레인저,
+프로그래밍을
+데 적합합니다.
+
+[주요 기능]
+
+다중 플랫폼 : 데스:
+
+탑, 휴대용, 랙마운트 및 벤치탑(124 채널)
+
+3,6 및 12017 RF 아날로그 신호 발
+
+ㆍ<10006의 매우 빠른 스위칭 속도. 다중 기기 동기화 기능
+
+ㆍ MATLAB, Python, LabView 및 기타 소프트웨어 프로그래밍 환경: spi 및 마이크로
+1058 통할 인터페이스
+
+ㆍ-1450807172의 매우 낮:
+
+은 위상잡음 @100MHz 및 10072 오프셋
+ㆍ 조소형 컴팩트 모듈 플랫폼. AM, FM, PM 스 및 BA 변조
+
+“OEM 및 맞즘형 요구 사항 및 애플리케이션을 위한 유연한 모듈식 플랫폼으로
+특정 고객 요구 사항 중족
+Desktop Platform                          Portable Platform
+Benchtop Platform                    Rack mount Platform
+
+씨티아이코리아(주)
+남 전안시 서북구 벅석공단1로 10 전안미래에이스하이테크시티 ME 327호
+T. 041-557-5200 F. 04
+수신거
+
+매
+
+cti@cti-korea.com
+

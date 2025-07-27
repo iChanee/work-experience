@@ -6,6 +6,67 @@ const cors = require('cors');
 const path = require('path');
 const session = require('express-session');
 const { v4: uuidv4 } = require('uuid');
+const fs = require('fs');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+
+// ====== 회사 데이터: 키워드-파일 매칭 테이블 ======
+const DATA_DIR = path.join(__dirname, 'CTI_DATA');
+// 질문 키워드에 따라 불러올 txt파일 지정 (필요에 따라 추가/수정)
+const TOPIC_FILES = [
+  { keywords: ['회사개요', '개요'], file: '1_회사개요.txt' },
+  { keywords: ['회사소개', '소개'], file: '2_회사소개.txt' },
+  { keywords: ['연혁', '히스토리', '연도'], file: '3_연혁.txt' },
+  { keywords: ['복지', '복리', '혜택'], file: '4_복지혜택.txt' },
+  { keywords: ['연봉', '임금', '급여'], file: '5_연봉정보.txt' },
+  { keywords: ['재무', '매출', '회계'], file: '6_재무현황.txt' },
+  { keywords: ['인원', '조직', '인사'], file: '7_인원현황.txt' },
+  { keywords: ['주요제품', '제품', '상품'], file: '8_주요제품.txt' },
+  { keywords: ['주요거래처', '거래처', '고객사'], file: '9_주요거래처.txt' },
+  { keywords: ['계측', '계측제품', '측정장비'], file: '계측제품.txt' },
+  { keywords: ['공지', '공지사항'], file: '공지사항_전체글.txt' },
+  { keywords: ['사업', '분야', '업종'], file: '사업분야.txt' },
+  { keywords: ['오시는길', '주소', '위치'], file: '오시는길.txt' },
+  { keywords: ['웹매거진', '매거진'], file: '웹매거진.txt' },
+  { keywords: ['인사말', 'CEO'], file: '인사말.txt' },
+  { keywords: ['인증', '품질'], file: '인증현황.txt' },
+  { keywords: ['제조', '생산제품'], file: '제조제품.txt' },
+  { keywords: ['조직도', '구성'], file: '조직도.txt' },
+  { keywords: ['특허'], file: '특허현황.txt' }
+];
+// 질문→회사데이터 파일 찾는 함수
+function getCompanyDataByTopic(userMsg) {
+    const msg = (userMsg||'').toLowerCase();
+    let filesToUse = [];
+    for (const topic of TOPIC_FILES) {
+        if (topic.keywords.some(kw => msg.includes(kw))) {
+            filesToUse.push(topic.file);
+        }
+    }
+    // 파일이 여러개면 모두 합쳐서 리턴
+    if (filesToUse.length > 0) {
+        let mergedText = '';
+        for (const file of filesToUse) {
+            const filePath = path.join(DATA_DIR, file);
+            if (fs.existsSync(filePath)) {
+                mergedText += `\n\n[${file.replace('.txt','')}] =====================\n`;
+                mergedText += fs.readFileSync(filePath, 'utf-8') + '\n';
+            }
+        }
+        return mergedText;
+    }
+    // 키워드 없으면 회사개요+회사소개 기본값
+    let mergedText = '';
+    ['1_회사개요.txt','2_회사소개.txt'].forEach(f=>{
+        const filePath = path.join(DATA_DIR, f);
+        if (fs.existsSync(filePath)) {
+            mergedText += `\n\n[${f.replace('.txt','')}] =====================\n`;
+            mergedText += fs.readFileSync(filePath, 'utf-8') + '\n';
+        }
+    });
+    return mergedText;
+}
+
+// ========================================
 
 const app = express();
 
@@ -321,10 +382,18 @@ app.delete('/api/comments/:comment_id', (req, res) => {
 //   });
 // });
 
-// GPT 챗봇 라우터 (에러 상세 출력)
+// === GPT 챗봇 핵심 라우터 ===
 app.post('/api/chat', async (req, res) => {
   try {
     const userMsg = req.body.message;
+    const companyInfo = getCompanyDataByTopic(userMsg);
+
+    const SYSTEM_PROMPT = `
+아래는 우리 회사 공식 자료입니다. 반드시 참고해서 답변만 해주세요.
+
+${companyInfo}
+`;
+
     const gptRes = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -333,25 +402,24 @@ app.post('/api/chat', async (req, res) => {
       },
       body: JSON.stringify({
         model: "gpt-4o",
-        messages: [{ role: "user", content: userMsg }]
+        messages: [
+          { role: "system", content: SYSTEM_PROMPT },
+          { role: "user", content: userMsg }
+        ]
       })
     });
     const data = await gptRes.json();
 
-    // 에러 응답이면 로그 남기고 상세 응답
     if (data.error) {
-      console.error('[OpenAI API 오류]', data.error);
       res.json({ reply: 'OpenAI API 오류: ' + (data.error.message || '알 수 없는 에러') });
       return;
     }
     if (data.choices && data.choices[0] && data.choices[0].message) {
       res.json({ reply: data.choices[0].message.content });
     } else {
-      console.error('[GPT 응답 이상]', data);
       res.json({ reply: "GPT API 응답이 올바르지 않습니다." });
     }
   } catch (err) {
-    console.error('[서버 오류]', err);
     res.json({ reply: "서버 오류 발생" });
   }
 });

@@ -1,0 +1,73 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=54&page=9
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg14082992.jpg]
+차세대 기술을 선도하는 테크놀로지 기업
+VEHICLE SOLUTION - SYSTEM INTEGRATION - TEST & MEASUREMENT
+
+2014년 8 8S VOL.117
+
+R Meter [HIOKI]
+
+Model : 1M3523
+소자 품질 컴사와 생산 라민, 자동화
+
+Sule 최적
+
+LCR, Continuous testing
+FEHHIE! : 2. Y. 6. is (ESR), ip, DCR (DC resistance), % 9, 6. Cs, Cp, Ls, Lp, D (tans), a
+파수 : d0Hz to 200012 (ImHz to 1012 steps)
+
+위 : 100me to 100Ma, 10 ranges (All parameters defined in terms of Z)
+
+*디스플레미범위 : 2. . As, Ap. 606. ×. 6, B. Ls. Lp, Cs, Cp: + (0.000000 [unit] to 9.9999996 [unit])
+©: £ (0,000 to 999,996"), D: + (0.000000 10 9.999999), 0: + (0,00 to 9999.99), 4%: + (0.0000% to
+
+999, 9999%)
+SHEE : 2 : 40 06%rdg, 6: 40.08"
+
+sBSQTIGA : 1000
+*측절시간 1 2 ms (1 kHz, FAST. representative value)
+
+Recorder[ Yokogawa]
+
+Model: GP10/ GP20
+터치판넬를 적용한 휴대용 CVS) 신개념 레코더
+
+모델                        020                                GP10
+
+구조               휴대용                                sue
+
+표시                12.1" TFT 컬러 LCD (800x600 dots) |5.7" TFT 컬러 LCD (640x480 dots)
+
+|터치스크린     4썬저항 터치스크린, 2포인트 RS
+10 (최대 입즐력 채널수 : 100)       3 (최대 입즐력 체널수 : 30)
+
+최대접속모듈수 ㅣ*최대접속 모듈수는 최대 입출력 채널수로 제한되머 모들의 중류나 조합에 의해
+다릅니다.
+
+면산채널수        100                             50
+
+통신체널수        300                             50
+
+내부메모리        500 MB (매체: 플래시 메모리)
+
+스마트 SA 민터페미스
+
+“AAO 조작성를 Sl
+
+사용자 민터페미스
+
+스토리 트렌드 표시
+
+"터치 또는 드래그를 하면
+
+측정표시중인 트렌드가
+크롤되머 자면스럽게
+스토리 트렌드를 표시합니다.
+
+Fick
+
+출남 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보영상응합센터 면구동
+
+Tel: 041-557-5200 | Fax : 041-557-5204 | E-mail : cti@cti-korea,com
+

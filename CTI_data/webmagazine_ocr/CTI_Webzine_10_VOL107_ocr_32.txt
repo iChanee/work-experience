@@ -1,0 +1,92 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=44&page=10
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg13100158.jpg]
+10 월호 VOL.107
+
+Webzine
+
+WavePro7ZI Series
+
+착메모리 : 20406
+
+-15.3"터치스크린 Display
+
+[
+
+천 프로브
+
+[High Voltage 118마이
+
+Probe] 600305
+
+00305
+
+- 1O0MH2 Bandwidth
+- 1,000¥rms common mode Voltage
+- 1,400 peak differential voltage
+
+~ ENBI010 Catil
+
+= 8006 CMRR at 50/80Hz
+
+= ProBus Interface
+
+= Full remote contral
+
+[Active Probe] 251000
+
+281000
+
+Low-cost High Impedance Active Probe
+- 1GHz Bandwidth
+
+= Syste Bandwidth : 600MHz at Probe tip
+with B00MHz Oscilloscope
+
+~ 0,99F Input Capacitance
+
+- DC Input Resistance : Ma
+
+- £8V Dynamic Range
+
+- Attenuation 1 +10
+
+- Cable Length : 1.3m
+
+More
+
+[Current Probe] CP030
+
+매090
+
+- 60700 전류프로브
+
+- 30605 Continuous Current
+
+~ Peak current at Pulse Width : 50A<1Qus
+~ S0MHz Bandwidth
+
+~ ProBus Interface
+
+[Active Differential probe] 20200
+
+im |,
+
+Her
+
+20200
+
+- 200MHz Bandwidth
+- 3,5pF Input capacitance
+
+- 1 MOhm Active Differential Probe
+- 20 V input differential Range
+
+= 60 V Common made Range
+
+- 10% Probe Attenuation
+
+COPYRIGHT(C) 2013 CTI KOREA ALL RIGHTS RESERVED
+
+(주)비티마미코리마 중남 BOA 써북구 직산로 136 충남테크노파크 영상미디머센터 면구동
+

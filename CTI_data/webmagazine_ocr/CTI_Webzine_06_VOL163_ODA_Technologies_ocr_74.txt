@@ -1,0 +1,75 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=100&page=6
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg180808571.jpg]
+< \Nabzine
+
+국산 Programmable DC Electronic Load 소개 드립니다.
+
+201844 06월 호 VOL.163
+
+메미쿼 - ODA Technologies
+신제품 - DC 전자부하기 LF Series
+
+주요사양
+
++ 1채널/ 1500 to 2OKW(2OKW 미상 주문 제작 가능)
+
++ 16X2 Big-Char Type LCD Display
+
++ Protection : OVP, OCP, OPP.OTP, OVA, OCR
+
+*다양한 Mode 제공 : CC, CV, CR, CP, ON/OFF, Fuse/Battery Test, Short, Cycling, Dynamic
++ Mode OnAl 디스플레미 페미지 변경으로 며러가지 데미터 확민(전압. 전류, 전력, AS)
++ Input ON/OFF Key
+
+전면 판넬 잠금 기능
+
++ V-Sensing 제공
+
+무수한 Load 및 Line regulation
+
+> IOS! 메러 메시지 저장 및 확민 가능
+
++ Memory save and recall 기능(10깨 저장 기능)
+
++ Communication Interface : 09232, 65485 Standard(TCP/IP 옵션)
+
+주요기는
+
+입력된 전원공급기의 전압상관 없이 일정한 전류를 ON/OFF 합니다.
+
+ON/OFF MODE     "    "     a
+동차 하네스 각종 전류 00041 Test 사이클 BB Gell 합니다.
+
+ㆍ Operating range : 0~60A
++ Resolution : 1mA
+
+* OrvOff Time : 100mS~250H 59M 595 990mS(10mS Unit)
++ Repeat : 1~655008!
+
+입력된 전원공급기의 전압상관 없이 일정한 AHS 유지하여 FUSE Tests 합니다.
+
+FUSE MODE
++ Operating range :0~6OA
++ Fuse Time : 100mS-250H 59M 595 990mS(1OmS Unit)
+ese M210] 전압 및 용량 Zh ALLAH Battery WA ELAS 합니다.
+BATTERY MODE      띠이보   am 배터리 방전 테스트에 사용됨니[
+ㆍ Mode CC. CR CP
++ nd Volt: 1~150V(10mV nit)
++ End Cap :0.1~6550AHIOOmAH unit)
+세부모델
+0000        10405       cunnenr      ware            stzx¢mm)
+Ue Ba00y
+move.        vorrace       cunnent      ware            st2e¢mm)
+Lrs00-8                3004                 “               900                  42000:
+1403000.2                  300                   204                 “
+Lr 16000
+ope.        vourace       current      wart            Size(mm)
+49000                000                 1              300                  2awe5004700)
+Lrs00.¢               0000                 20              …                  2129979009'4700)
+
+그의 sue 주문형 제작
+
+출남 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보명상융합센터 면구동
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+

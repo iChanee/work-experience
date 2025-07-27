@@ -1,0 +1,67 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=146&page=3
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2204/20220405150131_fec1885a033a6c848bea85be14109761_gd99.png]
+Webzine
+
+202214 04% 호 VOL.209
+
+[신제품] TECH 교류전원 공급장치/양방향 그리드 시뮬레이터 (AC/DC Power Supply)
+
+117900 시리즈는 프로그래밍 가능한 4사분면 그리드 시물레이터입니다.
+또한 다양한 그리드 연결 장비를테스트하는데 사용할 수 있는 4사분면 전
+력즐폭기입니다.
+
+117900 시리즈의 전력 BEE 34에서 1SkVAE 매우 높습니다.
+17900 (ox                    병렬 연결 후 최대 960&까지 HHS SSE 수 있습니다.
+aa      29      Is
+cumaia Simulator A/S
+
+117900 주요기능
+
+넓은 전압 범위: 3504 LN, 5004 Ｌ4
+Mastersiave® 통한 최대 96064^까지 BB 연결
+늘은 전력 밀도/회소 랙 공간, 34 최대 15144. 1612 ~ 15마로
+회생 그리드 시클레이터와 완전한 4사분면 ACADC 전원
+빠른 응답 시간과 높은 BBE : 0.1%6+0.29665
+직관적인 터치스크린, 단상/3상 AC BEA CARE 기능
+Waveform Library : 사인과, PRIM, 삼각파. 클리핑된 사인파. 계단파.
+자체 정의파
+
+6004야모드
+
+AC, DC, AC*DC SE DC+AC BS 71S AZ
+
+전원 라인 장애 시클레이션티스트 가능
+
+출력 0~360" 시작/정지 위상각 설정 가능
+
+다양한 트리거 Wey ae 신호를 제공
+
+USB/CAN/LAN/CIAI 10 인터페이스 나장. 6618/아날로그
+&RS232(option)
+
+1EC61000-4-1 1/4-13/4-14/4-28 규격 테스트 지원
+
+Applications
+
+Electric transportation
+
+on/off grid inverter, electronic power regulating system
+New Energy Vehicles
+
+(OBC,AC charging pile, EV power supply equipment, BOBC(V2X)
+Energy Storage
+
+PCS energy storage converters, home PV energy storage devices
+Research Institute
+
+ACDC power adapter, EMC test
+Power Electronics
+
+‘Transformer, AC fan UPS, AC motor
+
+하는 테크놀로지 기업
+
+출남 천만시 ASS 백석공단1로 10천만미래메미스하메티크시티 ME 327호
+Tel 1 041-557-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

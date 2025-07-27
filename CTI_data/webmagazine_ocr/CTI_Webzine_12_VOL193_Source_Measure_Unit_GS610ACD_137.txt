@@ -1,0 +1,85 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=130&page=4
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2012/20201209103217_773ed51d6ff924b911427e07fe10cbb2_q9zw.png]
+< \Nabzine
+
+1. Yokogawa Source Measure Unit 65610
+
+20204 128 호 VOL.193
+
+고
+
+a
+i
+키
+띠
+or
+le
+1
+ag
+Pd
+Ei
+wo
+
+< 특질 >
+
+1. 기본확도 : 0.02%
+
+2, 출력 레민지 : 1104. 3.28
+
+3, DS 출력 성능 10045/0미매(최소 민터벌)
+
+4, USB 저장 가능 (최대 65535 데미터)
+
+5 웹 서배기능(미더넷 옵션:
+
+6 다양한 출력 WES, 리니머, 로그. 임의 AB)
+
+레민지 : 2000~ 110:
+레민지 : 2006 ~ 3,24
+
+2. Ametek High Performance Programmable AC /DC Power Source CSW Series
+
+4      < 특질 >
+= Combination AC and DC Power Source
+- 5550 VA: 19 or 30 (systems up to 38,000 VA)
+- 40-5,000Hz Output Frequencies
+- Arbitrary and Harmonic Waveform Generation
+~ Built-In Digital Power Analyzer
+- Scope Capture Capability
+~ Power Programming Software
+- Constant Power Mode
+= Multi-Box Option
+
+CSW 시리즈는 저렴한 베용으로 추가적 기능를
+
+는 테스트 장비의 수요 증가를 해결하기 위한
+AC/DC 파워 소스의 새로운 세대를 대표합니다.
+유면성있는 AC/DC 파워 소스와 고성능 파워 분석기를 결합함으로써 COWAAIZE 다중 ABS
+
+를 다룰 수 있습니다.
+
+<제품 BS Line up >
+
+Mode                                5550         60110         60160         00220         00075)         00330
+utipier30"1 0                                 18                  26                  39                 an                 515                 ang
+
+Constant Power AC Mode
+
+Current
+(rs)
+
+8                                                                                                        ㅡ<
+‘                                                                                                        ㅡ280
+Ki
+7                                                                                                        Ki
+2                                                                                                        SH
+0
+°           2           0           80          109          120          10          160
+> Voltage (RMS)
+
+Current Frequency Rating Chart for 156VAC Range (range in 3 phase mode)
+
+출남 천만시 서북구 AS 직산로 110 천만56플라자 601. 602호
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+

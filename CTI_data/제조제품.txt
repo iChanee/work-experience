@@ -1,0 +1,924 @@
+==================================================
+■ 제품명: Electric Power Test S/W
+■ 모델명: Electric Power Test S/W
+■ 분류명: 태양전지 모듈 전원공급기록장치
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=22#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_yHeAbjzY_39a4160c516ab6de13fb5c4c725fee44cc38c983_600x217.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=22&no=1
+
+[퀵스펙]
+- 태양전지 모듈 전원공급기록장치
+- 신뢰성 테스트용 S/W
+- 고객 맞춤형 S/W 제작
+
+[제품소개]
+- Electric Power를 다채널로 구성(3ch)
+- 전압(Voltage), 전류(Current) 실시간 모니터링
+- 장시간(물리적으로 무한대)동안 신뢰성 평가가 가능하도록 구현
+- 모니터링 및 원격제어가 가능하도록 S/W 구현
+- .NET Framework 3.5으로 제작
+
+-----------------------------
+
+==================================================
+■ 제품명: RF 진단 소프트웨어
+■ 모델명: RF 신호 분석 S/W제작
+■ 분류명: 전력설비 진단 S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=25#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_RI94ExWP_f339114e927378512a71483a20debabc713a3680_600x200.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=25&no=1
+
+[퀵스펙]
+- 전력 설비의 이상 징후를 사전에 발견하기 위한
+- 진단 설비  S/W 제작
+- 고객 맞춤형 S/W 제작
+
+[제품소개]
+- Network Analyzer용 S11/S21 신호 분석 Tool
+- Spectrum Analyzer를 이용한 3차원 신호분석 Tool
+- phi-q, phi-n, q-n 3가지 파라미터 분석 Tool
+
+-----------------------------
+
+==================================================
+■ 제품명: RFID 테스트용 소프트웨어
+■ 모델명: RFID 신호분석 S/W 제작
+■ 분류명: RFID 신호 TEST S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=23#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_mgep6GK9_d7cb57dcf54e7a400f994b6dabdfd134f40ff2a7_600x183.jpg
+
+[본문이미지 1]: cti_product_imgs/20220916164043_062950b1f8dd0190510c4c0f8415e871_wf2w.jpg
+  [본문이미지 OCR]
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=23&no=1
+
+[퀵스펙]
+- RFID 신호 발생 및 분석 S/W
+- 고객 맞춤형 S/W 제작
+
+[제품소개]
+- 신호 처리 및 분석 Tool
+- 데이터 저장 및 분석 Tool
+
+-----------------------------
+==================================================
+■ 제품명: 모터 드라이브 분석기 (MDA)
+■ 모델명: 모터 드라이브 분석기 (MDA)
+■ 분류명: 분석 기기
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=12#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_O6s3wJe7_ad8625bc11e3d7c99ff564165f680e2f0763ca6f_600x283.jpg
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718562_782.png
+  [본문이미지 OCR]
+Quadrature      Analog
+Encoder Tachometer
+
+Resolver Hall Sensor
+
+Pulse
+Tachometer
+
+처 인코더, ABH, 및 BLDC
+
+평균 전압, 전류, 전력, 역률, 위상 각, 토크, 속도, 전력 분석기 장비가 수행 할 수 없는 동적 과도 전력 쿼드 러
+
+효율 등에 대한 결과를 표시하는 숫자 테이블을 분석. 각 순환 값은 시간에 따라 파형으로 표시 될수 홀 센서에 대한 AIMS 포함하여 전체
+이용한 정적 정상 상태 전력 분석 있음 속도 및 위치 통합. BA 타코미터
+속도 및 위치 통합. 펼스 타코미터,
+
+홀과 06 센서를위한 디지털 입력 사용
+
+[퀵스펙]
+- 최대 1GHz, 2.54GS/s
+- 8채널 아날로그 + 16채널 디지털
+- 단일 장비에서 모터 드라이브 시스템 디버깅 및 검증
+- 3상 파워 측정 (Real, Apparent, Reactive Power)
+- 효율 측정
+- 다이나믹 드라이브 응답 분석
+- Zoom+Gate 모드
+- Q-Scape 디스플레이를 통한 화면 확장
+- 레졸버, QEI 입력 가능
+- 활용 분야 > 친환경 자동차 Motor > 인버터, 컨버터 > 자동차 고감성 편의 모터 신뢰성 시험
+
+-----------------------------
+
+==================================================
+■ 제품명: 유전율 측정 시스템
+■ 모델명: 유전율 측정 시스템
+■ 분류명: 측정 시스템
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=18#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_dKrwnDWG_cdf550a6eb5b6e1c647363167326b103efd7f401_600x391.jpg
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718907_5802.png
+  [본문이미지 OCR]
+시료의 마이크로파의 유전율(1 ' 및 유전 정접《816) 을 측정하는 섬동방식의 고밀도 측정 시스템
+
+Pcabe
+
+Neworknaizer
+
+> 대응규격 : ASTM D2520(JISC2565)
+> 측정 가능 시료
+> Multilayer material, Powder, Ceramics,
+> Printed board, Sheet(Board), Radome Cover, Dielectric, Film(Uttra thin film)
+> 주파수 대역
+> 200MH2 ~ 100112단일점 측정)
+ㆍ표준품: 300Mhz, 1, 2, 2.45, 3, 5, 5.8, 10Ghz
+
+밀리미터파 영역에서 측정 밀도가 높은 동시에 시료의 출입이 간단한 박막 대응 측정 장치
+
+> 비유전율(6『') : 1.05 ~ 30 정밀도 + 3%
+> 유전정접(306) : 0.001 ~ 0.05 정밀도 + 7%
+> 시료의 크기
+> 70mm x 70mm 이상 ( 18GHz)
+> 30mm x 30mm 이상 ( 50GHz)
+> 시료의 두께
+> 500 ~ 0.2000의 Sheet
+
+저주파(1001112)부터 고주파(90012)까지 측정 가능 하고 고체, 액체, 분체를 시료로서 사용 가능
+
+> 비유전율(6) : 1.05 ~ 500 정밀도 + 7%
+> 유전정접(806) : 0.001 ~ 10 정밀도 + 15%
+
+[퀵스펙]
+- 섭동법
+- 공진공법
+
+-----------------------------
+
+==================================================
+■ 제품명: EV 안전성 평가 장비
+■ 모델명: EVST-B30
+■ 분류명: EV 안전성 측정 및 정밀 가변 전압 저항 측정
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=8#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_pqiPGRFI_e0d628649c9a8bb76280abdfe79b78018a5c9e49_600x174.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=8&no=1
+
+[퀵스펙]
+기능 - 절연저항 측정 - 전기적 연속성 측정 - Ethernet 통신을 통한 자동 데이터 송신 - Database를 통한 이력관리
+특징 - Min. 30V ~ Max. 1,000V Variable CV Mode 인가 가능 - 200mA CC Mode 연속성 측정 - 19” Rack Type
+
+[제품소개]
+EV 안전성 측정 및 정밀 가변 전압 저항 측정  
+기능:  
+- 절연저항 측정
+- 전기적 연속성 측정
+- Ethernet 통신을 통한 자동 데이터 송신
+- Database를 통한 이력관리
+
+특징:  
+- Min. 30V ~ Max. 1,000V Variable CV Mode 인가 가능
+- 200mA CC Mode 연속성 측정
+- 19” Rack Type
+
+적용분야:  
+- EV(EV, HEV, FCEV, PEV) 정기 검사
+- 유지보수 및 사전 안전검사
+- PC or 원격서버를 통한 이력관리
+- 개조차 및 사고차 안전 확인용
+- 자동차 완성차 업체, 부품업체, R&D 기관, 인증기관, 정비업체, 소방청
+- 부품 안전성확인용 장기간 테스트
+
+EV 절연 평가 장비  
+EV 검사 후 PC 나 원격서버의 HMI 와 연동하여 데이터베이스에 차량 정보태그를 통하여 측정값 및 합부결과에 대한 이력관리가 가능  
+검사소등에서 고정형으로 사용가능하도록 하기 위하여 19” Rack 에 장착하여 사용가능하며 PC 와 함께 장착 가능하도록 설계  
+이 제품은 국제전기차규격 WP.29를 충족하며, 모든 종류의 고전압 계통을 사용하는 EV에 적용가능 함
+
+-----------------------------
+==================================================
+■ 제품명: 시스템 펌웨어 개발 문의
+■ 모델명: 시스템 펌웨어 개발
+■ 분류명: 개발
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1729#product_start
+
+[대표이미지]: cti_product_imgs/thumb-3696372210_FAyHDZCN_521cff38faf437c3efe97f7933a3c099d920266b_600x424.png
+
+[퀵스펙]
+.
+
+[제품소개]
+.
+
+-----------------------------
+
+==================================================
+■ 제품명: 배터리 충/방전 시험시스템 S/W
+■ 모델명: 배터리 충/방전 시험시스템 S/W
+■ 분류명: 배터리 충방전 S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=20#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_hJ2V8Q9E_91ec2926e750aa1cc936f6f4a37668eaf5e0807b_600x193.jpg
+
+[본문이미지 1]: cti_product_imgs/f1914d3ce498a227ef512d353c518548_1599718909_4059.png
+  [본문이미지 OCR]
+‘a frrValuesetting Ss
+> Charge-Discharge
+© Charge
+© Discharge
+Charge
+Target Votage(Ved :
+Test Curentiled)
+‘Break Time(Te)
+Aa 4
+Discharge
+‘Test Volagecvad : 00 00000
+O00 Ely Target Curent : 007 ita
+00
+내
+Run Time(O0 : (Oj)
+Stop Time(Ta) «0
+Break Time(TA) : 0
+ㄷ므리 i)
+
+[본문이미지 2]: cti_product_imgs/f1914d3ce498a227ef512d353c518548_1599718942_6908.png
+  [본문이미지 OCR]
+Charge                              Discharge
+Tost Vottage(Va) =
+(© Charge-Discharg®— 아나 Vonaget Ved): 1000             Target Current):
+헤매         Test Curent): GD = cA)      un Time(O) :
+Break Time(Te) : 0 0 = [5      Stop Timo( TA
+(© Discharge                                              Break Time(Ta) =
+(Gas) | 시점 저장 | | 차인 | aa)
+
+[본문이미지 3]: cti_product_imgs/f1914d3ce498a227ef512d353c518548_1599718975_1734.png
+  [본문이미지 OCR]
+(© Charge-Discharae
+© Charge
+© Discharge
+Charge                               Discharge
+Test Volagetve : [100 은 00
+Target VotiagecVe : 000 수 4] Target Curentian : (00 isi a)
+Test Curentle) : [000 을 40     Fun Time(Oo : 0 회 [의
+Break Time(Te): 01/5   Stop TimeCTad : 0 [si se)
+Break Time(T): © (2\/s 5)
+(aa82) (as 저장 | | 화인 | | 위소 ㅣ
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=20&no=1
+
+[퀵스펙]
+- 동작모드 : Single Run Mode / Multi Run Mode
+- 통신 : RS232C / GPIB / Ethernet
+
+[제품소개]
+Charge Mode
+- 시험 값 설정 : Voltage, Current, Test Time(Interval)
+- 시험 설정 값 저장 및 불러오기
+- 관측 데이터 저장
+Discharge Mode
+- 3가지 Mode 중에서 사용자가 필요로 하는 Mode를 선택하고,
+각 각의 Mode에 따른 시험 값을 설정
+Charge & Discharge Mode
+- 시험 설정 값과 시험 데이터를 Graph를 통해 실시간 비교 관측
+- Graph 우측 상단에서 Voltage 또는 Current의 상세 값 실시간 관측
+
+-----------------------------
+
+==================================================
+■ 제품명: 차폐율 측정 시스템
+■ 모델명: 차폐율 측정 시스템
+■ 분류명: 측정 시스템
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=17#product_start
+
+[대표이미지]: cti_product_imgs/thumb-1794900085_UXF53GCl_4a4500e8214bb3853dca6c30fd2a66a091402883_600x333.png
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718839_8743.png
+  [본문이미지 OCR]
+ASTM 04935 또는 ASTM ㄷ57을 준수하고 있으며, 차례 효과를 평면파로 정밀하게 측정하기 위한 시스템
+
+> 주파수 : 10kHz ~ 18GHz
+> 특징
+> 데이터를 66\파일로 저장이 가능
+> 그래프 재현가능
+> 10008 이상의 다이나믹 레인지로 측정 가능
+> 온도 범위
+> 통상 사양 : 상온
+
+ASTM 04935 또는 ASTM ㄷ57을 준수하고 있으며,
+차례 효과를 평면파로 정밀하게 측정하기 위한 시스템
+
+> 주파수 : 1GHz ~ 90GHz
+> 특징
+> 도파관 구조이므로 시료의 평면파의 진입 각도가 주파수마다 변화합니다.
+> 평면파의 시료 진입 각도와 차폐 효과의 관계도 측정 할 수 있습니다.
+> 16112 ~ 40GHz= 다이나믹 레인지 10008, 40GHz~90GHz= 다이나믹 레인지 7008의[넣은 레인지로 측정 할 수 있음
+
+[퀵스펙]
+- ASTM D4935 or ASTM ES7 준수
+- 평면파로 정밀 측정
+- 주파수: 10kHz ~ 18GHz
+- CSV 저장가능
+- 그래프 재현가능
+- 100dB 이상 다이나믹 레인지 측정가능
+
+-----------------------------
+==================================================
+■ 제품명: EV 안전 완속 충전 어댑터
+■ 모델명: EVCC-20
+■ 분류명: 완속충전기 안전 충전 어댑터(벽걸이형)
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1773#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_eGCiycRq_ee693fa2107c1ea5a61e26a5f2e5744834d3aaf7_600x298.jpg
+
+[퀵스펙]
+기능
+- 완속충전기에서 일반 220V 충전
+- 서지로부터 접점 보호
+- 사용자 이상동작 시 충전 차단
+- 충전 전 절연성 및 연속성측정
+특징
+- 전국에 확장 설치중인 완속충전기에서 일반 220V 충전이 가능하도록 하는 젠더
+- 기구적 동작시 충전 시퀀스를 차단하여 이상 동작에 의한 파급 방지
+- 충전전 절연 및 전기적 연속성 측정을 수행하여 이상시 충전하지 않도록 함
+
+[제품소개]
+완속충전기 안전 충전 어댑터(벽걸이형)
+기능
+- 완속충전기에서 일반 220V 충전
+- 서지로부터 접점 보호
+- 사용자 이상동작 시 충전 차단
+- 충전 전 절연성 및 연속성측정
+특징
+- 전국에 확장 설치중인 완속충전기에서 일반 220V 충전이 가능하도록 하는 젠더
+- 기구적 동작시 충전 시퀀스를 차단하여 이상 동작에 의한 파급 방지
+- 충전전 절연 및 전기적 연속성 측정을 수행하여 이상시 충전하지 않도록 함.
+적용분야
+- 초소형 전기차, E-Mobility, 이륜차, 농기계용 전기차, 택배 우체국용 전기차, 전기 Bike, 이동형 충전장치 비상 충전
+- 완속충전기 안전충전용 커넥터
+- 완속충전기 충전시 사용자의 조작 미숙에 의한 화재사고등의 파급을 최소화
+- 충전 시퀀스에 이전에 충전 대상의 전기적 안전성(절연성 및 전기적 연속성)을 측정하여 이상시 충전하지 않도록 하는 Protection 기능
+- 일반 사용자들이 사용시 안전성을 확보하기 위하여 충전 커플러 조작시 완속충전기와의 통신을 통하여 자동으로 전원을 차단하도록 설계
+
+-----------------------------
+
+==================================================
+■ 제품명: 신호 분석 소프트웨어
+■ 모델명: 신호 분석 S/W제작
+■ 분류명: RF 분석 S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=26#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_3aveRJXE_553ef861dd6fc50024416154d93ad9400aa0d888_600x228.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=26&no=1
+
+[퀵스펙]
+- RFID 신호 발생 및 분석 툴 제작.
+- 고객 맞춤형 S/W 제작.
+
+[제품소개]
+- Smith Chart구현
+- 신호비교 알고리즘
+- 각 Device의 모든 기능을 PC에서 구현
+- FFT/Curve Fit 알고리즘
+- 자료 저장용 DB개발
+
+-----------------------------
+
+==================================================
+■ 제품명: GPS 시뮬레이터
+■ 모델명: GPS 시뮬레이터
+■ 분류명: 시뮬레이터
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=15#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_WykzjD5Y_9e90b3ed5275ebbc944961edc2930b1a42de4119_600x279.jpg
+  [대표이미지 OCR]
+e
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718736_1158.png
+  [본문이미지 OCR]
+
+
+[퀵스펙]
+- GPS / GNSS 위성 시뮬리션 가능
+- 위성 Up-Load, Down Load 시나리오 가능
+- 최대 32 Channel 구성 가능
+- Field of application > 자동차 자율주행 > 네비게이션 업체 > 위성을 이용한 위치 추적 응용분야
+
+-----------------------------
+==================================================
+■ 제품명: 배터리 충/방전 시험장치
+■ 모델명: CTI SI
+■ 분류명: 배터리 충/방전 시험장치
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=16#product_start
+
+[대표이미지]: cti_product_imgs/2077741387_4k7F5QNR_adfd713dc351fc5c88fd8e7a88516d932075a0a2.jpg
+
+[본문이미지 1]: cti_product_imgs/185a7774f938b0269d4e57e3d9d0464e_1599718834_7377.png
+  [본문이미지 OCR]
+| Pee
+| kekeeekel
+er
+
+[퀵스펙]
+- Single & Multi Run
+- Data Setting 저장 및 불러오기 가능
+- 시험 Data 저장 가능
+- Rack Mount 및 Test 지그 Control Program
+- Power 2ch 개별 및 Full Remote Control
+- Loader 4ch 개별 및 Full Remote Control
+- 전압, 전류, 온도 실시간 모니터링
+- .NET Framework 4.0 Base SW
+
+-----------------------------
+
+==================================================
+■ 제품명: 전기 자동차 급속 충전장치
+■ 모델명: 전기자동차 급속 충전장치
+■ 분류명: 충전기
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=6#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_6dQpOVDl_05342410734ad9ee05486055c1df59d6df9080f1_600x319.jpg
+
+[본문이미지 1]: cti_product_imgs/185a7774f938b0269d4e57e3d9d0464e_1599718055_8579.png
+  [본문이미지 OCR]
+Fimal-A. igh-speed charger foran electri vehicl Battery design)
+
+[본문이미지 2]: cti_product_imgs/185a7774f938b0269d4e57e3d9d0464e_1599718059_801.png
+  [본문이미지 OCR]
+
+[퀵스펙]
+- 급속 충전 >Charging Voltage: 0 ~ 300V >Charging Current: 0 ~ 160A
+- 멀티 스텝 충/방전기능
+- CC(Constant Current) 및 CV(Constant Voltage)충전
+- 충전 계량
+- 터치 스크린형 디스플레이
+
+[제품소개]
+CCCV모드 충전 방식으로 충전 대상 배터리의 특성에 맞도록 최적화하여 충전하도록 제어 하는 급속 충전기 입니다.
+
+-----------------------------
+
+==================================================
+■ 제품명: 배터리 성능평가 장비
+■ 모델명: BT-100
+■ 분류명: 배터리 성능 측정
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1725#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_JYrQLoKx_1b7b917f586a506f48467dc6b244a0d805a42957_600x206.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927221400_4e63389606f9754e2a0c1a2c8de16c80_58wr.png
+  [본문이미지 OCR]
+배터리(2차전지) 성능 평가 장비
+BT-100
+기자동차 배터리의성
+SOP(Stats of
+배티리의수명용량 (Ue Capacity)
+배터리 가동시간및
+BAP OF Performance)
+© Specifications
+2/.110/ 220 / 380 / 480 / 60%
+ment mode : Automatic mode
+ial modk
+Nickel cadmium / Nickel hyd
+
+[퀵스펙]
+- 배터리 수명용량 측정
+- 배터리 가동시간 및 교체시기 예측
+- 불량 셀 검출
+- SOP(Stats Of Performance)
+
+-----------------------------
+==================================================
+■ 제품명: 자동차 레이더 측정 시스템
+■ 모델명: 자동차 레이더 측정 시스템
+■ 분류명: 측정 시스템
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=14#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_TBgDWQho_64f40d4b052e47c87d44d6b8e111b9ec8d0bf90c_600x309.jpg
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718662_4718.png
+  [본문이미지 OCR]
+RASE 자동차 범퍼 부근의 레이더를 정렬 조정이 가능하며,
+레이더 커버의 특성 시험에 적합 합니다.
+(삽입 손실과 빔 틸트)
+
+Radar
+
+Bumper ( Radar cover)
+
+MISE 충돌 방지 레이더용 시뮬레이터로서 실내에서 레이더의
+이동 표적에 대한 추적 성능을 평가할 수 있습니다.
+
+> 연구 개발 및 제조 검사에 사용
+> 레이더의 개발 시 이동 표적 추적, 거리, 속도 주파수 실내에서 가능
+> 레이더와 연동한 충돌 방지기구의 개발도 가능
+> 제조 설비 또는 자동 레이더 시험 스테이션에 통합하여 레이더 모듈을 시험 가능
+> 레이더 파라미터의 전체 시험 또는 샘플 시험이 가능
+> 주행 시뮬레이터에 본 시스템을 설치하여 차간 거리 변경, 차선 변경, 여러 피사체 추정 방지 시험 등의 확장 가능
+> 원거리에서 근거리까지 연속적으로 시뮬레이션 가능
+
+및 출력의 개발, 조정을
+레이더 정렬 시스템 (615)
+
+Measurement screen
+
+suses9 Main body
+
+00 Power sunely
+
+_— Synthesizer
+Standard
+torn
+
+Doubler
+(option)
+
+Les12~148m
+[LeLie Lostd
+
+[퀵스펙]
+- 자동차 범퍼부근 레이더 정렬 및 특성 시험용
+- 충돌 방지용 레이더 시뮬레이션 평가 시스템
+- 이동 표적 추적, 거리, 속도 등 시험 가능
+
+-----------------------------
+
+==================================================
+■ 제품명: 전기 자동차 급속/완속 충전 및 방전장치
+■ 모델명: 전기 자동차 급속/완속 충전 및 방전장치
+■ 분류명: 배터리 충전기
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1726#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_YbwIh53e_52516ea0247302e4a6af0e55be649e7d1e569c93_600x287.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927221719_4e63389606f9754e2a0c1a2c8de16c80_0jr8.png
+  [본문이미지 OCR]
+> 전기적 사양
+> 입력 전원 : 3상 220V, 60Hz
+> 변압기 용량 : 10KVA
+> 충전 출력 전압 : 0-300V까지 가능하도록 설계
+> 충전 출력 전류 : 최대 4C
+> 방전 출력 전압: 0-602Vdc
+> 방전 출력 전류: 최대 8C
+> 물리적 크기 : 700 X 1280 × 1255 (방열판 등의 크기에 따라 가변)
+> 통신 : CAN / RS232
+
+[퀵스펙]
+- 전기적 사양 > 입력 전원: 3상 220V, 60Hz
+- 변압기 용량: 10kVA
+- 충전 출력 전압: 0~300Vdc까지 가능
+- 충전 출력 전류: 최대 4C
+- 방전 출력 전압: 0~602Vdc
+- 방전 출력 전류: 최대 8C
+
+-----------------------------
+
+==================================================
+■ 제품명: EV Electric Safety Tester
+■ 모델명: EVST-P20 (B-Type)
+■ 분류명: EV 안전성 평가 장비
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=2372#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741322_euHmYlds_9c316e523bcbe08eddc2e17855404fdc1eef7a2f_600x290.png
+
+[본문이미지 1]: cti_product_imgs/20240604180329_5349a91022cd8fd6437d58d0785374d5_x32i.jpg
+  [본문이미지 OCR]
+xEV Solution
+EV Safety
+Battery Performance
+
+전기자동차 안전성 평가장비
+전기자동차의 전기적 연:
+국제 전기차 규격 \29를
+
+- 전류제어 소스에 의한 도체(접지) 연속성 시험 (6451-ㅁ20)
+- 절연 저항 측정 전압 범위가 20VDC ~ 1,000VDC(1VDC Step)
+  시험 전압값을 자유롭게 설정 가능
+  (절연저항 측정 전압은 제조사 또는 시험 규격에 따라 다릅니다.)
+- 배터리가 내장된 휴대용 제품으로 쉽고 안전하게 사용 가능
+- 국제 전기차 규격 WP29 충족
+- 모든 종류 전기자동차 (EV, FCEV, HEV, PEV 등) 적용 가능
+- EV 완성차업체, EV 튜닝업체, 연구기관, 인증기관, 정비업체 등
+- 휴대형, 설치형 솔루션 제공 가능
+- 전기자동차 유지보수 및 사전 안전검사
+- Min. 20V ~ Max. 1,000V (1V step)
+- Handy Type
+
+적용분야
+- xEV(EV, HEV, FCEV, PEV) 정기검사
+- 유지보수 및 사전 안전검사
+
+[본문이미지 2]: cti_product_imgs/20240604180337_5349a91022cd8fd6437d58d0785374d5_50zo.jpg
+  [본문이미지 OCR]
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=2372&no=1
+
+[퀵스펙]
+* 기능 - 절연저항 및 전기연속성 통합 측정
+* 특징 - Min. 20V ~ Max. 1,000V 인가 가능
+        - 200mA CC Mode 연속성 측정
+        - Handy Type
+
+-----------------------------
+==================================================
+■ 제품명: 고객맞춤형 프로그램 제작
+■ 모델명: 고객맞춤형 프로그램 제작
+■ 분류명: 맞춤형 프로그램
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=21#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_Oo7JcYt3_863d45f2de15b2eaf28cb5fde8c1456cb52bcca1_600x252.png
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=21&no=1
+
+[퀵스펙]
+- 고객이 원하는 요구사항에 맞춰 소프트웨어 제작 가능
+
+[제품소개]
+- 계측장비 모니터링 시스템 개발 (오실로스코프, Power Supply/Loader, RF 관련 계측기 등)
+- DC Power 등 Firmware 제어 소프트웨어 개발
+- Real-time Measurement
+- 하드웨어 개발장비 관련 소프트웨어 개발
+- PC to PC 데이터 중계
+- 사용자 요구 알고리즘 개발
+- 품질검사 시스템 개발
+- 다양한 통신방식 구현 (Ethernet, RS-232/RS485 Serial, Wireless Communication, GPIB)
+- Big Data 저장
+- 다양한 개발환경 지원 (Window(.net), Windows CE, iOS)
+
+-----------------------------
+
+==================================================
+■ 제품명: LB-X
+■ 모델명: LB-X
+■ 분류명: 리튬 배터리
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1727#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_qit7VlGT_61a1e789f62dc6d4bbc4516199b995064ecd9830_600x179.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927221929_4e63389606f9754e2a0c1a2c8de16c80_ornh.jpg
+  [본문이미지 OCR]
+에너지저장(ESS), 비상예비전원, 트랙션/모터구동, 라이팅용 등 다양한 산업현장에 필요한 고성능, 고품질 리튬 배터리 시스템(리튬이온, LiFePO4, 리튬폴리머 등)을 고객 요구사양에 맞게 제공.
+
+[본문이미지 2]: cti_product_imgs/20200927221949_4e63389606f9754e2a0c1a2c8de16c80_ptz6.jpg
+  [본문이미지 OCR]
+특장점
+- 남배터리의 200
+
+[퀵스펙]
+- 에너지저장(ESS), 비상예비전원, 트랙션/Start모터구동, 라이팅용 등 다양한 산업현장에 필요한 고성능·고품질 리튬 배터리 시스템(리튬이온, 리튬인산철, 리튬폴리머 등) 제공
+
+-----------------------------
+
+==================================================
+■ 제품명: 배터리 충/방전 시험 시스템 and S/W
+■ 모델명: CTI SI
+■ 분류명: 배터리 충/방전 시험 솔루션
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1728#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_GtePDOko_c6da37f553d51fd7c6dc6275a1cf0e486515948e_600x236.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927222527_4e63389606f9754e2a0c1a2c8de16c80_ubnj.png
+  [본문이미지 OCR]
+
+[퀵스펙]
+- DC Power Supply와 Electronic Loader를 이용한 배터리 충·방전 프로그램 제작
+- 2Ch System으로 각 Ch 개별 사용 가능
+- 기본적으로 충·방전이 1Cycle로 구성, 충전 또는 방전만으로도 사용 가능
+- 고객 맞춤형 S/W 제작
+
+[제품소개]
+- 충전 또는 방전의 Target Value(Voltage, Current) 설정 가능
+- 충전 또는 방전 및 휴지 시간 설정 가능
+- 설정 Data 저장 및 불러오기 가능
+- 시험 과정을 그래프로 시각화
+- 시험 중 Voltage와 Current 값을 실시간으로 표시
+- 시험 시간을 실시간으로 표시
+
+-----------------------------
+==================================================
+■ 제품명: Electric Load Test S/W
+■ 모델명: Electric Load Test S/W
+■ 분류명: 전자부하기 시험용 소프트웨어
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=27#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_SNOab2jo_b373572030e197538f96ade5497cd4f61b253e9c_600x250.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=27&no=1
+
+[퀵스펙]
+- 자동차 Junction Box 신뢰성 테스트용 S/W 제작
+- 고객 맞춤형 S/W 제작
+
+[제품소개]
+- 장시간(수 주 이상) 측정이 가능하도록 구현
+- 수 초 단위 이내 측정주기를 continue-mode
+- 개별 Loader(10개) 개별 측정 및 세팅 가능
+- Programmable Sequence 작성하여 각 Loader로 전송 가능
+- 측정 중에도 History 파형 볼 수 있도록 별도 Reader SW 제작
+- .net Framework 2.0으로 제작
+
+-----------------------------
+
+==================================================
+■ 제품명: 자동차 신호 분석 테스트
+■ 모델명: 자동차 신호 분석 테스트
+■ 분류명: 분석 및 테스트
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=11#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_f4MCa6RJ_df3eddab9ad24d13421a9e22c947057bdd12cf02_600x220.jpg
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718399_2411.png
+  [본문이미지 OCR]
+업계 표준으로 사용되는 DBC 데이터베이스를 이용한 심볼릭 디코딩과 심볼릭 트리거 제공. 바이너리, 심볼릭, HEX 디코딩 지원.
+FlexRayTM 테스트 패키지는 FlexRay 시스템의 디자인과 디버그를 더욱 쉽게 해주고, 테스트 시간을 절약해 줌.
+테스트 WAH, 프로브, 케이블, MATLAB 런타임 스크립트를 포함하는 완벽한 물리계층 테스트 패키지.
+SENT 프로토콜 ASS 디코드 및 물리계층 파형 위에 직접 표시.
+LIN 디코드는 Message ID, DATA 트리거, 유연한 에러 프레임 트리거 완벽 제공.
+트리거 & 디코드: 고급 소프트웨어 알고리듬이 파형을 프로토콜 정보로 재구성해 물리적 파형 위에 직접 표시.
+
+[퀵스펙]
+- CAN & CAN FD 측정 솔루션
+- SENT 디코드
+- FlexRay Test Solutions
+- LIN 트리거 & 디코드
+- SPI 트리거 & 디코드
+- I2C 트리거 & 디코드
+- QPHY-BroadR-Reach
+
+-----------------------------
+
+==================================================
+■ 제품명: 배터리 성능평가 장비
+■ 모델명: BT-100
+■ 분류명: 배터리 성능 측정
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1725#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_JYrQLoKx_1b7b917f586a506f48467dc6b244a0d805a42957_600x206.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927221400_4e63389606f9754e2a0c1a2c8de16c80_58wr.png
+  [본문이미지 OCR]
+배터리(2차전지) 성능 평가 장비  
+BT-100  
+자동차 배터리의 성능, 수명용량(Ue Capacity), 가동시간, SOP(Stats Of Performance), 교체시기 예측, 불량 셀 검출  
+© Specifications  
+2/.110/ 220 / 380 / 480 / 60%  
+ment mode : Automatic mode  
+ial modk  
+Nickel cadmium / Nickel hyd
+
+[퀵스펙]
+- 배터리 수명용량 측정
+- 배터리 가동시간 및 교체시기 예측
+- 불량 셀 검출
+- SOP(Stats Of Performance)
+
+-----------------------------
+==================================================
+■ 제품명: 자동차 레이더 측정 시스템
+■ 모델명: 자동차 레이더 측정 시스템
+■ 분류명: 측정 시스템
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=14#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_TBgDWQho_64f40d4b052e47c87d44d6b8e111b9ec8d0bf90c_600x309.jpg
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718662_4718.png
+  [본문이미지 OCR]
+RASE 자동차 범퍼 부근의 레이더를 정렬 조정 가능, 레이더 커버의 특성 시험(삽입 손실, 빔 틸트).
+Radar, Bumper (Radar cover), 충돌 방지 레이더용 시뮬레이터.
+이동 표적 추적 성능 평가(실내), 연구 개발/제조 검사 사용.
+- 이동 표적 추적, 거리, 속도, 주파수 실내 시험 가능.
+- 충돌 방지기구 개발, 자동 레이더 시험 스테이션 통합 가능.
+- 전체/샘플 시험 가능, 주행 시뮬레이터와 연동.
+- 원거리~근거리 연속 시뮬레이션 가능.
+
+[퀵스펙]
+- 레이더 특성 시험 및 시뮬레이터 기능
+- 연구 개발 및 생산/검사에 활용
+- 다양한 파라미터 시험 가능
+
+-----------------------------
+
+==================================================
+■ 제품명: 전기 자동차 급속/완속 충전 및 방전장치
+■ 모델명: 전기 자동차 급속/완속 충전 및 방전장치
+■ 분류명: 배터리 충전기
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1726#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_YbwIh53e_52516ea0247302e4a6af0e55be649e7d1e569c93_600x287.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927221719_4e63389606f9754e2a0c1a2c8de16c80_0jr8.png
+  [본문이미지 OCR]
+> 전기적 사양
+> 입력 전원: 3상 220V, 60Hz
+> 변압기 용량: 10kVA
+> 충전 출력 전압: 0~300Vdc, 최대 4C
+> 충전 출력 전류: HICH AC(160A) 0.05C/0.1C/0.25C/5C/1C/2C/4C
+> 방전 출력 전압: 0~602Vdc
+> 방전 출력 전류: 최대 8C
+> 물리적 크기: 700 x 1280 x 1255mm(방열판 크기에 따라 가변)
+> 통신: CAN / RS232
+
+[퀵스펙]
+- 전기적 사양: 입력 전원, 변압기, 충/방전 전압·전류
+- 멀티 스텝 충/방전, CC·CV 모드, 계량, 터치 디스플레이
+
+-----------------------------
+
+==================================================
+■ 제품명: EV Electric Safety Tester
+■ 모델명: EVST-P20 (B-Type)
+■ 분류명: EV 안전성 평가 장비
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=2372#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741322_euHmYlds_9c316e523bcbe08eddc2e17855404fdc1eef7a2f_600x290.png
+
+[본문이미지 1]: cti_product_imgs/20240604180329_5349a91022cd8fd6437d58d0785374d5_x32i.jpg
+  [본문이미지 OCR]
+xEV Solution, EV Safety, Battery Performance
+전기자동차 안전성 평가장비, 국제 전기차 규격 WP29 충족
+- 전류제어 소스에 의한 도체(접지) 연속성 시험
+- 절연 저항 측정 전압: 20V~1,000VDC (1V Step)
+- 배터리 내장형, 휴대용, 쉽고 안전하게 사용 가능
+- 모든 종류의 EV(FCEV, HEV, PEV 등) 적용 가능
+- 완성차/튜닝업체, R&D, 인증, 정비업체 등 활용
+
+[본문이미지 2]: cti_product_imgs/20240604180337_5349a91022cd8fd6437d58d0785374d5_50zo.jpg
+  [본문이미지 OCR]
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=2372&no=1
+
+[퀵스펙]
+- 절연저항 및 전기연속성 통합 측정
+- Min. 20V ~ Max. 1,000V 인가
+- 200mA CC Mode 연속성 측정
+- Handy Type
+
+-----------------------------
+==================================================
+■ 제품명: 고객맞춤형 프로그램 제작
+■ 모델명: 고객맞춤형 프로그램 제작
+■ 분류명: 맞춤형 프로그램
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=21#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_Oo7JcYt3_863d45f2de15b2eaf28cb5fde8c1456cb52bcca1_600x252.png
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=21&no=1
+
+[퀵스펙]
+- 고객 요구사항 맞춤 소프트웨어 제작 가능
+
+[제품소개]
+- 계측장비 모니터링 시스템 개발 (오실로스코프, Power Supply/Loader, RF 관련 계측기 등)
+- DC Power 등 펌웨어 제어 소프트웨어
+- Real-time Measurement
+- 하드웨어 개발장비 관련 소프트웨어
+- PC to PC 데이터 중계, 사용자 요구 알고리즘 개발
+- 품질검사 시스템, 다양한 통신방식 (Ethernet, Serial, Wireless, GPIB)
+- Big Data 저장, 다양한 개발환경(Window(.net), Windows CE, iOS 등)
+
+-----------------------------
+
+==================================================
+■ 제품명: LB-X
+■ 모델명: LB-X
+■ 분류명: 리튬 배터리
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1727#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_qit7VlGT_61a1e789f62dc6d4bbc4516199b995064ecd9830_600x179.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927221929_4e63389606f9754e2a0c1a2c8de16c80_ornh.jpg
+  [본문이미지 OCR]
+에너지저장(ESS), 비상예비전원, 트랙션/모터구동, 라이팅용 등 산업현장 고성능, 고품질 리튬 배터리(리튬이온, 인산철, 폴리머 등) 고객 요구 맞춤 제작
+
+[본문이미지 2]: cti_product_imgs/20200927221949_4e63389606f9754e2a0c1a2c8de16c80_ptz6.jpg
+  [본문이미지 OCR]
+특장점 - 남배터리의 200
+
+[퀵스펙]
+- ESS/비상예비전원/트랙션/Start모터/라이팅용 고성능 리튬 배터리
+- 다양한 산업현장 맞춤형 제공
+
+-----------------------------
+
+==================================================
+■ 제품명: 배터리 충/방전 시험 시스템 and S/W
+■ 모델명: CTI SI
+■ 분류명: 배터리 충/방전 시험 솔루션
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=1728#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_GtePDOko_c6da37f553d51fd7c6dc6275a1cf0e486515948e_600x236.jpg
+
+[본문이미지 1]: cti_product_imgs/20200927222527_4e63389606f9754e2a0c1a2c8de16c80_ubnj.png
+  [본문이미지 OCR]
+
+[퀵스펙]
+- DC Power Supply와 Loader를 이용한 배터리 충·방전 프로그램 제작
+- 2Ch 시스템, 각각 1Ch 사용 가능, 기본 1Cycle 충·방전, 단독 사용 가능
+- 고객 맞춤 S/W 제작
+
+[제품소개]
+- 충전/방전 Target Value(Voltage, Current) 설정 가능
+- 충전/방전/휴지 시간 설정 가능
+- 데이터 저장/불러오기
+- 시험과정 실시간 그래프/수치 표시
+- 시험 시간 실시간 표시
+
+-----------------------------

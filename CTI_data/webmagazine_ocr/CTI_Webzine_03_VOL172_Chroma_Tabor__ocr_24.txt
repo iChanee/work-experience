@@ -1,0 +1,88 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=109&page=6
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg19030698.jpg]
+Tho \Nebzine
+
+201914 03월 호 VOL.172
+
+1. 겸제성과 AAS 갖춘 Chroma 절연 WAS 시험기
+
+ty
+
+1) AC/DC/IR AAEM 다채널 PAO! 가능한 19050 시리즈
+
+※득짐 x
+
+1) AC/DC/IR 테스트가 한 장베로 가능
+
+2) SAMS 5100 AC! 6 DCI] 프로그래밍 가능
+
+3) 30018. ACSt 1004&.00까지 trip Current 프로그래밍 가능
+
+4) 50607/100040ㅁ0까지 절면저항 테스트
+
+5) 8 channel (19053 only), 4 channel(19054 only)
+SCANNER 내장
+
+6) 58008 100단계의 검사를 50깨까지 져장가능
+
+7) 선택가능: 변압기 테스트 장치 (19053 only)
+
+8) 65232 민터페미스 기본제공
+
+9) 2 작동 가능한 GPIB 민터페미스(선택사항)
+
+10) CE Mark
+
+2) AC/DC/IR Ell                  사미즈의 Hipot tester 19070 시리즈
+
+※득짐 x
+
+1) AC/DC/IR 테스트가 한 장비로 가능(19073 only)
+2) 050기능
+3) Flashover Detection
+4) 빠른 차단: 0.4 ms, 빠른 방출: 02 sec
+5) 신뢰도 있고 만정적민 검사결과 제공
+4        6) Setup= 60단계의 검사를 10깨까지 IHS
+7) Ground Fault Interrupt (GFT)
+8) 65232 민터페미스 기본제공
+
+2. Tabor DAS As 증폭기
+
+Tabor 신호 증쪽기는 S| Te
+BS 매플리케미션
+
+i 분
+2
+=
+ag
+로
+B
+am
+쁘
+호
+
+9100A
+
+= 400Vp-p 1채널 신호 증폭기
+= 1250044(1100)즐력 전류
+~ 최대 50010 주파수
+
+9200A
+
+= 400Vp-p 2차널 신호증폭기
+= 1000144(1100)즐력 전류
+~ 최대 5001 주파수
+
+9400
+
+= 400Vp-p 4채널 NES:
+= SomA(IMO) Be 전류
+= BMH 50010 주파수
+
+01
+
+출남 천만시 서북구 직산읍 ANE 110 천만56플라자 601호. 602호
+
+Tel 1 041-857-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

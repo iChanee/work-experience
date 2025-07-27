@@ -1,0 +1,315 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=108&page=6
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg19021205.jpg]
+< \Nabzine
+
+텔레다인르크로미 T3(Teledyne Test Tool) Product NW 소개
+
+1. 오실로스코프 (131[2501000시리즈)
+
+- Bll HS: 100MHz - 200MHz
+- 채널:2-4
+
+향상된 디버깅을 위한 도구
+
+긴 메모리
+-70 666/애와 140 Mpts 인터리빙
+
+연산과 측정
+~~ IAI 기본 연산 기능과 FFT 및 37가지 자동 측정 파라미터
+
+연결
+
+- 대용량 저장, 프린팅 및 PC MOH 위한 68와 빠른 GIOIE 전송을 위한 LAN
+
+시리얼 버스 트리거와 디코딩
+-126. SPI, UART, RS232, CAN, LIN,
+
+2019\4 02 호 VOL.171
+
+aaa
+[=I
+
+@ 이
+
+VO 시간을 캡처하고
+더 많은 myo 세부 정보 제공
+
+v 파형 및 측정값으로부터 결과 추출
+
+ 외부 분석용 데이터 및 레포트용
+스크린 이미지 저장
+
+of 오실로스코프에서 직접 시리얼 버스 디버깅
+
+파형 변화 상태를 기록하고 재생
+
+ 오실로스코프로 혼합 신호 디버깅 추가
+
+파형 시뭔스 레코더
+
+-최대 80,000개의 파형을 기록하고 재생
+
+선택 가능 MSO
+
+- 16개의 디지털 채널 (4 채널 시리즈만 가능)
+
+주요사양
+
+Bandwidth                 100 MHz, 200 MHz
+Channels                   204
+Memory                  up to 7 Mpts/Ch (14 Mpts interleaved)
+Sample Rate             up to 500 MS/s / 1 GS/s Interleaved
+Display                    7 Bright TFT LCD (800 x 480)
+Connectivity              USB Host, USB Device, LAN
+
+2. 오실로스코프 (130502000시리즈)
+
+- 주파수대역폭:100바2 - 300MHz
+- 채널:2-4
+
+향상된 디버깅을 위한 도구
+권매모리 - 70 666/야와 140 Mots 인터2빙
+
+연산과 측정
+- 7가지 기본 연산 기능과 FFT 및 37가지 자동 측정 파라미터
+
+낮은 노이즈 아키텍처
+~ 1000700의 낮은 채널 BES 지원
+
+300 112 대역폭 모델
+- 100 MHz, 200 Miz 또는 300 MHz 모델 선택 가능
+
+파형 AIBA 레코더 - 최대 80.000개의 파영을 기록하고 재생
+
+저비용으로 시스템 업그레이드 옵션
+
+-1450옵션 (16 디지털 채널], Aleta WA 디코더,
+Arbitrary / Function Generator
+
+연결 - 대용량 저장, 프린팅 및 PC 제어를 위한 068와
+
+=o
+
+Se
+~”:
+V 더 긴 시간을 캡처하고 더 Be Meo 세부 정보 제공
+
+y Wo 축정값으로부터 결과 추출
+¥ 작은 파형을 자세히 볼 수 ot
+
+(2 또는 sie Boe 대역폭 선택 가능
+v 파형 변화 상태를 기록하고 재생
+
+yy 저비용으로 Sue 추가하여 애플리케이션 및
+필요에 맞게 오실로스코프 사용자 정의 가능
+
+7 외부 분석용 데이터 및 레포트용
+
+WHE 데이터 전송을 위한 LAN                                스크린 이미지 저장
+
+주요사양
+
+Bandwidth                 100 MHz, 200 MHz, 300 MHz
+
+‘Channels                 2 or 4, 50 Ohm / 1 MOhm Input Impendence
+
+Memory                   up to 70 Mpts/Ch (140 Mpts interleaved)
+
+‘Sample Rate              up to 2 GS/s
+
+Display                   8" Bright TFT LCD (800 x 480)
+
+Connectivity              USB Host, USB Device, LAN
+
+3. 함수 / 임의발생기(136시리즈)
+
+- il He: SMHz ~ 120MHz
+
+- 채널:1-2
+향상된 디버깅을 위한 도구
+긴 메모리
+
+- to 8 Mpts/Ch on 40 Miz to 120 MHz models,
+16 kpts on 5 MHz and 10 MHz models,
+
+Wide Range of Modulation Types:
+
+~ AM, DSB-AM, FM, PM, FSK, ASK, PWM, Sweep,
+Burst, and PSK on 2 Ch models,
+
+높은 해상도
+
+-14 Bit on 5 MHz and 10 MHz models,
+16 bit on 40 Mz to 120 MHz models,
+
+최대 120 MHz 대역폭 모델
+
+(복잡한 임의 파형 생성
+
+¥ me 변조 파형 구성
+글 낮은 노이즈, Low Spurious,
+높은 다이나믹 레인지의 파형 생성
+
+(다양한 claro) 선맥 범위
+
+J 사용자가 정의하는 파형의 저장 및 불러오기
+
+USE 임의 파형 모델                                   v 내장된 임의 파형 로딩 및 재생
+사용자 정의 파형
+주요사양
+Bandwidth                5 MHz, 10 MHz, 40 MHz, 80 MHz, 120 MHZ.
+Channels                  {and 2 Channel Models:
+Memory                    16 kpts/Ch, 8 Mpts/Ch
+‘Sample Rate              up to 1.2 GS/s
+Display                    3.5" - 4,3"
+Connectivity             USB Host, USB Device, LAN
+
+4. 스펙트럼분석기(135/시리즈)
+
+- 주파수대역폭:9412 - 2.1GH2/3.2GHz
+- -1610000/12평균노이즈레벨디스플레이
+
+향상된 CUS 위한 도구
+주파수 범위 9 에서 3.2 GHz
+-161 dBm/Hz 평균 노이즈 레벨 디스플레이 (Typ,)
+-98 086/12 @10 4112 오프셋 위상 노이즈 (1 GHz, Typ.)
+트래킹 발생기 (옵션)
+EMI 프리-컴플라이언스 테스트 키트 (옵션)
+반사 측정 키트 (옵션)
+내장된 전환 가능 프리앰프
+
+10.1 인치 (25,65 em) WGA 1024x600 컬러 디스플레이
+
+¥ 하나의 스펙트럼 분석기로 더 많은 애플리케이션 지원
+
+¥ OF 작은 신호도 확인 및 측정
+
+¥ 향상된 사양이 더 정확한 측정 결과 제공
+빠르고 간단한 전송 측정
+CISPR 16-1-1에 대한 EMI 리시버 측정
+VSWR, 반사 손실, 반사 계수 측정
+
+y USE 프리앰프로 더 높은 민감도로 촉정 가능
+
+/ 선명하고 유연한 디스플레이를 통한 편리한 사용법
+
+USB ㅁ바이스, USB 호스트 9! LAN 지원               J 원격 제어를 통한 측정
+
+주요사양
+
+Model
+
+Frequency Range   9 kHz ~ 3.2 GHz           9 KHz ~ 2.1 GHz
+
+Resolution              THz ~1 MHz, in -3-40 sequence 1 Hz ~ 1 MHz, in 1-310 sequence
+
+Bendwidth
+
+Displayed Average      161 dBm/Hz,                          161 dBm/Hz,
+
+Noise Level            Normalize to 1 Hz (typ.)               Normalize to 1 Hz (typ.)
+
+Phase Noise      <-98 dBc/H2@1 GHz, 10 kHz offset < -98 dBc/Hz@1 GHz, 10 kHz offset
+
+Amplitude              <0708                               0.7 6B
+
+Precision
+
+5. AASB | (T3PS3000)
+
+- Mad: 3개의아이솔레이션된독립출력
+- 32v/3.2A/220W
+
+향상된 CYS 위한 도구
+'3개의 아이솔레이션된 독립 출력
+~82 V/32 Ax2, 25 V/3.3 V/S V 32 Axl, total 220 W
+
+고해상도, 고정확도 출력
+~ 5 자리 전압, 4 자리 전류 디스플레이, 최소 해상도: 1 mV/1 mA
+
+37H] 출력 모드
+- 직렬, 병렬, 독립
+
+423 인치 (10.92 cm) 색상 TFT-LCD 480x272 디스플레이
+숫자, 파형 및 표 표시 기능이 있는 그래픽 디스플레이 인터페이스
+지능형 온도 제어 냉각 팬은 저 부하 사용 중에 팬 속도를 줄입니다.
+
+J 하나의 전원 공급 장치에서 더 많은
+애플리케이션 지원
+
+¥ 우수한 세팅 및 판독 2 정확도
+
+두 개의 채널을 하나로 통합해 전원 출력
+범위 확장 가능한 유연성
+
+¥ 선명하고 유연한 디스플레이를 통한 사용의 편리성
+타이밍 설정 및 파형 표시
+(더 조용한 작업 수행
+
+주요사양
+Number of Outputs                3
+DC Voltage          OVto92Vx2,25V/33V/5Vx1
+DC Current                         3.24×3
+Maximum Output Power         220 W
+Series/Parallel Output            Yes
+Connectivity                       USB Device, LAN
+
+6. 디지털멀티미터(1312\/14시리즈)
+
+- Digit:4.5/5.5/6.5
+~ DC:1000V/ Current : 10A
+
+향상된 디버깅을 위한 도구
+
+다양한 측정
+- 00740 전압 및 전류 저항, BY BB, 주파수, 주기, 온도 등
+
+Trve-RMS 측정
+- 모든 AC 전압 및 전류 범위가 True-RMS 측정값을 제공
+
+Low level 측정, 고감도 범위
+
+- 전압 범위는 최대 20077 풀 스케일, OC 전류 200A,
+AC 전류 200 wA 풀 스케일
+
+고급 측정 기능
+
+- 최소값, AL, 평균, 표준 편차, 0801/08, 패스/패일,
+히스토그램. Trend, 상대 측정
+
+y sito} 디지털 멀티미터로 더 Be
+애플2케이션 지원
+
+¥ 파영에 상관없는 우수한 정왁도
+
+y 높은 감도 범위는 작은 신호 측정의
+AMEE 높입니다
+
+¥ 축정에 필요한 요구사항을 만족시키는 고급기능;
+
+내장된 터미널 열전대 보정 기능                                         ¥ 정확한 온도 축정
+선명하고 유연한 CASA Se
+rs          TF                                   v
+43 인치 (1092 om) 색상 TFT-LCD 480 x 272디스플레이             사용의 편리성
+주요사양
+DC Voltage                     200 mv 101000
+00 Current                      200 uA to 10 A
+True RMS AC Voltage          200 mV to 750 V
+True RMS AC Current          200 uA to 10 A
+2/4 Wire Resistance           200.0 to 100 MA
+Connectivity               USB Device, LAN
+SU SOA 서북구 직산읍 직산로 136 UNSYHILTS EISELE 면구동
+Tel: 041-557-5200 | Fax: 041-857-5204 | E-mail : cti@cti-korea.com
+본메일                     하셨기에 발송되었습니다
+
+뉴스레터의 수신를 더미상
+
+HAL 않으시면, 하단의 '수신거부'버튼:
+To unsubscribe, please click the Unsubscrine’ button,
+
+때
+꼬
+
+해주세요,
+

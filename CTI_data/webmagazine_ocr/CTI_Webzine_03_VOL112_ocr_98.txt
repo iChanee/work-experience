@@ -1,0 +1,109 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=49&page=10
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg14030414.jpg]
+차세대 기술을 선도하는 테크놀로지 기업
+
+VEHICLE SOLUTION - SYSTEM INTEGRATION - TEST & MEASUREMENT
+
+2014\4 3 월 호 voL.112
+
+신 866 센서 탑재 [R300SR]
+
+카메라본체에 초해상 쳐리기능 내장 화소수 4 배 향상
+
+ic
+꽤
+
+기록 모드: 320×240 화소
+1.2 mrad
+
+i
+
+1:
+
+38 OW ws
+머
+it
+or
+
+ca
+a
+
+(SR)BS: 640 x 480 화소
+
+간 분해능: 0.8 mrad 상당
+
+oh wD
+
+fo 때
+
+AHS 0.025%
+
+taB aod 2020004)
+
+| 늘
+
+유선 AIDE (BE Ba) 카메라 ABE (8)
+
+DISA] 효과를 증가시켜 균열 등의 미세한 온도 차미까지 선명하게 구현 가능
+열 화상 파노라마 촬영 모드 자동 합성 기능
+DIF SE 거리 10617 메서 80.의 최소 공간 SSS 실현 (50 모드)
+
+DIS 10017 근접 BIS 통해 옵션렌즈 없미도 OMS 측정 가능
+
+16배 더 정확하고 16 배 더 완백합니다.
+1.주파수대먹폭: 350MHz ~ 1GHz
+
+2.샘플림 속도: 2.50576
+
+3.포착 메모리: 16Mpts / 32Mpts
+
+4.디스플레미: 12.1" 터치 디스플레미
+512bit ADC 분해늘
+
+Digitized waveform
+
+Sigraltrem
+Deviee Under Test
+
+HIE 보다 16배 더 높은 분해능를 가짐으로서 Quantization Eror
+
+A RSH 선명한 파형- 노미즈 간섭미 최소화된 실재 파형를 보며 줍니다,
+8, 더 많은 신호 정보- 6베트 스코프메서 놓쳤던 파형를 자써하게 관측할
+- 측절미 더 정확하고 디지타미징 노미즈메 영향을 받지 많습니다,
+
+때
+
+ye
+te
+ta
+5
+
+시리월 트리거와 디코드 옵션
+물리적민 파형 위메 디코딩된 프로토콜 정보를 표시하고.
+
+특정 프로코콜 메시지메 대한 트리거를 제공합니다.
+
+*지원 프로코콜
+
+-12C, SPI, UART
+
+- CAN, LIN, FlexRay, SENT
+
+- USB1.0/1.1/2.0, USB2.0- HSIC
+
+- Audio (28,LJ, RJ, TDM)
+
+~MIL-STD-1553, ARINC 429
+
+-MIPI D-PHY, DigRF 3G, DigRFv4
+
+st&Measurement 추천 제품
+
+12-01 고분해능 오실로스:
+
+고정밀 열화상카메라
+
+SU 천만시 NS? 직산을 직산로 136 SUITS 정보명싱율함벤터 면구동
+Tel: 081-557-5200 | Fax: 081-557-5208 | E-mail : cti@cti-korea,com
+

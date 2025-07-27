@@ -1,0 +1,69 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=22&page=11
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg11121402.jpg]
+| 일렉트릭 파워 & 로더
+SYSTEM
+
+레시스팀 구성
+- DC Power Supply
+
+(30.05%미하의 Regulation Power)
+-티60016 Loader
+- GPIB-Based Comm, System
+- 428 PC with PCMCIA GPIB Card
+
+렐 시스템 주요 내용
+
+- BA 측정미 가능하도록 구현
+
+- 수 초 단위 미내 측정 주기
+continue-mode 가능
+
+- 다양한 전압. 전류 WES 구현 가능
+
+~ Sequence 통한 개별 Loader
+전상 가능:
+
+- 모든 채널메 대한
+Full remote control 가늘
+
+| Application
+- 전기 자동차 SOF
+
+- 출방전 테스트 시스템 SOF
+~ EV, HEV, FCEV
+
+- Digital System Testing
+
+- 전원 및 부하 시뮬레미션
+
+- 자동차 전장 관련
+
+파워&부하 환경 제공
+
+복합 Test System
+Solution
+
+를 복합 환경 Test System
+를 일렉트릭 파워6로더
+를 다 신호 분석 System
+
+SMPS Test System
+
+| Software 제작
+
+mAFID 신호 분석
+
+로 신뢰성 Test 응
+
+를 자동차 통신 분석
+
+레더미터 관리
+
+를 파워-로더 시스템
+
+만시 서북구 직산읍 삼은리 511 출남테크노파크 영상미디머센터 면구동 씨티마미코리마(주)
+Tel : 041-857-5200 | Fax: 041-557-5204 | E-mail: cti@cti-korea. com
+
+Copyright 2011 Webstage Corp,
+

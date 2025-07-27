@@ -1,0 +1,97 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=91&page=7
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg17090586.jpg]
+\602106
+
+Tabor 4채널 평선/임의파형발생기 0\5064/1074/2074
+
+2017년 98 호 VOL.154
+
+Tabor®| Wonder Wave Series 는 합리적인 가격으로
+4채널 4406 SOMA 최고의 슬루선을 제공합니다.
+
+Wonder Wave Series - AWG
+
+- ADE 신호 생성를 위해 최
+- 최대 400MHz 임의 파형 발생
+- 16Vp-p 최대 Amplitude
+
+- 16 66 정밀한 ANS 분해능
+-최대 16M point 21 메모리
+
+-미더넷, USB, GPIB 민터페미스
+
+- ArbConnection S/W 미용한 간편한 신호 샘성
+- 16 bit 의 LVDS 시그널 병렬 디지털 출력
+
+- 최대 1.2 6575 샘플링 클럭 속도
+
+- 다양한 Modulation
+
+~관단하고 쉬운 임의파형 구현            + Pulse Trains          + Synchronized four channel &
+기본으로 HBSS               Pulse Composal Tool 를               Pattern Generator
+Arbconnection 프로그램즐               미용하며 사용자가             Tabor 제품군은 최대 《채널까지
+미룡하며 장비 제머 뿐 만 마니라        펄스의 레벨 및 지속 시간들             동기화가 가능합니다.
+Waveform 944010를 미용한                제매할 수 있으며.                 마날로그 신호 뿐 마니라
+다양한 조건의                    pulse linearity            디지털 신호의 HAS 무수합니다.
+STS 구현미 가능하며.         AMBRE] 조정미 가능합니다.             최대 4096421 THE!
+시뮬레미션 결과 2S 사전메         사룡자가 원하는 다양한 조건으로            구현미 가능합니다,
+확민 가능합니다.               Pulse train 미 가능합니다.
+모델명             50611506275064 | 10711107271074      BUR Bes            12818
+채널        saa 7 2채널 채널 ㅣ 1재널 「 채널 7 4채널 ㅣ 1채널 / 2재널 aS      1채널
+US Type                         Standard, Arbitrary, Pulse, Modulated & Sequenced
+Z       0           ‘TOME 7      121
+
+최대 주파수(사인파)                                             31.25Mitz       400바27 250배21
+
+구령 과) 기타파형 ] |?SMHE! 18M 7S SOU / OE SNM re spans SaMTZT | ste
+25바미
+최대 샘플링 클릭 속도          50619516                 70049                30056                1.2056
+메모리 길이             312K (1M option) | 1M QMI4M option) | 1M 2MVAM option) | BM (T6M option)
+FAS 분해능           abit / 14bit / 16bit        ‘Abit / 14bit/ 1                     16686                       ‘bit
+
+‘AMS, FIN, Arbitrary FM, | AM, FM, Arbitrary FM, | AM, FIA, FSK, ASK,
+FSK, Ramped FSK, | FSK,Ramped FSK, | Amp. Hop, Freq. Hop,
+
+3125 ( Modulation )                Sweep                        Sweep                        ‘Sweep                  sa tin
+5064: (n)PSK, (nJQAM | 1074: (n)PSK, (nJQAM | 2074: (n)PSK, (njQAM                     .
+only                            only                            only
+‘Ampittude (max)                70007                     70007            TOVp-p(T6VP-p option) | 2Vp plaVp-p option)
+Transition Time                    tins                           <éns                           <ins                        <100ps
+Digital Output                     None                          None                 게라 pas cere           2 Serial Bits
+
+Tabor DA 신호 증폭기
+
+Tabor AS SHAE 임의 파형 발생기와 함패 작동하도록 설계되며 고전압,
+광대역 매플리케미션을위한 최상의 슬루선을 제공합니다.
+
+«sa
+
+- 1채널, 2채널, 4채널 지원 가능한 신호 증폭기
+-최대 400Vvp-p 출력 가능
+
+-최대 15142 신호 범위
+
+- Mo 입력 입피던스
+
+- JIB Gian: 10 / 15 / 20
+
+모델명                   9100 / 9200               9100A / 92004                  9400
+
+채널                 1채널/2채널              1채널 / 2채널                4채널
+‘Ampittude (max)               300Vp-p                   400Vp-p                   400Vp-p
+신호 B91 (Large)                    S00KHz                         S00KHz                         S00KHz
+신호 번위(50101)                     ‘MHz                          LSM                         LSM
+
+출력 전류 (최대)               15004 / 100mA               125mA / 100mA                     50mA
+
+입력 임피던스          ama            140            ima
+
+출력 임피던스          oan            010            010
+Gain                             15(0r custom)                          S0(fixed)                              50(fixed)
+
+Transition Time.                     <1.5us                           “<1us                            315
+
+SH 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보명상융합센터 면구동
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+

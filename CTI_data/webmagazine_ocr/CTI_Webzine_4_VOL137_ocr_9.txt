@@ -1,0 +1,129 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=74&page=8
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg16040592.jpg]
+CTI korea’
+
+Webzine
+
+를 소개합니다.
+
+2016년 4월 호 VOL.137
+
+그라프텍의 데이터 SA 데이터 수집쟁
+
+데미터로거 - GL240/GL840 소개
+
+LOGIC/PULSE 입력
+
+1000전압ㆍ열전대입     |             50 카드 슬롯 2
+력
+
+ACHBE 연걸
+(DC8.5~24V)
+
+USB20 = ——
+인터페이스
+
+4.3인치 1 『7컬러 액정 디스플레이 (WQGA:480x 272 dot
+
+ee a ee ee
+
+Isolated 20채널(기본)
+
+Isolated 10재널(고정)
+최대 200재널 확장(옵션)
+
+43914] TFT 컬러 LCD                   5.7인치 TFT Bay LCD
+
+USB                                               USB, ETHERNET
+
+1대의 PCS 최대 1074                     1대의 PCH 최대 10개
+장비 0000이가능                       장비 또는 500개 채널00000 가능
+
+76000즉정 시 T/C Typect 사용가능        7600즉정 시 RTD Type Me 가능
+
+GL240/GL840 적용분야
+
+액정 디스플레이의 온도시험                          반도체 센서의 환경시험
+팔레트에 여러 개의 센서를 설치
+
+액정디스플레이       01820                       wen        eo         컴퓨터
+
+연료전지의 증방전 시험                           대기분석(가스농도 ㆍ온도) 측정
+
+Sox!
+
+       -2-
+=e ae
+
+60820
+
+가스즉정기
+데미터수집장비 - GL7000 소개
+
+‘Temperate                        Speed
+MAX                               |                  |
+
+Max
+
+100S/s                                   1MS/s
+
+. 0009 |               ay
+
+Isolated
+
+GL7-HSV
+
+Ach/unit                        Voltage                          Pulse                          Voltage
+rn |                     Ach/unit                        16ch/unit                       2ch/unit
+
+MAX
+100KS/s                          MAX                            MAX                            iste
+
+0009                          100KS/s                          1MS/s                          100kS/s,
+(Send              (20ps)                  (lus)                 (10s)
+
+Charge
+GL7-CHA’      TEPE ㅣ GL7-DCO’                                         GL7-DCB *
+- 5.7인치 탈부착, 터치패널 미 기     LCD Display.
+- 프로그램 한글지뭔, 다망한 PC 민터페미스 및 저장장치,
+- QWICISALA EN Built in) 가능
+- Applicationd}| 따른다망한 측정 Module
+- 손쉬운 채널 확장
+- 다망한 EIS] 측정 Module
+-M (Temp, ¥, Humi), HV(I000V}, HBV(1u 579)
+01004, 1K $/s), Strain, Charge, L/P, DCO
+~ SICH 10Unit Module 로 112채널 확장 가능.
+
+GL7000 적용분야
+
+공조기기용 인버터의 성능시험                      현장기기 현상을 시뮬레이션으로 Ay
+
+시뮬레이션용기기
+
+s
+출
+,             4
+실외기                                 617000
+
+리듬이온전지의 센서 604개발
+
+리듬이온전지
+ae.  센서604
+ㄴㄴ =                                                          0
+wp ©                                                  wo
+자등차
+전기자등차                     1.7000        °C                                        ieee
+GL Series Software
+실시간으로       데미터를 보기 위해 Y-T(waveform+digital), Y-T(large waveform), digital view, report
+view?! 같은 화면 중에서 사용자가 원하는 SIS 선택할 수 있습니다. Se                IDES STIRS
+
+변환할 + QUE direct-Excel functionO| 밌습니다.
+
+~
+
+Wave form(Analog+Digital)             Digital Display            Dual Display(Current+Past)
+
+출남 천만시 MST 직산읍 직산로 16 (재)춤남테크노파크 정보명상융합센터 면구동
+Tel: 001-56/25200 | Fax: 001-955204 ㅣ E-mail: cti@cti-koreacom
+

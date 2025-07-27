@@ -1,0 +1,68 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=151&page=3
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2209/20220920151550_2031755e93c46f33866d3015c8c9b17b_nv78.jpg]
+Webzine
+
+대용량ㆍ고효을ㅁ< 전자 부하기
+High Power DC Electronic Load
+[PRODIGIT] 36000A, 36300E Series
+
+High Power
+DC Electronic Load
+
+대용량ㆍ고효율 Dc 전자 부하기
+36000A - 36300E
+
+개요
+36000A Series= 0 - 1000V, 0 - 600A, 50 - 60KW,
+36300E Series 0 - 1250V, 0 - 300A, 50 - 60kW2|
+최대 8대 병렬 ABS agokw7}Al 확장이 가능한 고용량 Dc 전자 부하기 입니다.
+
+36000A, 36300E 시리즈에는 자체 제어 및 디스플레이 패널,
+CC/CR/CV/CP/Dynamic 모드, 150세트 Store/Recall 메모리가 있어
+로드 설정을 보다 효율적으로 제공하며
+
+GPIB, 85232, USB 및 LAN 인터페이스를 통해 원격 제어할 수도 있습니다.
+
+특징
+
+ㆍ최대 전력 48004
+
+ㆍ최대 8유닛 마스터/슬레이브 병렬 제어
+ㆍ5 digit V/A/W Meter.
+
++ Large LCD Display
+
+ㆍ희전 노브, 푸시 버튼으로 설정 값 조정
+
+* Voltage, Current, Watt 값 동시 표시
+ㆍ역률 BBO HALO 사용 가능
++ OCP OPP 테스트 기능 자동 활성화
+ㆍ전원 상태 설정 가능
+
++ CC, CR CV, CP
+
++ Dynamic and Short operation mode
+
++ SHORT time setting
+LW, °C 및 과전압 경보로부터 보호
+
+ㆍ 전압계 양극 "+" 또는 음극 “-" 선택 가능
+
++ Optional Interface GPIB, 65232, USB, LAN
+
+min
+
+36000A, 36300E 56065에 대해
+
+궁금한 점이 생기셨거나, 다른 제품을 더 보고싶으시다면
+하단의 제품 문의하기를 클릭해주세요.
+
+제품 문:
+
+기
+
+가
+
+하는테크놀로지기업
+

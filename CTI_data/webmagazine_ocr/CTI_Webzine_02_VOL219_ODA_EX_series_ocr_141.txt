@@ -1,0 +1,132 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=156&page=2
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2302/20230213093618_c691556e5f9e2df4387938e8b6d34dce_5qmg.jpg]
+Webzine
+
+202314 028 호 VOL219
+
+고성능, 고효율의 슬림형 전원공급장치
+
+[ODA] EX series
+
+EX series= 600W ~ 10,000W 용량의 고성능, 고효율의 스위칭타입 프로그래머블 직류
+전원 공급장치입니다.
+
+SCPI (Standard Commads for Programmable 10504106019) 프로토콜에 준하는 5-232(,
+RS-485, TCP/IP(option) 롱신을 지원하며 19001 880에 장착이 가능하도록 설계되었으
+Of, 직렬과 병렬을 통하여 1040 이상의 ABS 공급하고 있습니다.
+
+28% Encoder
+
+메인전원 ON/OFF                     11.전
+
+1                                      전류
+
+2. 환기구                          12. MY Cursor HE 메뉴변경
+
+3. 16Char 타입 LCD Display             13. 전류 Cursor SE 메뉴변경
+
+4. Error Lamp                       14. 출력전압/전류 ON/OFF
+
+5, Limit Display Lamp                     15. 1O/Local 설정, Error Display
+
+6. Key Lock Lamp                      16. Protection 설정, Front-Panel Lock
+7. Remote Interface Lamp               17. 전압/전류 설정값 Display
+
+8. 00 램프                            18. Save ££ Calibration
+
+9. 06 BE                        19. Recall 또는 Factory
+
+10. 전압 조정 Encoder
+
+at
+매
+ain
+o
+
+4-Digit Resolution 디스플레이
+
+8 Character , two line LCD Display
+
+엔코더를 이용한 쉬운 전압 전류 셋팅
+(30066 모드
+
+Remote Voltage-Sensing
+
+OVP, OCP Protection Mode 제공
+
+＊ 전압 하한값(0101), 상한값(041), 전류
+Calibration 기능 제공(메뉴얼 및 『<기반)
+Panel Lock 기능 제공
+
+Memory Store & Recall 기능 제공(10개 저장 가능)
+Output ON/OFF 기능 제공
+
+11개 다양한 Factory Mode 기능 제공
+
+RS-232C, RS-485 통신 기본제공, 통신 옵션)
+Single Phase, AC Input 220VAC +10%
+
+}값(0.(.1), 상한값(0.0.[) Level 셋팅기능
+
+| 으으 Ie
+=: nn
+
+1U Size (600W~2.5kW)           2U Size (3.75kW~5kW)           4U Size (6kW-10kW)
+
+JU Size 426mmawe4smes): 600W - 25K
+
+60030 마기 0-55 401 3000 9504 2000 GamA 107 001 00 0 00
+00090 0-21 0-945 01K 3006 20004 2006 10004 100 001 ao
+00020 0-315 0-71 © <01% ASV. GIA . 300 9206 790 001 ow
+00000 0-515 0-84 —<0IK 4504 25204. 3004 16BmA 7900 001 001 0 2
+60002 0315 .0-21 6019 45004. mA . 300 새시 TOV   의 cons
+00008 0-315 0-84 6401 45004 250 3000 mA Tom   의 on 0
+60000 0-000 .0-106  <019% 900. 34 0000 mA 70014    이 oo as
+60002 0-690 0-21 6019 90074 mA 60004 새시 Om   의 cos
+
+그 Size 920109태배10:2754~56
+
+000720 0-21 0-128 4019 300 7804 2004 26274 190 001 001 00
+6020240 0-21 0-262 601 900 75004 2000 60404 SV. 0 001 00 00 00
+600720 0-15 0-126  <ㄷ01% KEV. 07894 3006 26204 1504 001 Oa
+660760 0-915 0-16 0 501% KEV. 50404 3000 33004 1900 00 001 ow
+60002 0~-915 0-126 ㄴ01% 4900 384 3000 2504 507 «=O 000
+660076 «0-315 0-168 01% 0 4500 5004 90000 3406 00 500 «=O Oa
+60003 (0-680 0-315 <01% 9000 mA 00004 94 7200 01 Na
+66008 0-690 0-84  5ㄴ01% 9000 25044 0000 mA 1200 «oo.
+
+AU Size 92090976001:064-70
+
+ㆍ옵션
+- TCP/IP 통신
+
+- OUTPUT ON/OFF signal control
+
+- Analog Input 제어 (DC 0~5V or 0~10V) & Analog Output 모니터링
+(06 0~5V or 0~10V), Isolated type
+
+- AC Input 380V +10%, 3-phase 4-wire system(R.S.TN.G), 50~60Hz
+
+- AC Input 2200 +10%, 3-phase 3-wire system(R.S.1.G), 50~60Hz
+
+*ㆍ액세서리
+
+- AC 파워 코드 07060)
+
+- 메뉴얼 (QR 코드)
+
+- Demo software 222124 (QR 코드)
+
+- Rack Mount Bracket
+
+EX series 에 대해 궁금한 점이 생기셨거나,
+다른 제품에 대해 더 알고싶으시다면 하단의 제품 문의하기를 클릭해주세요.
+
+MCT ions
+
+래에이:      시티 \
+ㄷ041-557-5204 6 cti@cti-koreacom
+
+Unsubscribe
+

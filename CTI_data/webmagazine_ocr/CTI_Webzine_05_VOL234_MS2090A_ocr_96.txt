@@ -1,0 +1,85 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=179
+
+[이미지 1: https://ctiko.cafe24.com/data/editor/2405/20240507165843_a9fbb097416474020fc734c93ffc6a28_mo98.jpg]
+zine
+
+2024년 058 호 VOL234
+
+MS2090A= 이제까지의 휴대용 기기에서는 SF 없었던 성능을 제공합니다.
+91012부터 최대 54012까지 주파수가 지속적으로 보장되며,
+56, LIE 무선 4B, 항공 우주/방어, 위성 시스템 및 레이더 등
+
+현재 사용되는 모든 무선 기술의 테스트 과제를 중족하도록 특별히 설계되었습니다.
+
+Ms2090A 특징
+
+호
+
+020  W
+
++ 9 kHz - 9/14/20/26.5/32/43.5/54 GHz
++ DANL : -164 dBm (프리앰프 포함)
++ TO! : +20 dBm (통상)
+석 대역폭 : 110 MHz
+= 범위: DANL ~ +30 dBm
+잡음 : -110 dBc/Hz @ 100 7 오프셋 (통상)
++ 분해능 CHAS (RBW) : 1 Hz ~ 10 MHz
++ RTSA 대역폭 : 22, 55, 110 MHz (option dependent)
+ㆍ 진폭 정확도 : < 14 GHz + 1.3 dB (+ 0.5 dB, 통상)
+ㆍ최소 스팬이 6076인 제로 스팬
+ㆍ 10 캡처 및 스트리밍
++ AM/FM 변조 품질 즉정
++ USE! PDF/HTML 보고서 생성
+
++ EMF Measurements
+
+면
+
+a
+x
+a
+=
++
+is
+
+24
+
++ Uplink/Downlink interference analysis
+
++ Interference hunting
+
+MS2090A 사양
+
+MS2090A-0709 9 kHz ~ 9 GHz
+MS2090A-0714 9 kHz ~ 14 GHz
+MS2090A-0720 9 kHz ~ 20 GHz
+주파수 범위                       MS2090A-0726 9 kHz ~ 26.5 GHz
+MS2090A-0732 9 kHz ~ 32 GHz
+MS2090A-0743 9 kHz ~ 43.5 GHz
+MS2090A-0754 9 kHz ~ 54 GHz
+
+DANL@@algizt 포함)        -164 dBm
+
+70                        +20 dBm
+
+분석 대역폭                  10 MHz
+
+ve                        5GNR, LTE FDD, RF,
+
+as                             and modulation quality plus SSB signal analysis
+진폭범위            DANL ~ +30 dBm
+
+1GH201M 위상 잡음           -110 dBc/Hz @ 100 kHz 모프셋(통상)
+분해능 대역폭(68\)        1Hz~10MHz
+
+입력 SWR              | 5
+
+진폭 정확도                      <14 GHz #1.3 dB(+0.5 06,통상)
+RTSA LISS                    22, 55, 110 MHz (option dependent)
+
+휴대용 스펙트럼 분석기 MS2090A0] 대해 더 궁금한 점이 생기셨다면
+
+| HES 클릭하여 문의를 남겨주세요.
+
+E.cti@cti-korea.com
+

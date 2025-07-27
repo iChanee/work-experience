@@ -1,0 +1,20 @@
+■ 제품명: 신호 분석 소프트웨어
+■ 모델명: 신호 분석 S/W제작
+■ 분류명: RF 분석 S/W
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=26#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_3aveRJXE_553ef861dd6fc50024416154d93ad9400aa0d888_600x228.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=26&no=1
+
+[퀵스펙]
+- RFID 신호 발생 및 분석 툴 제작. - 고객 맞춤형 S/W 제작.
+
+[제품소개]
+- Smith Chart구현
+- 신호비교 알고리즘
+- 각 Device의 모든 기능을 PC에서 구현
+- FFT/Curve Fit 알고리즘
+- 자료 저장용 DB개발
+
+-----------------------------

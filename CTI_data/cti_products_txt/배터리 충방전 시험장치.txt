@@ -1,0 +1,18 @@
+■ 제품명: 배터리 충/방전 시험장치
+■ 모델명: CTI SI
+■ 분류명: 배터리 충/방전 시험장치
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=16#product_start
+
+[대표이미지]: cti_product_imgs/2077741387_4k7F5QNR_adfd713dc351fc5c88fd8e7a88516d932075a0a2.jpg
+
+[본문이미지 1]: cti_product_imgs/185a7774f938b0269d4e57e3d9d0464e_1599718834_7377.png
+  [본문이미지 OCR]
+| Pee
+| kekeeekel
+
+er
+
+[퀵스펙]
+- Single & Multi Run - Data Setting 저장 및 불러오기 가능 - 시험 Data 저장 가능 - Rack Mount 및 Test 지그 Control Program - Power 2ch 개별 및 Full Remote Control - Loader 4ch 개별 및 Full Remote Control - 전압, 전류, 온도 실시간 모니터링 - .NET Framework 4.0 Base SW
+
+-----------------------------

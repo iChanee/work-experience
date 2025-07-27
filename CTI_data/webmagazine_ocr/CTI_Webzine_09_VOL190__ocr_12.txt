@@ -1,0 +1,86 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=127&page=4
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg20091055.jpg]
+77 \Nabzine
+
+2020년 098 호 VOL.190
+
+DAIS LCR Meter M3536
+
+-4Hzto BMH22| DAS 측정 주파수
+.빠른 SB ALZHAms)Bt 6.7inch
+컬러 터치 디스플레미
+
+The new standard 4
+ane a a pt ay
+
+주요규격
+*측정모드 : LOR mode, Continuous measurement mode
+*측정파라메터 :2, 8, X, GB, 0. Rac (OC resistance), Rs (ESR), Rp, Ls, Lp, Cs, Cp, D (tand), 0, 5
+*측정주파수: 41110 8 MHz(10 mHzto 100 Hz steps)
+*측점뱀위 : 100MM to 100MO, 10 ranges (All parameters defined in terms of Z)
+*디스플레미뱀위 :2: 0.00 mto 9.99999 GO, Rs, Rp, Rac, X: +(0.00 mto 9.99999 00),
+G, B: #(0.000 n to 9.99999 GS), Ls, Lp: +(0.00000 110 9.99999 GH),
+Cs, Cp: +(0.0000 p to 9.99999 GF)
+*정확도 :2*0.059 rdg. 8: +0.03° (represestative value, Measurable range: 1 m@ to 200 MA)
+“졸력임피던스: 1000
+*측절시간 : 1 ms (1 kHz, FAST, representative value)
+*디스플레미 :5.7-inch color TFT with touch panel
+
+LCR Meter M3523
+
+주요규격
+*측점모드 : LCR mode, Continuous measurement mode
+*측정파라메터 :Z, ¥,8, Rs (ESR), Rp, DCR (OC
+resistance) X, G, 8, Cs, Cp, Ls, Lp, D (tan),
+*측정주파수 : 40Hzto 200kHz (1mHzto 10Hz steps)
+*측점뱀위 :10000010 10040, 10 ranges
+
+(All parameters defined in terms ofZ)
+*디스플레미범위 :Z, ¥, Rs, Rp, Rac, X, G, B, Ls, Lp, Cs,
+Cp: + (0.000000 {unit} te 9.999996 [unit))
+@: + (0.000° to 999.999"), D: + (0.000000 to 9.999999),
+©: + (0.00 to 9999.99), A%: + (0.0000% to 999.9999%)
+*정확도 :2:40.0556000.6:30.03"
+“출력임피던스: 1000
+*측절시간 : 2 ms (1 kHz, FAST, representative value)
+
+USB 메모리를 지원
+
+10채널 로거
+
+형 다채널 데미터로거 8431.20
+
+au
+
+대가 간편하며, 측정 방법미 간단한 소형 데미터 로거
++ 채널별로 절면 된 10채널 마날로그 입력
+BAZ BA 측정값을 야 카드를 미용하며 만심 기록
+측정데미터를 498 메모리에 간편하게 PCR AS
+
+모든채널메서 1075의 고속 샘플링 가능
+
+24
+
+a
+
+면
+
+주요규격
+*촉정채널 :10체널
+정파라메터 :전압, 온도,펄스
+
+- Beh: £100 mV to 260 V, 154 최고분해능(500)
+
+- 25 (41 MOH 따라 범의 CHB): -200°C to 2000°C/ 열전대(< J, E,T.N.R, 9, 8), 최고분해능(0.1"0)
+-펄스 : 4채널 펄스 입력, 펄스 적산(010 1000M), 최고분해능(1펄스)
+
+*기록간격 : 10015 to 1시간, 19설정(기록간격마다 모든 입력채널 고속 스캔)
+
+"메모리용량:내부 3.501\00, CF 카드488메모리
+
+*디스플레미 : 4.3민치 WOVGATFT Bet
+
+출남 SO 서북구 직산읍 ANE 110 천만56플라자 601. 602호
+Tel 1 041-557-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

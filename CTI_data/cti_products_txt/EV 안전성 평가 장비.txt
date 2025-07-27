@@ -1,0 +1,89 @@
+■ 제품명: EV 안전성 평가 장비
+■ 모델명: EVST-B30
+■ 분류명: EV 안전성 측정 및 정밀 가변 전압 저항 측정
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=8#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_pqiPGRFI_e0d628649c9a8bb76280abdfe79b78018a5c9e49_600x174.jpg
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=8&no=1
+
+[퀵스펙]
+기능 -	절연저항 측정 -	전기적 연속성 측정 -	Ethernet 통신을 통한 자동 데이터 송신 -	Database를 통한 이력관리 특징 -	Min. 30V ~ Max. 1,000V Variable CV Mode 인가 가능 -	200mA CC Mode 연속성 측정 -	19” Rack Type
+
+[제품소개]
+EV
+안전성 측정 및 정밀 가변 전압 저항 측정
+기능
+:
+-
+절연저항 측정
+-
+전기적 연속성 측정
+-
+Ethernet
+통신을 통한 자동 데이터 송신
+-
+Database
+를 통한 이력관리
+특징
+-
+Min. 30V ~ Max. 1,000V Variable CV Mode
+인가 가능
+-
+200mA CC Mode
+연속성 측정
+-
+19” Rack Type
+적용분야
+-
+EV(EV, HEV, FCEV, PEV)
+정기 검사
+-
+유지보수 및 사전 안전검사
+-
+PC or
+원격서버를 통한 이력관리
+-
+개조차 및 사고차 안전 확인용
+-
+자동차 완성차 업체
+,
+부품업체
+, R&D
+기관
+-
+인증기관
+,
+정비업체
+,
+소방청
+-
+부품 안전성확인용 장기간 테스트
+EV
+절연 평가 장비
+EV
+검사 후
+PC
+나
+원격서버의
+HMI
+와 연동하여 데이터베이스에 차량 정보태그를 통하여 측정값 및 합부결과에 대한 이력관리가
+가능 함
+.
+검사소등에서 고정형으로 사용가능하도록 하기 위하여
+19” Rack
+에
+장착하여 사용가능하며
+PC
+와 함께 장착 가능하도록 설계됨
+.
+이 제품은 국제전기차규격
+WP.29
+를 충족하며
+,
+모든 종류의 고전압 계통을 사용하는
+EV
+에 적용가능 함
+.
+
+-----------------------------

@@ -1,0 +1,139 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=93&page=7
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg17111458.jpg]
+™= Webzine
+
+201714 111  VOL.157
+
+Tabor2] 1채널 및 2채널 버전의
+AFG & AWG 제품을
+2017년 연말까지
+최대 30% 파격 할인된 가격으로
+
+선착순 제공합니다.   『
+
+Wave Standard Series - arbitrary Function Generators
+wse35i / 8352
+
+특정
+
+AD 빠른 신호 MAS 위해 최적화된 패널 조작부
+> SICH 35012 임의 파형 발생기
++ 16Vp-p 최대 Amplitude
+
+＊16 bit BBS 수직축 분해능
+
+강력한 pulse/pattern compoer 기능 탑재
++ OIG, USB, GPIB 민터페미스
+
++ ArbConnection S/W 미용한 간편한 신호 at
+
+> continuous, triggered, gate, burst mode 지원
+*최대 268/5 샘플링 클럭 속도
+
++ 512k Arbitrary Memory
+
+모델명
+
+8351 / 8352
+1a / 2재널
+
+Standard, Arbitrary, Pulse,
+Modulated, Pattern, PAM
+
+1                             350MHz / 250MHz / 125MHz
+
+205/5
+
+5126 point
+148
+
+‘AM, FM, FSK, PSK, Sweep,
+
+400
+<ins
+4인치 컬러 디스플레미
+Full [V[-C driver (C++, CVI, Labview),
+MATLAB, ArbConnection S/W
+LAN, USB, GPIB
+
+ArbConnection                Modulation Capability            Pulse/Pattern Creation
+Tabor2| 모든 제품메 기본으로       WS 시리즈는 다양한 00418000을 WS 시리즈는 복잡한 펄스 파형을
+제공하는 운명 소프트웨매로                 지원합니다.                   쉽게 생성할 수 있습니다.
+사용자가 보다 쉽고, 간단하게       기본적으로 FM, 44. 『9(.『5 를 Pulse Composer 기능를 활용하며
+TASS 할 수 있도록 도와줍니다, 지원하며 58351 & \68352의 경무 사용자가 원하는 펄스 트레민 및
+0060008데01 프로그램은       ASK, Amp, Hop. Freq, Hop. Sweep.      펄스 패턴 등 다양한 신호를
+장비의 원격 제머가 가능하며.                chirp 등                     Mae 수 있습니다,
+다양한 메디터 기능를 미용하며        다양한 Modulation®| 가능합니다.       Single- pulse, Mult-fevel, liner
+BANE. 임의 파형, 변조 파형 등                                 points,uset-defined, Random pattern
+User Waveform 43 보조합니다,                                           등 프로그램를 미용하며
+머떠한 복잡한 신호도 생성를 할 수 있
+습니다.
+
+WavexXciter Series - High-Speed Arbitrary Waveform Generator
+WXx2182¢/2184C
+
+sa
++80 빠른 신호 생성를 위해 최적화된 패널 조작부
+*＊최대 25GS/s HBS 클럭 속도
+
+*최대 1112 22) 파형 발생기
+
++ 2} 채널간 1005 resolution skew control
+
++14 bit BBS 수직축 분해능
+
+60000
+
+강력한 pulse/pattern compoer 기능 탑재
+
++ ADE 트리거 기능
+
+광범위한 변조 기능 탑재
+
+* 두 잠비의 동기화로 《채널 시스템 가능
+
+> 16M ( 32M option ) 파형 메모리
+
+*4\-ㅠ0ㅁㄷ-004016 또는 10080 AC-Couple
+
+|
+g > 00000
+
+2182C 1 2184C
+1a 1270 140
+
+Standard, Arbitrary, Pulse, Patteren, PAM, Modulated & Sequenced
+
+‘1GHz/ SOOMHz / 250MHz
+
+2.50515
+
+‘16M (32M option)
+1406
+
+‘AM, FM, ASK, Amp. Hop, Freq. Hop, FSK, Sweep, Chirp
+
+DC: 2Vp-p/ HV: 4Vp-p/ AC: -20 to 10dBm(double into open circuit)
+DC: <600ps /HV:<1ns
+Continuous, Self armed, Armed, Triggered, Burst, Normal, Override & Gate
+
+2 programmable differential markers per channel
+4 인치 Bal LCD
+Full [VIC driver (C++, CVI, Labview }, MATLAB, ArbConnection SW
+‘1000BASE-T LAN, USB, GPIB and LXI-C compliant,
+
+Multiple Environments to Write Signal Integrity and Purity            Smart Trigger
+Your Code                  시험 및 측정 분마에 있머           WX series 특절한 OWES
+WX 56066는 Labview,CVLC+,VA 및       가장 중요한 요민 중 하나는              트리거 할 수 있습니다.
+MATLab 등 다양한 매즐리케미션를         신호의 높은 품질입니다,        기존 제품보다 트리거 기능를 높미고
+지원합니다.               We series 는 100MHz 환경메서        더 넓은 뮤면성를 가지고 있머
+Window,Linux.Macintosh 운영체제의  -115080보다 작은 노미즈 SAS           펄스의 특정 미벤트도
+시스템 QMO] 용미합니다,               가지고 있습니다,           트리거 가능하도록 설계되었습니다,
+OIG. USB, 6018 및 .4-ㄷ 의 신호 무결성 시험 분마메 적합합니다.             Ws MBS
+민터페미스를 통하며 쉽게 시스템메                                     Hold-off 기능미 탑재되머 있더
+적응 가능하도록 설계 되머있습니다,                                       다양한 조건 설정미 가능합니다,
+
+SH 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보명상융합센터 면구동
+Tel 1 041-557-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

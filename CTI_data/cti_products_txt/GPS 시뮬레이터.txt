@@ -1,0 +1,17 @@
+■ 제품명: GPS 시뮬레이터
+■ 모델명: GPS 시뮬레이터
+■ 분류명: 시뮬레이터
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=15#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_WykzjD5Y_9e90b3ed5275ebbc944961edc2930b1a42de4119_600x279.jpg
+  [대표이미지 OCR]
+e
+
+[본문이미지 1]: cti_product_imgs/e936da4e7c66d0d07a788f3403c1c555_1599718736_1158.png
+  [본문이미지 OCR]
+
+
+[퀵스펙]
+- GPS / GNSS 위성 시뮬리션 가능 - 위성 Up-Load, Down Load 시나리오 가능 - 최대 32 Channel 구성 가능 - Field of application > 자동차 자율주행 > 네비게이션 업체 > 위성을 이용한 위치 추적 응용분야
+
+-----------------------------

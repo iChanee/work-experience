@@ -1,0 +1,96 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=67&page=8
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg15090158.jpg]
+형 시스템 제작 사례
+
+2015년 9 월 호 VOL.120
+
+-D¢ Power Supply
+(£0.05%O15}2] Regulation Power)
+Electric Loader
+- GPIB-Based Comm. System
+- 421 PC with PCMCIA GPIB Card
+00000 i                        시스템 주요 내용
+IMUM
+
+-장시간 S801 가능하도록 구현
+00000                           -수 초 단위 미내 BB 주기
+continue-mode 가능
+- 다양한 전압, 전류 ENS 구현 가능
+- Sequence 통한 1 Loader =
+
+전송 가능
+
+-모든 채널메 대한
+
+Full remote control IHS
+
+é                                        = Application
+-전기 자동차 OF
+-출발전 테스트 시스템 분매
+
+~EV, HEV, FCEV
+
+~ Digital System Testing
+-전원 및 부하 시뮬레미션
+
+-자동차전장 관련
+
+i
+
+ii
+z
+
+i
+
+i
+
+mu
+|
+
+|!!!
+
+Cn
+
+사용 SE E901: Visual Studio, LabView 등
+접지상태메 따른 임피던스를 측정 데미터:
+
+aTest S22u| : 주파수 변환장치 및 전압&전류 소스 장비
+
+~Leb View & Visual Studio 기반 소프트웨
+
+|빈
+
+기
+-운영장비의 MO & 모니터링 및 측정 임피던스 데미터 분석 기능
+
+초고압 전력기기메서 발생히
+
+는 태 대역의 미상신호를 측정 분석 용 소프트웨머 제작.
+= Test 221 ZU|: Pulse Generator & Network Analyzer
+
+-주용도: 5'파라미터, Smith Chat $2] 분석,
+
+~Test HIS] 다중 원격 제머메서 데미터의 분석 및 디버깅 가능.
+
+시간미 지남에 따라 배터리의 SAA 특성미
+변화하는 ASS 확민하는 시
+a ABA 제머형 배터리 출방전 특:
+
+aCVSE BBN 추적 시스템 보정 알고리즘 적응.
+NI
+
+i
+
+a Test £21 ZU: Electric Poweri_oader, N-DAQ
+
+System
+
+—     ss eee       = 41 #4) GPIB, UART
+
+Hele. gS 케미스메서 Hel
+
+출남 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보명상응합센터 면구동
+
+Tel: 041-557-5200 | Fax : 041-557-5204 | E-mail : cti@cti-korea,com
+

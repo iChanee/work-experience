@@ -1,0 +1,86 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=172&page=2
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2310/20231016175309_bf2af15bd7c555617d084f9b4f1ad0d3_v6fj.jpg]
+고 00054
+
+Webzine
+
+202314 102 ¥ VOL.227
+
+음향 이미징 카메라 Acoustic series Al56
+
+- 64 저소음 MEMS 마이크로폰, 실시간 음향 시각화
+ㆍ여러 팔레트 지원
+SMP 해상도의 고품질 광학 모듈
+ㆍ 고 교정성 800×480 해상도 4.3"Ｌ00터치 디스플레이
+1.0배 ~ 8.0빼 연속 디지털 줌 지원
+
+징
+
+in
+
+저소음 MEMS 마이크로폰과 조절가능한 대역폭
+
+머리 저소음 MEMS 마이크로폰과 2kHz~65kHz 대역폭 조:
+씨56은 고압 시스템에서 가스 누출 감지 및 부분 방전을 찾기 위한 쉽고
+
+다.
+
+출 데이터 실시간 표시
+
+AIG 가스 누출 AAS 위한 실시간 예상 누출률, 누출 비용, 누출 수준을 제공합니다. ACL >
+음이 많은 환경에서도 4.3인치 대형 Ｌ00터치스크린으로 소리를 '시각화'하기 위해 ASS 필터링
+할 수 있습니다.
+
+Max28.6cB,
+Cen15.0dB)
+「
+
+AGE 코로나, 부유물, 표면, 입자 배출 SS 파악할 수 있고, 현장의 배경 ASS 배제할 + 있:
+=                                     하          를계
+
+니다. 방전 유형과 심각도를 파악하면 설비가 고장과 다운타임을 최소화하기 위해 유지보수:
+
+완전한 이미지 주석
+
+Acoustic
+Number of Microphones        64
+—_—"                      O kHz to 96 kHz,
+adjustable range MEMS sampling frequency: 192 kHz
+Distance                       0.3m~100m
+Camera FOV                    50.2°* 35.4°
+Sound Intensity Display        Peak Point
+
+Acoustic mage Frame Rate 25 fps
+Acoustic Image Resolution 800 x 480
+
+White Black, Black White, Rainbow, Fusion,
+
+Acoustic Image Palette
+Ironbow, Red Black, Rain, Blue Red
+
+>0.008 I/min @ 6 bar from 0.5 m (1.64 ft)
+>0,013 l/min @ 5 bar from 1 m (3.28 ft)
+
+Leak Rate
+
+Discharge Detection          Automatic detection 50 / 60 Hz
+
+Corona Discharge, Particle Discharge,
+Discharge Type
+Floating Discharge, Surface Discharge
+
+Low Limit: <-15dB
+
+Dynamic Range
+High Limit: >12008
+
+음향 이미징 카메라 4156 에 대해
+궁금한 점이 생기셨거나, 다른 제품에 대해 더 알고싶으시다면
+
+하단의 제품 문의하기를 클릭해주세요.
+
+을 선도하는 테크놀로지 기업
+
+ding the next generation technology
+

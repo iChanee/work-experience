@@ -1,0 +1,35 @@
+■ 제품명: 고객맞춤형 프로그램 제작
+■ 모델명: 고객맞춤형 프로그램 제작
+■ 분류명: 맞춤형 프로그램
+■ 상세페이지: https://www.cti-korea.com/product.php?wr_id=21#product_start
+
+[대표이미지]: cti_product_imgs/thumb-2077741387_Oo7JcYt3_863d45f2de15b2eaf28cb5fde8c1456cb52bcca1_600x252.png
+
+[데이터시트]: https://www.cti-korea.com/bbs/download.php?bo_table=product_list&wr_id=21&no=1
+
+[퀵스펙]
+- 고객이 원하는 요구사항에 맞춰 소프트웨어 제작 가능
+
+[제품소개]
+- 계측장비 모니터링 시스템 개발
+오실로스코프
+Power Supply/Loader
+RF 관련 계측기 등
+- DC Power등 Firmware제어 소프트웨어 개발
+- Real-time Measurement
+- 하드웨어 개발장비 관련 소프트웨어 개발
+- PC to PC 데이터 중계
+- 사용자 요구 알고리즘 개발
+- 품질검사 시스템 개발
+- 다양한 통신방식 구현
+Ethernet
+RS-232/RS485 Serial
+Wireless Communication
+GPIB
+- Big Data 저장
+- 다양한 개발환경
+Window(.net)
+Windows CE
+iOS
+
+-----------------------------

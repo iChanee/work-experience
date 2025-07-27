@@ -1,0 +1,176 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=114&page=5
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg19080667.jpg]
+< \Nabzine
+
+나의 장비에서 VNA, TOR 가능한 고속 인터커넥트 분석기
+
+2019년 os 호
+
+속 민터커넥트 분석기
+WavePulser ance 248? 인터커빅터
+테스트 및 검증를 위한 독창적인 슬루선입니다.
+
+Wave Pulser 40iX= 고속 하드웨머 설계자와
+테스트 엔지니머가 PCI Express, HDMI, USB, SAS,
+SATA, 파미버채널, InfiniBand, 기가비트미더넷,
+자동차 미더넷과 같은 고속 시리얼 프로토콜 So
+인터 커넥트 및 HOE 특성:
+
+석하는데 미상적인 장비입니다.
+
+'<주요 사양 및 기능>
+
+- 5 파라미터 DC to 40GHz 주파수 범위
+- <imm 킬미 분해능의 임피던스 프로파일
+- 내부 자동 OSLT 캘리브레미션
+- 폭 넓은 둘박스
+- 차동 및 공통 모드
+- 058면결, 소형, 경량
+-708 및 707기능
+
+<주요 사양 및 기능 설명>
+
+1. 주파수 및 시간 도메인을 동시에 테스트
+
+- 교속 민터커넥트 분석용으로 설계되머 시리얼
+데미터 케미블,채널,커넥터 등메서 발생할 수 있
+는 삼호 면렬성 문제를 검증, CW 및 해결
+
+- 캘리브레미션 스탠더드가 기본적으로 적용되
+
+Of 항상 간단하고 빠르게 자동으로 미루머지며,
+TORTOT 기반 접근 방식은 설치 환경과도 무관
+하므로 보정 필요성미 BS.
+
+- 06를 직접 측정하므로, oc 및 저주파수 보간
+없미, TOR AB 응답 및 시간 게미팅, 메뮬레미
+트된 물리 레미머 응답 기능를 제공하므로 민터
+박스                커넥트 시스템메 미상적
+
+i
+cq
+0
+a
+zt
+
+2. DC ~ 40GHZ° 5-파라미터
+
+- 한 번의 신호
+- 모든 FEO 대해 폰합 모드 반사 및 삽입 손실
+를 동시메 표시
+
+- 차동 모드 및 공통 모드 측정 결과 SAI 표시
+- 06 주파수 응답제공
+
+- 테미블 형식의 그래픽 사용자 민터페미스로 쉽
+고 간단하게 측정
+
+3. 내부 자동 캘리브레미선
+
+- 장비 내부메 캘리브레미션 표준 장착될
+(252 구매할 필요 없음
+- 내부 전자 캘리브레미션 기능으로 측정미 가능
+리 시작하고 더 정확한 결과를 얻을
+
+SS (Passivity), SF (reciprocity) 및 민
+(causality) 적용 ea 절교한 기능를 통해
+정 정확도를 얻고 ane 정확성을
+
+의 길미 분해능을 A
+피던스 프로파일
+
+- 차동 모드 및 공통 모드 측정를 모두 지원
+- 며러 SEB SAH 표시
+
+- AW SEL 펄스 응답 및 반사 계수(「) 뷰 포함
+
+5. 폭넓은 둘박스 ASA (시간게미팅)
+
+- HOST: 커넥터의 영향를 제거하며 0075-파
+라미터를 정확히 보고
+
+- 수동으로(간단한 포트 확장를 통해) 또는 임피
+던스 필링(06609) 말고리즘를 미
+팅를 설정
+
+- 게미트 도메민를 포함하거나 포함하지 많고 5-
+파라미터 결과 저장
+
+- 직관적 시간 게미팅 메뉴로 각 DUT 포트메 대
+한 탄력적 구성 가능
+
+6. 임피던스 프로파일로 5-파라미터 보완
+(업계 신뢰도 향상)
+
+-Wavepulser 40XxX= 잘목 조립된 커넥터를 탐지하고 위치를 정확히 TOS 설계의 신뢰도 향상
+- 임피던스 프로파일과 타임 뷰가 5-파라미터 측정과 결합되머 누구도 마를 수 없는 특성화 통찰를 제공
+- 임피던스 프로파밀미 신호 SEH 있는 커넥터의 결함를 명확히 표시
+
+Specifications                        WavePulser 40ix
+Pons                                 4
+Opersting Freaueney                                                                  Dete 40GH
+Type                                                       292 mm
+Calbration methad                            Teter avtomatie 0
+sult Displays 4010 16 measurements iplaved simultaneously (ime and frequency domaing)
+
+Display modes                     ‘Sino, dua tandem, tiple. quad, quatro, nex, 00181 and Smith Chart (reque
+
+Inout Voltage Range                                                      V peak
+
+‘Em typical (integrated rom 040 GHa, no averaging)
+integrated from 004                      1 second)
+
+96
+
+Frequency Measurement
+
+er Measurement                                                     Shaleended and mbesmode
+
+Frequency Domain Dspiays                                             Miantude, Phase, Real and imsoinary
+
+55 6B @ 40 GHz (v0
+
+166 cB @40 Ghz (typical
+
+Time Measurement
+
+ise Time
+
+lm
+pulse sponse, St
+M/s
+
+p Response, Rho (7)
+
+‘equistion Rate                                                           1
+
+Environmental
+
+Tempereture                      ‘Operating: 5 "610 40°, Noneperatn
+Hurneity                      ‘Operating 5% to 90% relative humidity (non-condensing) upto +31“
+Upper lint deates to 50% relative humyinon-condensing) at +40 6
+
+dperating. 5% to 95% relative humiaty (non-co                3800
+
+sing) 05 tested per MILPAF
+
+ode                               ting: 3.048 m (10,000 ff) max at +30 °C, Noroperating, Up to 12,192 meters (40,000
+Physical
+
+Dimensions               SEHR ILO WHET D (osm Hx s0smm \230101101
+
+Went                                        25 bs. 6310.
+
+Votiane                          70010 240 VAC F108) at 455 He or 400 Hz. Aliomatic AC voliae selection
+
+‘Max Power Consumption                               20%
+
+Recommended PC Configuration
+
+i 4 GB RAM or beter 2GB avalable Tee space, Display. 1280x 1080 pels oF
+m Microsoft Windows 10, Connectivity. SuperSpeed USB
+
+출남 천만시 서북구 직산읍 직산로 110 천만56플라자 601. 602호
+Tel 1 041-557-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

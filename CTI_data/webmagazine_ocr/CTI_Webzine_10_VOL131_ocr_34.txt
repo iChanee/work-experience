@@ -1,0 +1,93 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=68&page=8
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg15100681.jpg]
+= Webzine
+
+차세대 기술을 선도하는 테크놀로지 기업
+
+VEHICLE SOLUTION « SYSTEM INTEGRATION + TEST & MEASUREMENT
+
+201544 10 호 VOL.131
+
+고성능 LCR Meter IM3536
+
+~4Hzto SHZ2)
+
+DAG 측정 주파수
+
+HE 측점시간(1079)과 5.7inch
+컬러 터치 디스플레미
+
+The new standard)
+
+Jogo LCR meter ht ngs ee
+ide ngs opin,
+
+주요규격
+*측정모드 : LCR mode, Continuous measurement mode
+= IZHHE! :Z, Y, 8, XG, B, Q, Rdc (DC resistance), Rs (ESR), Rp, Ls, Lp, Cs, Cp, D (tan6), 0, 5
+“SUFI: 4 Hato 8 Mra (10 mHzto 100 Hzsteps)
+범위 : 100mQ to 100MO, 10 ranges (All parameters defined in terms of Z)
+*디스플레미범위 :2: 0.00 mto 9.99999 GO, Rs, Rp, Rc, X: #(0.00 m to 9.99999 00),
+G, B: #(0.000 n to 9.99999 GS), Ls, Lp: +(0.00000 1110 9.99999 GH),
+Cs, Cp: +(0.0000 p to 9.99999 GF)
+*정확도 :7 40.05% rdg, 8: 40.03" (represestative value, Measurable range: 1 mQ to 200 MA)
+*졸력임피던스 1000
+Mt AIZF: 1 ms (1 kHz, FAST, representative value)
+*디스플레미 : 57-inch color TFT with touch panel
+
+LCR Meter M3523
+
+주요규격
++E :Ｌㄴ06. mode, Continuous measurement mode
+
+측정파라메터 :2.1, 8, Rs (ESR), Re, DOR (OC
+resistance) X, G, 8, Cs, Cp, Ls, Lp, D (tan),
+*측정주파수 : 40Hzto 200kHz (ImHzto 10Hz steps)
+*측정뱀위 :10001010 10040, 10 ranges
+
+(All parameters defined in terms ofZ)
+*디스플레미범위 :Z, Y, Rs, Rp, Rd, X, GB, Ls, Lp, Cs,
+Cp: + (0.000000 {unit to 9.999996 [unit))
+8: £ (0.000" to 999.999"), D: + (0.000000 to 9.999999),
+‘Q: + (0.00 to 9999.99), A%: + (0.0000% to 999.9999%)
+정확도 :Z:20.08%rdg. @: 40.03"
+*즐력임피던스 : 1000
+SB AIZE : 2 ms (1 kHz, FAST, representative value)
+
+소형 다채널 테미터로거 8431.20
+
+특질
+측대가 관편하매, 측정 방법미 간단한 소형 데미터 로거
+각 채널별로 절면 된 10채널 마날로그 입력
+
+장시관베 BA 측정같을 다 카드를 미용하며 만심 기록
+측정데미터를 468 메모리메 간편하게 『0로 전송
+모든채널메서 10ms2] 고속 샘플링 가능
+
+면세 8 9 그
+
+iid :10채널
+
+파라메터 :전압, 온도, 펄스
+
+범위
+
+압 : £100 mV to 460, 1-5최고분해능(51)
+
+- 25 (M4 MOH 따라 범의 다름) :-200"ㅇ10 2000°C/ SALH(K, J, E,7,N,R, 8, 8), 최고분해능(0.1"0)
+-펄스 : 4채널 BA 입력, 펄스 적산(010 10001), 최고분해능(1펄스)
+
+*기록간격 : 10175 to 1시간, 19설정(기록간격마다 모든 입력채널 고속 스캔)
+
+"메모리용량 :내부 3.501\000 CF 카드458메모리
+
+*디스플레미 : 4.3민치 WOVGATFT Bet
+
+gt OE 8
+
+at
+
+SH 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보명상융합센터 면구동
+Tel 1 041-557-5200 | Fax 1 041-857-5204 | E-mail : cti@cti-korea,com
+

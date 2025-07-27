@@ -1,0 +1,193 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=150&page=3
+
+[이미지 1: http://ctiko.cafe24.com/data/editor/2208/20220816170806_05df0e8854c33e9c616e1ffc4ba07171_l16z.jpg]
+이 메일이 잘 안보이시나요?
+
+Webzine
+
+202244 08% 호 VOL213
+
+Compact Wide Range DC Power Supply
+컴팩트 와이드 레인지 직류전원공급장지
+
+[KIKUSUI] PWR-01 Series
+
+Compact Wide Range
+DC POWER SUPPLY
+
+PWR - 01 series
+
+Pwr-01 시리즈는 소형, 고성능,
+
+최대
+
+개요
+
+다기능 컴팩트 와이드 레인지 직류 전원입니다.
+
+즐력 전압으로 4개 모델(Ｌ, ML MH, 1), 최대 즐력 MASS
+
+3개 모델600\, soow, 1200\)의 종 12개 모델을 라인업하고 있습니다.
+
+또 아날로그 컨트롤
+
+시스템 업에 필수적
+기타 ASB
+CV/KC 우선 전환 기능,
+
+ro
+에
+cS
+
+교
+내
+a
+
+뿐만 아니라 cpu 탑재로 AlAA 설정도 가능합
+
+LICH.
+
+인터페이스 LAN(LXD, USB, RS232CH 표준 탑재,
+내부 저항 가변기능,
+
+BelG ON/OFF 기능,
+
+S124 기능, 각종 보호 기능, 메모리 기능 등을 갖주고 있습니다.
+
+AMSA 기능 탑재 (트리거 등기 가능)
+
+LAN(LXI CHS) / USB / RS232C
+인터페이스 BE 장착
+
+0
+
+넓은 전압
+
+불  및 전류
+
+버 뼈
+
+력          설정의
+
+합이 가능한 전력형 (3~4배비)
+
+입력 전원 전압은 유니버셜 대응
+(85V~265V)
+
+메모리 기능 (전압 / 전류 / 0 /
+OCP / 4\!의 각 설정이 3세트)
+
+줄력 ON/OFF 딜레이 기능 탑재
+
+내부 저항 가변기능
+
+\0468(가상 멀티채널 버스) 기능으로
+네트워크형 원격제어 및 감시 서포트
+
+모든 모델 전면 즐력단자 표준 장착
+(최대 10a)
+구성 설정의 단죽키 기능과 표시
+
+(구성 설정을 최대 3개 등록 가능)
+
+블리더(싱크) ON/OFF 가능,
+더룩 강력한 블리더 모드 설정 가능
+
+기능 탑재
+
+소프트 스타트/스톰
+
+    8401Ｌ | PWR4O1ML                 N
+Output Voltage              40v                      80V                     240V                    650V
+Output Current              40A                      20A                        5A                      1.854
+Output Power               400W                   400W                   400W                   400W
+
+Output Voltage                                           80v                     240V                    650V
+Output Current                                           40A                       10A                     3.70A
+Output Power                                            800W                   800\                   800\
+
+Rating                      21201     PWR1201MH
+
+Output Voltage               40V                      80V                     240V                    650V
+Output Current            120A                   60A                   15.0A                  5.55A
+Output Power              1200W                 1200W                 1200W                 1200W
+
+Output Voltage                                           80V                     240V                    650V
+
+Output Current                     100A           25A          9.25A
+
+Output Power              2000W                 2000W                 2000W                 2000W
+옵션
+
+ACS.5-3P3M-M4C-VCTF
+1200W AC 전원 코드, 전장 3m
+ACS.5-1P3M-M6C-3S
+
+.200040 AC 전원 코드, 전장 37
+
+(OP01-PWR-01
+71 7 22 커넥터. 외부 제어용 플러그 키트
+(3074, 1 / )2 커넥터응 하우징 2 1개)
+
+\
+
+노기
+
+OP03-PWR-01
+외부 BESS 케이블 & HME AE
+케이블 2078, 길이 : 약 50007
+71 / 72 커녁터옹 하우징 : 각 174
+
+00-80/9
+5232 HESS 변환 케이블
+
+Nou
+
+TL4t
+안전 플러그(나사 연결 타입),
+
+양/을극용 A 1개 10004/<씨끄 max 324
+
+PIAS100 (GPIB 컨버터)
+05232 뜨는 USE GPIBE 변황하여
+리모트 ESS 기기를 CBE 연결할 수 있음
+
+10654 전원 케이를, CI 시트 포함]
+
+‘OPO2-PWR-01
+별렬 운전 케이블
+(2대 별렬 은전 전용)
+
+TUOT-PWR-01
+208 1 AMES 6핀 )2 ASHE
+268 1 AMES 변황하는 터미널 유니트
+
+Wavy for PWR-01 (SD027-PWR-01)
+ABA 작성 소프트웨어
+
+PWR-01 시리즈용시뭔스 작성 소프트웨어
+
+ou
+
+TLA2
+안전 플러그(납떨 연글 타일),
+양/을국용 각 1개 1OOOV/CATIE max 324
+
+[KIKUSUI] PWR-01 56065에 대해 궁금한 점이 생기셨거나,
+을 더 보고싶으시다면
+
+다른 제품:
+
+하단의 제품 문의하기를 클릭해주세요.
+
+하는 테크놀로지 기업
+
+중남 천안
+
+시 서북구 백석공단1로 10 전안미래예이스하이테크시티 ME 327호
+T. 081-357-5200 6 041-55
+
+i@cti-korea.com
+
+수신거부 Unsubscribe
+

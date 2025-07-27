@@ -1,0 +1,82 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=183
+
+[이미지 1: https://ctiko.cafe24.com/data/editor/2409/20240911105407_7d6958d060b311226815cae213d31959_eql3.jpg]
+구어
+Webzine
+
+2024년 09% 호 VOL238
+
+국제 전기차 안전 규격 we298 충족하는
+전기 자동차 안전성 평가 장비 EVST series
+
+전기 자동차 안전성 평가 장비란?
+
+전기 자동차의 전기적 연속성 및 절연성을 통합적으로 측정할 수 있는 장비로,
+세계 최초 개발되었으며 국제 전기차 안전 규격 \029를 충족하여
+적       있습니
+
+- 전류제어 소스에 의한 도체(접지) ASS Al B(EVST-P20)
+
+- 절연 저항 즉정 전압 범위: 20VDC ~ 1,000VDC(1VDC Step)
+- 자유로운 시험 전압값 설정 가능
+
+- 배터리가 내장된 휴대용 제품으로 쉽고 안전한 사용 가능
+- 국제 전기차 안전 규격 WP29 SS
+
+- 모든 종류 전기 자동차에 적용 가능 (6, FCEV, HEV, PEV 등)
+
+- EV 완성차업체, EV 튜닝업체, 0&0기관, 인증기관, 정비업체 등
+
+- 휴대형, 설치형 솔루션 제공 가능
+
+- 전기 자동차 유지보수 및 사전 안전검사
+
+EVST series
+
+EVST-P10
+
+- 절연저항 측정
+
+- Min. 20V ~ Max. 1,000V (1V Step)
+- xEV(EV, HEV, FCEV, PEV) 정기검사
+
+- 유지 보수 및 사전 안전겸사
+
+EVST-P20 (A-Type, Handy)
+
+- 전기적 연속성 즉정
+
+- 절연저항 즉정
+
+- Max 500mA CCRE 연속성 측정
+- Min. 20V ~ Max. 1,000V (1V Step)
+- xEV(EV, HEV, FCEV, PEV) 정기검사
+
+- 유지 보수 및 사전 안전겸사
+
+EVST-P20 (B-Type, Box)
+- 전기적 연속성 즉정
+
+- 절연저항 Sy
+
+- Max 500mA 06모드 연속성 측정
+- Min. 20V ~ Max. 1,000V (1V Step)
+- xEV(EV, HEV, FCEV, PEV) 정기검사
+
+- 유지 보수 및 사전 안전검사
+
+은
+ol
+rat
+olgt
+
+전기 자동차 안전성 평가장비 EVST 56065에 대해 더 궁금한 점이 생기셨다면
+
+하단의 HES 클릭하여 문의를 남겨주세요.
+
+씨티아이코리아
+중남 천안시 서북구 벡석공단1로 10 전안미래!
+T. 041-5!   00 F. 041-557-5204 E. cti@cti-korea.com
+
+수신거부 Uns
+

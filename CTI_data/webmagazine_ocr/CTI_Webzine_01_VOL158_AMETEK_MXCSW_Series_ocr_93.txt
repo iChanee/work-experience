@@ -1,0 +1,96 @@
+게시글 URL: https://www.cti-korea.com/bbs/board.php?bo_table=magazine&wr_id=95&page=7
+
+[이미지 1: http://www.cti-korea.com/upload/editordata/jpg180829040.jpg]
+< \Nabzine
+
+2018년 01월 ¥ VOL.158
+
+wo
+
+AMETEK ZU12 AC/DC Power &3 S242 드립니다.
+1. AC/DC power in a compact floor - AMETEK
+MX Series
+
++ ISKVA to 135 KVA of AC Output Power
++ Combines AC/DC source and power analyzer functions
++ AC, DC and AC+DC Output Modes (Pi version)
+
++ Powerful output transient generation
+
++ Arbitrary waveform generation
+
++ Harmonic analysis of Voltage and Current
+
++ Programmable Impedance (madel MX45-3Pi only)
+
++ Multiple Chassis Configurations’
+
+>MX 시리즈는 높은 수준의 ACS DC 파워를 비교적 작은 Floor Standing 캐비닛 형태로 제공됩니다.
+> 151004부터 사용 가능하며 오늘날 가장 다양한 기능를 갖춘 AC/DC 파워 시스템를 대표합니다.
+
+Programmable Controller Versions with Dual Voltage Ranges
+
+Mode!               ‘AC Output Power Phase Outputs 46/06 Voltage Range           Controller
+MX15-1Pi                                     25068                        1                    150/200 & 300/400            Programmable
+MXx225-3Pi                                 225KVA                    183                 150/200 & 300/400            Programmable
+Mx30-3Pi                                     30KVA                     183                 150/200 & 300/400            Programmable
+00530                                     45066                     183                 150/200 & 300/400            Programmable
+MXx90-3Pi                                     90066                        3                    150/200 & 300/400            Programmable
+MX135-371                                   135kVA                       3                    150/200 & 300/400            Programmable
+
+i models include IEEE-288, RS232C & USB Interface, Advanced messurements,abitvay Wa
+
+form generation. Phase mode switching on MX30/45-3PI
+
+2. High Performance Programmable AC /DC Power Source - AMETEK
+CSW Series
+
++ Combination AC and DC Power Source
+
++ 5550 VA: 10 or 30 (systems up to 38,000 VA)
++ 40-5,000Hz Output Frequencies
+
++ Arbitrary and Harmonic Waveform Generation
+* Built-in Digital Power Analyzer
+
++ Scope Capture Capability
+
++ Power Programming Software
+
++ Constant Power Mode
+
++ Multi-Box Option
+
+> CSW 시리즈는 저렴한 비용으로 추가적 기능를 수행
+파워 소스의 새로운 세대를 대표합니다.
+
+> SHAE AC/DC 파워 소스와 고성능 파워 분석기를 결합함으로써 5\시리즈는 다중 시스템을 필요로 했
+던 복잡한 응용분마를 다룰 수 있습니다.
+
+는 테스트 장비의 수요 증가를 해결하기 위한 AC/DC
+
+|Mode!          CSW5550   CSW11100   CSW16650_   SW22200_   CSw27750   CSW33300
+Multiplier 30/1 9              13               26               3/9             A/a             s/s             68
+Contant over AC Node
+
+00              J          「     는 자
+
+rn
+
+—<soone
+ㅡ209
+
+ste
+
+Kia
+
+ski
+
+°           20          40          “          0          10         120         1         160
++ votave as)
+
+Current Frequency Rating Chart for 1S6VAC Range (range in 3 phase mode)
+
+SH 천만시 서북구 직산읍 직산로 136 (자)충남테크노파크 정보명상융합센터 면구동
+Tel 1 041-557-5200 | Fax 1 041-557-5204 | E-mail : cti@cti-korea,com
+
