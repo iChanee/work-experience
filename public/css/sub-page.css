@@ -947,3 +947,108 @@
     .biz-circle { width: 120px; height: 120px; font-size: 2.8em;}
 }
 
+/* ===== 현직자 소통 인터뷰 캐러셀 ===== */
+.employee-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.employee-carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.employee-card {
+  min-width: calc(33.333% - 20px);
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(30, 50, 100, 0.08);
+  text-align: center;
+  padding: 22px 18px;
+  flex-shrink: 0;
+}
+
+.employee-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.employee-card h3 {
+  font-size: 1.2em;
+  margin: 6px 0 4px 0;
+  color: #222;
+}
+
+.employee-role {
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.employee-quote {
+  font-size: 0.97em;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+.detail-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 7px;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.detail-btn:hover {
+  background: #0b42a8;
+}
+
+.carousel-nav.prev-employee,
+.carousel-nav.next-employee {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 1.4em;
+  cursor: pointer;
+  z-index: 10;
+}
+.carousel-nav.prev-employee { left: 0; }
+.carousel-nav.next-employee { right: 0; }
+
+.carousel-nav:disabled {
+  background: rgba(0,0,0,0.15);
+  cursor: not-allowed;
+}
+
+/* 반응형 */
+@media (max-width: 992px) {
+  .employee-card {
+    min-width: calc(50% - 20px);
+  }
+}
+@media (max-width: 768px) {
+  .employee-card {
+    min-width: 100%;
+  }
+  .employee-carousel-wrapper {
+    padding: 0 20px;
+  }
+}

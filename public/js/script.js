@@ -200,6 +200,65 @@ document.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('resize', updatePartnersCarousel);
         updatePartnersCarousel(); // 초기 로드 시 캐러셀 위치 설정
     }
+
+    // --- 7. 현직자 소통 캐러셀 (employee-carousel)
+    const employeeCarousel = document.querySelector('.employee-carousel');
+    if (employeeCarousel) {
+    const employeePrevBtn = document.querySelector('.carousel-nav.prev-employee');
+    const employeeNextBtn = document.querySelector('.carousel-nav.next-employee');
+    const employeeCards = document.querySelectorAll('.employee-card');
+    let employeeCurrentIndex = 0;
+
+    function updateEmployeeCarousel() {
+        if (employeeCards.length === 0) return;
+
+        let itemsToShow;
+        if (window.innerWidth <= 768) {
+        itemsToShow = 1;
+        } else if (window.innerWidth <= 992) {
+        itemsToShow = 2;
+        } else {
+        itemsToShow = 3;
+        }
+
+        const cardStyle = window.getComputedStyle(employeeCards[0]);
+        const marginL = parseFloat(cardStyle.marginLeft) || 0;
+        const marginR = parseFloat(cardStyle.marginRight) || 0;
+        const fullWidth = employeeCards[0].offsetWidth + marginL + marginR;
+
+        const transformValue = -employeeCurrentIndex * fullWidth;
+        employeeCarousel.style.transform = `translateX(${transformValue}px)`;
+
+        employeePrevBtn.disabled = employeeCurrentIndex === 0;
+        employeeNextBtn.disabled = employeeCurrentIndex >= (employeeCards.length - itemsToShow);
+    }
+
+    employeePrevBtn.addEventListener('click', () => {
+        if (employeeCurrentIndex > 0) {
+        employeeCurrentIndex--;
+        updateEmployeeCarousel();
+        }
+    });
+
+    employeeNextBtn.addEventListener('click', () => {
+        let itemsToShow;
+        if (window.innerWidth <= 768) {
+        itemsToShow = 1;
+        } else if (window.innerWidth <= 992) {
+        itemsToShow = 2;
+        } else {
+        itemsToShow = 3;
+        }
+
+        if (employeeCurrentIndex < (employeeCards.length - itemsToShow)) {
+        employeeCurrentIndex++;
+        updateEmployeeCarousel();
+        }
+    });
+
+    window.addEventListener('resize', updateEmployeeCarousel);
+    updateEmployeeCarousel(); // 초기 위치 설정
+    }
 });
 
 // 로그인 로그아웃 버튼
