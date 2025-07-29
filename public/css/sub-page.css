@@ -1086,3 +1086,45 @@
   color: #0b42a8;
 }
 
+/* 우수합격 사례*/
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+.case-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(30,50,100,0.08);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.case-card h3 {
+  margin-bottom: 14px;
+  color: #1e2d50;
+  font-size: 1.2em;
+}
+.case-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.case-card li {
+  margin-bottom: 10px;
+  font-size: 0.97em;
+  color: #444;
+}
+.resume-link {
+  margin-top: 12px;
+  align-self: flex-start;
+  color: #1976d2;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+.resume-link:hover {
+  color: #0b42a8;
+}
