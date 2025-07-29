@@ -1052,3 +1052,37 @@
     padding: 0 20px;
   }
 }
+
+/* 직무 구분 */
+.job-box-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.job-box {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 3px 16px rgba(30, 50, 100, 0.08);
+  padding: 24px 26px;
+}
+.job-box h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  color: #222;
+}
+.job-box p {
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #555;
+}
+.job-link {
+  font-size: 1em;
+  color: #1976d2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.job-link:hover {
+  color: #0b42a8;
+}
+

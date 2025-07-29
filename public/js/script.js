@@ -310,3 +310,30 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
+
+// 직무 상세 버튼 클릭 시 모달 표시
+document.querySelectorAll('.job-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const job = this.dataset.job;
+    let title = '';
+    let content = '';
+    if (job === 'frontend') {
+      title = '프론트엔드 개발'; // 실제 직무명으로 변경
+      content = `- React 기반 SPA 개발\n- 사용자 UI/UX 개선\n- HTML/CSS/JS 유지보수\n- 디자이너, 기획자와 협업`; //자세한 직무 설명은 이곳에
+    } else if (job === 'backend') {
+      title = '백엔드 개발';
+      content = `- Node.js 기반 API 서버 개발\n- MySQL 기반 DB 설계\n- 인증 및 세션 관리\n- 프론트엔드 API 연동`;
+    } else if (job === 'marketing') {
+      title = '기획/마케팅';
+      content = `- 서비스 기획 및 운영 전략 수립\n- 경쟁사 및 시장 조사\n- 블로그, SNS, 이메일 마케팅 등 채널 운영\n- 고객 유입 및 리텐션 관리`;
+    }
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalBody').textContent = content;
+    document.getElementById('jobModal').classList.add('active');
+  });
+});
+
+function closeModal() {
+  document.getElementById('jobModal').classList.remove('active');
+}
