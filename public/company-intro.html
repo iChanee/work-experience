@@ -55,38 +55,13 @@
     </header>
 
     <main>
-        <section id="greeting" class="main-page-section" style="padding: 100px 0; background: #f4f7fb;">
-            <!-- 상단 강조 문구 박스 -->
-            <div style="text-align: center; margin-bottom: 40px;">
-                <div style="display: inline-block; background: #e3ecf7; padding: 16px 32px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
-                    <p style="margin: 0; font-size: 1.3rem; font-weight: 600; color: #2c3e50;">
-                        최적의 기기와 신뢰할 수 있는 기술력을 바탕으로<br>
-                        최상의 계측 솔루션을 제공합니다.
-                    </p>
-                </div>
-            </div>
-
-            <!-- 본문 레이아웃 -->
-            <div class="container" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 48px; max-width: 1200px; margin: 0 auto; background: white; padding: 48px; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.06);">
-                <!-- 좌측 이미지 -->
-                <div style="flex: 1 1 38%; text-align: center;">
-                    <img src="images/인사말 사진.png" alt="CTI-Korea" style="max-width: 100%; border-radius: 12px; padding: 12px; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.08);">
-                </div>
-
-                <!-- 우측 인사말 텍스트 -->
-                <div style="flex: 1 1 55%; text-align: left;">
-                    <h2 style="font-size: 1.8rem; color: #1c2e45; margin-bottom: 1rem;">인사말</h2>
-                    <p style="font-size: 1.05rem; line-height: 1.85; color: #444;">
-                        우리 씨티아이코리아㈜는 정밀측정분야의 다양한 첨단 솔루션과 기기를 기업, 연구소, 대학교에 제공하며,<br>
-                        시스템 제조업체(SI)로 도약하여 차세대 기술을 선도하는 테크놀로지 기업으로 성장하고 있습니다.
-                        <br><br>
-                        현재 축적된 기술력을 바탕으로 전기차 안전성 평가장비, 배터리 성능 시험기, 충전 인프라 등
-                        xEV 솔루션 전문 기업으로의 고성장을 계획하고 있으며,
-                        <br><br>
-                        앞으로도 ESS, 친환경자동차, 전력변환기, AI 기반 보안 시스템 등
-                        미래 핵심 산업 전반으로의 기술 확대를 통해 중견기업 및 글로벌 기술기업으로 나아가겠습니다.
-                    </p>
-                </div>
+        <section id="greeting" class="main-page-section">
+            <h2>인사말</h2>
+            <div class="greeting-container">
+                <img src="images/인사말 사진.png" alt="CTI-Korea" class="img-responsive">
+                <p>우리 씨티아이코리아㈜는 정밀측정분야의 다양한 첨단 솔루션과 기기를 기업/연구소/대학교에 제공하고 나아가 시스템 제조업체(SI)로 도약하여 차세대 기술을 선도할 수 있는 테크놀로지 업체로 성장하고 있습니다.
+현재 축적된 기술력을 바탕으로 xEV 솔루션 (전기차 안전성 평가장비, 배터리 성능 평가장비, 전기차 완속/급속 충전기, 전력변환기, 충/방전시스템, 대용량 부하시스템, EV 차세대 솔루션 등)전문 업체로의 고성장 계획을 수립하고 있습니다.
+차세대 사업으로 ESS 및 충전장치 안전성 모니터링 장비 개발, 친환경자동차 Advanced 솔루션, 전력변환기 관련 종합 솔루션, AI 기반 보안 솔루션(화재감지, 지능형 유도 대피, 온도관리) 등의 사업 확대로 중견기업 및 글로벌 기업으로의 발전을 도모하고 있습니다.</p>
             </div>
         </section>
 
@@ -136,216 +111,156 @@
             </div>
         </section>
 
-        <section id="partners" class="main-page-section" style="padding: 100px 0; background-color: #f8fafd;">
-        <div class="container" style="max-width: 1200px; margin: 0 auto;">
-            <h2 style="text-align: center; font-size: 2.4rem; color: #1f2d3d; margin-bottom: 12px;">협력사</h2>
-            <p style="text-align: center; font-size: 1.1rem; color: #5c6b7a; margin-bottom: 60px;">
-            저희의 성공은 훌륭한 협력사들과 함께 이루어집니다.
-            </p>
 
-            <div class="partners-carousel-wrapper" style="position: relative; overflow: hidden;">
-            <div class="partners-carousel" style="display: flex; gap: 24px; transition: transform 0.4s ease;">
+        <section id="partners" class="main-page-section">
+            <div class="container">
+                <h2>협력사</h2>
+                <p>저희의 성공은 훌륭한 협력사들과 함께 이루어집니다.</p>
 
-                <!-- 카드: SK -->
-                <div class="partner-item" style="flex: 0 0 300px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); overflow: hidden; transition: transform 0.3s ease;">
-                <a href="https://www.sk.co.kr/" target="_blank" style="text-decoration: none; color: inherit;">
-                    <img src="images/협력사 사진.png" alt="SK 이미지" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="partner-info" style="padding: 20px;">
-                    <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; color: #2c3e50;">SK</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: #555;">
-                        SK주식회사는 그룹 전반의 기업가치를 높일 수 있도록 포트폴리오 경쟁력을 강화하고, 사업간 시너지를 낼 수 있도록 안정적이고 지속적인 성장을 추구하겠습니다.
-                    </p>
+                <div class="partners-carousel-wrapper">
+                    <div class="partners-carousel">
+                        <div class="partner-item"><!--밑을 실제 협력사 홈페이지와 사진으로 교체-->
+                            <a href="https://www.sk.co.kr/" target="_blank"> 
+                                <img src="images/협력사 사진.jpg" alt="SK 이미지"> 
+                                <div class="partner-info">
+                                    <h3>SK</h3> <!-- 협력사 -->
+                                    <p>SK주식회사는 그룹 전반의 기업가치를 높일 수 있도록 포트폴리오 경쟁력을 강화하고, 사업간 시너지를 낼 수 있도록 안정적이고 지속적인 성장을 추구하겠습니다.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="partner-item">
+                            <a href="https://www.samsung-dsrecruit.com/index.php" target="_blank"> 
+                                <img src="images/협력사 사진.jpg" alt="삼성 이미지"> 
+                                <div class="partner-info">
+                                    <h3>삼성</h3>
+                                    <p>삼성은 전자, 반도체, 통신, 건설 등 다양한 산업 분야에서 글로벌 혁신을 선도하는 대한민국 대표 기업입니다. 스마트폰, TV, 반도체 등에서 글로벌 시장을 이끌고 있습니다.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="partner-item"> 
+                            <a href="https://careers.lg.com/" target="_blank"> 
+                                <img src="images/협력사 사진.jpg" alt="lg 이미지"> 
+                                <div class="partner-info">
+                                    <h3>LG</h3> 
+                                    <p>LG는 전자, 화학, 통신 등 다양한 분야에서 글로벌 경쟁력을 갖춘 대한민국의 대표 종합기업입니다. 특히 LG전자는 가전제품과 디스플레이, 배터리 등에서 세계적인 기술력을 보유하고 있습니다.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="partner-item">
+                            <a href=" " target="_blank">
+                                <img src="images/협력사 사진.jpg" alt="협력사 4 이미지">
+                                <div class="partner-info">
+                                    <h3>협력사 4</h3>
+                                    <p>이곳은 네 번째 협력사에 대한 간략한 설명입니다.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="partner-item">
+                            <a href=" " target="_blank">
+                                <img src="images/협력사 사진.jpg" alt="협력사 5 이미지">
+                                <div class="partner-info">
+                                    <h3>협력사 5</h3>
+                                    <p>이곳은 다섯 번째 협력사에 대한 간략한 설명입니다.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="partner-item">
+                            <a href=" " target="_blank">
+                                <img src="images/협력사 사진.jpg" alt="협력사 6 이미지">
+                                <div class="partner-info">
+                                    <h3>협력사 6</h3>
+                                    <p>이곳은 여섯 번째 협력사에 대한 간략한 설명입니다.</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </a>
+                    <button class="carousel-nav prev-partner"><</button>
+                    <button class="carousel-nav next-partner">></button>
                 </div>
-
-                <!-- 카드: 삼성 -->
-                <div class="partner-item" style="flex: 0 0 300px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); overflow: hidden; transition: transform 0.3s ease;">
-                <a href="https://www.samsung-dsrecruit.com/index.php" target="_blank" style="text-decoration: none; color: inherit;">
-                    <img src="images/협력사 사진.png" alt="삼성 이미지" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="partner-info" style="padding: 20px;">
-                    <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; color: #2c3e50;">삼성</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: #555;">
-                        삼성은 전자, 반도체, 통신, 건설 등 다양한 산업 분야에서 글로벌 혁신을 선도하는 대한민국 대표 기업입니다. 스마트폰, TV, 반도체 등에서 글로벌 시장을 이끌고 있습니다.
-                    </p>
-                    </div>
-                </a>
-                </div>
-
-                <!-- 카드: LG -->
-                <div class="partner-item" style="flex: 0 0 300px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); overflow: hidden; transition: transform 0.3s ease;">
-                <a href="https://careers.lg.com/" target="_blank" style="text-decoration: none; color: inherit;">
-                    <img src="images/협력사 사진.png" alt="LG 이미지" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="partner-info" style="padding: 20px;">
-                    <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; color: #2c3e50;">LG</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: #555;">
-                        LG는 전자, 화학, 통신 등 다양한 분야에서 글로벌 경쟁력을 갖춘 대한민국의 대표 종합기업입니다. 특히 LG전자는 가전제품과 디스플레이, 배터리 등에서 세계적인 기술력을 보유하고 있습니다.
-                    </p>
-                    </div>
-                </a>
-                </div>
-
-                <!-- 카드: 협력사 4 -->
-                <div class="partner-item" style="flex: 0 0 300px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); overflow: hidden; transition: transform 0.3s ease;">
-                <a href="#" target="_blank" style="text-decoration: none; color: inherit;">
-                    <img src="images/협력사 사진.png" alt="협력사 4 이미지" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="partner-info" style="padding: 20px;">
-                    <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; color: #2c3e50;">협력사 4</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: #555;">
-                        이곳은 네 번째 협력사에 대한 간략한 설명입니다.
-                    </p>
-                    </div>
-                </a>
-                </div>
-
-                <!-- 카드: 협력사 5 -->
-                <div class="partner-item" style="flex: 0 0 300px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); overflow: hidden; transition: transform 0.3s ease;">
-                <a href="#" target="_blank" style="text-decoration: none; color: inherit;">
-                    <img src="images/협력사 사진.png" alt="협력사 5 이미지" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="partner-info" style="padding: 20px;">
-                    <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; color: #2c3e50;">협력사 5</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: #555;">
-                        이곳은 다섯 번째 협력사에 대한 간략한 설명입니다.
-                    </p>
-                    </div>
-                </a>
-                </div>
-
-                <!-- 카드: 협력사 6 -->
-                <div class="partner-item" style="flex: 0 0 300px; background: white; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); overflow: hidden; transition: transform 0.3s ease;">
-                <a href="#" target="_blank" style="text-decoration: none; color: inherit;">
-                    <img src="images/협력사 사진.png" alt="협력사 6 이미지" style="width: 100%; height: 200px; object-fit: cover;">
-                    <div class="partner-info" style="padding: 20px;">
-                    <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; color: #2c3e50;">협력사 6</h3>
-                    <p style="font-size: 0.95rem; line-height: 1.6; color: #555;">
-                        이곳은 여섯 번째 협력사에 대한 간략한 설명입니다.
-                    </p>
-                    </div>
-                </a>
-                </div>
-
             </div>
-
-            <!-- 슬라이드 네비게이션 버튼 -->
-            <button class="carousel-nav prev-partner" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); background: #fff; border: 1px solid #ccc; border-radius: 6px; padding: 8px 12px; cursor: pointer;">◀</button>
-            <button class="carousel-nav next-partner" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: #fff; border: 1px solid #ccc; border-radius: 6px; padding: 8px 12px; cursor: pointer;">▶</button>
-            </div>
-        </div>
         </section>
 
-        <section id="welfare" class="main-page-section" style="padding: 100px 0; background-color: #f9fbfd;">
-        <div class="container" style="max-width: 1200px; margin: 0 auto;">
-            <!-- 제목 -->
-            <h2 style="text-align: center; font-size: 2.2rem; color: #1f2d3d; margin-bottom: 24px;">복리후생</h2>
-            <p style="text-align: center; font-size: 1.1rem; color: #5c6b7a; margin-bottom: 60px;">
-            구성원의 삶의 질을 높이는 다양한 제도와 지원을 제공합니다.
-            </p>
+        <section id="welfare" class="main-page-section">
+            <div class="container">
+                <h2>복리후생</h2> <div class="welfare-grid">
+                    <div class="welfare-item">
+                        <div class="welfare-icon-circle">
+                            <img src="images/지원금,보험.png" alt="icon" class="welfare-icon-img">
+                        </div>
+                        <h3>지원금/보험</h3>
+                        <ul>
+                            <li>각종 경조사 지원</li>
+                            <li>업무활동비 지급</li>
+                            <li>통신비 지원</li>
+                            <li>해외여행 지원</li>
+                        </ul>
+                    </div>
 
-            <!-- 복리후생 카드 그리드 -->
-            <div class="welfare-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 32px;">
+                    <div class="welfare-item">
+                        <div class="welfare-icon-circle">
+                            <img src="images/급여제도.png" alt="calender icon" class="welfare-icon-img">
+                        </div>
+                        <h3>급여제도</h3>
+                        <ul>
+                            <li>퇴직연금</li>
+                            <li>인센티브제</li>
+                            <li>장기근속자 포상</li>
+                            <li>우수사원포상</li>
+                            <li>퇴직금</li>
+                            <li>4대 보험</li>
+                        </ul>
+                    </div>
 
-            <!-- 지원금/보험 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #e3ecf7; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/지원금,보험.png" alt="지원금 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
+                    <div class="welfare-item">
+                        <div class="welfare-icon-circle">
+                            <img src="images/선물.png" alt="cash icon" class="welfare-icon-img">
+                        </div>
+                        <h3>선물</h3>
+                        <ul>
+                            <li>명절선물/귀향비</li>
+                            <li>생일선물/파티</li>
+                        </ul>
+                    </div>
+
+                    <div class="welfare-item">
+                        <div class="welfare-icon-circle">
+                            <img src="images/교육,생활.png" alt="facility icon" class="welfare-icon-img">
+                        </div>
+                        <h3>교육/생활</h3>
+                        <ul>
+                            <li>점심식사 제공</li>
+                            <li>저녁식사 제공</li>
+                            <li>식비 지원</li>
+                            <li>음료제공(차, 커피)</li>
+                        </ul>
+                    </div>
+
+                    <div class="welfare-item">
+                        <div class="welfare-icon-circle">
+                            <img src="images/근무 환경.png" alt="coffee icon" class="welfare-icon-img">
+                        </div>
+                        <h3>근무 환경</h3>
+                        <ul>
+                            <li>회의실</li>
+                        </ul>
+                    </div>
+
+                    <div class="welfare-item">
+                        <div class="welfare-icon-circle">
+                            <img src="images/출퇴근.png" alt="etc icon" class="welfare-icon-img">
+                        </div>
+                        <h3>출퇴근</h3>
+                        <ul>
+                            <li>차량유류비지급</li>
+                            <li>주차장제공</li>
+                        </ul>
+                    </div>
                 </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">지원금 / 보험</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>각종 경조사 지원</li>
-                <li>업무활동비 지급</li>
-                <li>통신비 지원</li>
-                <li>해외여행 지원</li>
-                </ul>
             </div>
-
-            <!-- 급여제도 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #e8f5e9; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/급여제도.png" alt="급여제도 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
-                </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">급여제도</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>퇴직연금</li>
-                <li>인센티브제</li>
-                <li>장기근속자 포상</li>
-                <li>우수사원포상</li>
-                <li>퇴직금</li>
-                <li>4대 보험</li>
-                </ul>
-            </div>
-
-            <!-- 선물/이벤트 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #fff3e0; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/선물.png" alt="선물 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
-                </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">선물 / 이벤트</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>명절선물 / 귀향비</li>
-                <li>생일선물 / 파티</li>
-                <li>생일 이벤트</li>
-                </ul>
-            </div>
-
-            <!-- 교육/생활/편의 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #ede7f6; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/교육,생활.png" alt="교육 생활 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
-                </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">교육 / 생활 / 편의</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>점심 / 저녁 식사 제공</li>
-                <li>식비 지원</li>
-                <li>음료 / 간식 제공</li>
-                <li>구내식당</li>
-                </ul>
-            </div>
-
-            <!-- 근무 환경 / 사내시설 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #e0f7fa; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/근무 환경.png" alt="근무환경 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
-                </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">근무 환경 / 사내시설</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>회의실</li>
-                <li>주차장 제공</li>
-                </ul>
-            </div>
-
-            <!-- 보상 / 수당 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #fce4ec; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/출퇴근.png" alt="보상 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
-                </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">보상 / 수당</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>퇴직금</li>
-                <li>경조금</li>
-                <li>인센티브</li>
-                <li>차량유류비</li>
-                </ul>
-            </div>
-
-            <!-- 연금 / 보험 -->
-            <div class="welfare-item" style="flex: 1 1 300px; background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 16px rgba(0,0,0,0.06);">
-                <div class="welfare-icon-circle" style="width: 64px; height: 64px; background: #f3f6ff; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 16px;">
-                <img src="images/급여제도.png" alt="연금보험 아이콘" class="welfare-icon-img" style="width: 32px; height: 32px;">
-                </div>
-                <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: #2c3e50;">연금 / 보험</h3>
-                <ul style="padding-left: 18px; color: #444; line-height: 1.6;">
-                <li>국민연금</li>
-                <li>고용보험</li>
-                <li>산재보험</li>
-                <li>건강보험</li>
-                <li>퇴직연금</li>
-                </ul>
-            </div>
-
-            </div>
-        </div>
         </section>
-
     </main>
 
     <footer>
