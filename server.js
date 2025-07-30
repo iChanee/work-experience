@@ -142,10 +142,9 @@ app.get('/api/me', (req, res) => {
 // 회원가입
 app.post('/register', (req, res) => {
   const { ID, password } = req.body;
-  const userID = uuidv4();  // 랜덤 고유값
   db.query(
-    'INSERT INTO users (userID, ID, password) VALUES (?, ?, ?)',
-    [userID, ID, password],
+    'INSERT INTO users (ID, password) VALUES (?, ?)',
+    [ID, password],  // 순서 수정: ID → ID 컬럼, password → password 컬럼
     (err, result) => {
       if (err) return res.status(500).json({ error: 'DB 저장 오류: ' + err.message });
       res.json({ message: '회원가입 성공' });
