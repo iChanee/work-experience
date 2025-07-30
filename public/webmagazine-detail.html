@@ -81,6 +81,7 @@
           </button>
         </div>
         <div class="detail-title" id="detailTitle">로딩 중...</div>
+        <img id="detailImg" style="display:none; max-width:400px; margin-bottom:14px;" />
         <div class="detail-content" id="detailContent">불러오는 중...</div>
         <a class="back-link-btn" href="cti-media.html#web-magazine-full">&larr; 목록으로</a>
       </div>
@@ -201,12 +202,12 @@
       document.getElementById('detailTitle').textContent = data.title;
       document.getElementById('detailAuthor').textContent = data.author;
       document.getElementById('detailDate').textContent = data.created_at?.split('T')[0] || '-';
-      document.getElementById('detailContent').textContent = data.content || '';
       if (data.img_url) {
-        document.getElementById('detailImg').src = data.img_url;
-        document.getElementById('detailImg').style.display = 'block';
+        const detailImg = document.getElementById('detailImg');
+        detailImg.src = data.img_url;
+        detailImg.style.display = 'block';
       }
-
+      document.getElementById('detailContent').textContent = data.content || '';
       await loadComments(postId, type);
 
       document.getElementById('commentForm').onsubmit = async function(e) {
