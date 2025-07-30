@@ -226,7 +226,7 @@ app.post('/api/posts', (req, res) => {
 });
 
 
-// 글 삭제 (본인만 가능)
+// 글 삭제 (본인, 관리자만 가능)
 app.delete('/api/posts/:id', (req, res) => {
   if (!req.session.loggedIn) return res.status(401).json({ error: '로그인 필요' });
   const postId = req.params.id;
@@ -234,23 +234,42 @@ app.delete('/api/posts/:id', (req, res) => {
   const user_id = req.session.ID;
   const user_role = req.session.role;
 
+  // 1. 먼저 img_url까지 함께 가져온다
   db.query(
-    "SELECT author FROM posts WHERE post_id = ? AND type = ?",
+    "SELECT author, img_url FROM posts WHERE post_id = ? AND type = ?",
     [postId, type],
     (err, rows) => {
       if (err || rows.length === 0) return res.status(404).json({ error: '글을 찾을 수 없습니다.' });
-      const { author } = rows[0];
+      const { author, img_url } = rows[0];
       if (author !== user_id && user_role !== 'admin') {
         return res.status(403).json({ error: '본인 또는 관리자만 삭제할 수 있습니다.' });
       }
-      db.query(
-        "DELETE FROM posts WHERE post_id = ? AND type = ?",
-        [postId, type],
-        (err2) => {
-          if (err2) return res.status(500).json({ error: '글 삭제 실패' });
-          res.json({ message: '글 삭제 성공' });
-        }
-      );
+
+      // 2. 이미지 파일이 있으면 uploads 폴더에서 삭제
+      if (img_url && img_url.startsWith('/uploads/')) {
+        const filePath = path.join(__dirname, img_url);
+        fs.unlink(filePath, (err) => {
+          // 파일 삭제 에러 무시(없는 파일도 통과), 아래 DB 삭제 계속
+          db.query(
+            "DELETE FROM posts WHERE post_id = ? AND type = ?",
+            [postId, type],
+            (err2) => {
+              if (err2) return res.status(500).json({ error: '글 삭제 실패' });
+              res.json({ message: '글과 이미지 삭제 성공' });
+            }
+          );
+        });
+      } else {
+        // 이미지 파일 없으면 바로 DB 삭제만
+        db.query(
+          "DELETE FROM posts WHERE post_id = ? AND type = ?",
+          [postId, type],
+          (err2) => {
+            if (err2) return res.status(500).json({ error: '글 삭제 실패' });
+            res.json({ message: '글 삭제 성공(이미지 없음)' });
+          }
+        );
+      }
     }
   );
 });
