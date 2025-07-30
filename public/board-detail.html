@@ -65,6 +65,7 @@
           </button>
         </div>
         <div class="detail-title" id="detailTitle">로딩 중...</div>
+        <img id="detailImg" style="display:none; max-width:400px; margin-bottom:14px;" />
         <div class="detail-content" id="detailContent">불러오는 중...</div>
         <a class="back-link-btn" href="board.html">&larr; 목록으로</a>
       </div>
@@ -152,8 +153,13 @@
         if (!res.ok) throw new Error('게시글을 불러올 수 없습니다.');
         const data = await res.json();
         document.getElementById('detailTitle').textContent = data.title;
-        document.getElementById('detailAuthor').textContent = data.author || '익명';
+        document.getElementById('detailAuthor').textContent = data.author; //|| '익명';
         document.getElementById('detailDate').textContent = formatDate(data.created_at);
+        if (data.img_url) {
+          const detailImg = document.getElementById('detailImg');
+          detailImg.src = data.img_url;
+          detailImg.style.display = 'block';
+        }
         document.getElementById('detailContent').textContent = data.content || '';
         postAuthor = data.author; // 글 작성자 기억해두기
 
@@ -220,12 +226,6 @@
           </div>
         `;
         parentEl.appendChild(el);
-        // if (c.children && c.children.length > 0) {
-        //   const childBox = document.createElement('div');
-        //   childBox.className = 'comment-children';
-        //   el.appendChild(childBox);
-        //   renderComments(c.children, childBox);
-        // }
       });
       //댓글 삭제
       parentEl.querySelectorAll('.comment-delete-btn').forEach(btn => {

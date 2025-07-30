@@ -54,6 +54,10 @@
       <label class="write-label" for="title">글 제목</label>
       <input type="text" id="title" name="title" class="write-title" placeholder="제목을 입력하세요" required />
 
+      <label class="write-label" for="image">이미지 첨부</label>
+      <input type="file" id="image" accept="image/*" />
+      <img id="imgPreview" style="display:none; max-width:200px; margin:14px 0;" />
+
       <label class="write-label" for="content">내용</label>
       <div class="write-content-wrap" style="margin-bottom:14px;">
         <textarea id="content" name="content" class="write-content" required></textarea>
@@ -75,6 +79,7 @@
     // 안내문구 동작 (textarea 안에서만 보이고 스크롤)
     const textarea = document.getElementById('content');
     const ruleGuide = document.getElementById('ruleGuide');
+    let uploadedImgUrl = null;
 
     function updateRuleGuide() {
       if (textarea.value.length === 0 && document.activeElement !== textarea) {
@@ -93,6 +98,29 @@
       const params = new URLSearchParams(location.search);
       return params.get('type') || 'board';
     }
+
+    document.getElementById('image').addEventListener('change', async function(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+      const formData = new FormData();
+      formData.append('image', file);
+
+      const res = await fetch('/api/upload-image', {
+        method: 'POST',
+        body: formData,
+        credentials: 'include'
+      });
+      const data = await res.json();
+      if (data.url) {
+        uploadedImgUrl = data.url;
+        document.getElementById('imgPreview').src = data.url;
+        document.getElementById('imgPreview').style.display = 'block';
+      } else {
+        uploadedImgUrl = null;
+        alert('이미지 업로드 실패');
+      }
+    });
+
 
     // 글 등록 (서버 연동 예시)
     document.getElementById('writeForm').onsubmit = async function(e) {
@@ -119,7 +147,7 @@
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'include',
-          body: JSON.stringify({ title, content, type })
+          body: JSON.stringify({ title, content, type, img_url: uploadedImgUrl })
         });
         const data = await res.json();
         if (res.ok && data.post_id) {

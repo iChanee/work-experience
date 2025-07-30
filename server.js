@@ -9,6 +9,23 @@ const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
+const multer = require('multer');
+const uploadPath = path.join(__dirname, 'uploads');
+if (!fs.existsSync(uploadPath)) fs.mkdirSync(uploadPath);
+
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, uploadPath);
+  },
+  filename: function (req, file, cb) {
+    const ext = path.extname(file.originalname);
+    const basename = path.basename(file.originalname, ext);
+    cb(null, basename + '-' + Date.now() + ext);
+  }
+});
+const upload = multer({ storage: storage });
+
+
 // ====== 회사 데이터: 키워드-파일 매칭 테이블 ======
 const DATA_DIR = path.join(__dirname, 'CTI_DATA');
 // 질문 키워드에 따라 불러올 txt파일 지정 (필요에 따라 추가/수정)
@@ -78,6 +95,8 @@ app.use(cors({
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public'), { extensions: ['html'] }));
+
+app.use('/uploads', express.static(uploadPath));
 
 // 세션
 app.use(session({
@@ -162,6 +181,11 @@ app.post('/logout', (req, res) => {
   });
 });
 
+app.post('/api/upload-image', upload.single('image'), (req, res) => {
+  if (!req.file) return res.status(400).json({ error: '파일 없음' });
+  const imageUrl = `/uploads/${req.file.filename}`;
+  res.json({ url: imageUrl });
+});
 
 // 글 목록
 app.get('/api/posts', (req, res) => {
