@@ -86,33 +86,168 @@
         </section>
 
         <section id="job-categories" class="main-page-section">
-            <div class="container">
-                <h2>직무 구분</h2>
-                <p style="text-align:center;">다양한 직무 분야에서 당신의 역량을 펼쳐보세요.</p>
+        <div class="container">
+            <h2>직무 구분</h2>
+            <p style="text-align:center;">씨티아이코리아는 다양한 기술 기반 직무에서 인재를 찾고 있습니다.</p>
 
-                <div class="job-box-list">
-                    <div class="job-box">
-                        <h3>프론트엔드 개발</h3>
-                        <p>React 기반 웹 UI, 사용자 경험 개선, 유지보수 등</p>
-                        <a href="#" class="job-link" data-job="frontend">자세히 보기</a>
-                    </div>
-                    <div class="job-box">
-                        <h3>백엔드 개발</h3>
-                        <p>Node.js 기반 서버, 데이터베이스 설계, API 보안 등</p>
-                        <a href="#" class="job-link" data-job="backend">자세히 보기</a>
-                    </div>
-                    <div class="job-box">
-                        <h3>기획/마케팅</h3>
-                        <p>서비스 기획, 시장분석, 온라인 채널 운영 등</p>
-                        <a href="#" class="job-link" data-job="marketing">자세히 보기</a>
-                    </div>
-                </div>
-                <div class="recruit-link" style="text-align:center; margin-top:40px;">
-                <a href="https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/152731" target="_blank" class="btn btn-lg">채용 공고 보러가기</a>
-                </div>
+            <div class="job-box-list">
+            <div class="job-box">
+                <h3>기술영업</h3>
+                <p>정밀측정장비 제품 설명 및 컨설팅, 고객 대응 및 기술 상담</p>
+                <button class="job-modal-btn" data-modal="modal-sales">자세히 보기</button>
             </div>
-        </section>
+            <div class="job-box">
+                <h3>장비 기술지원</h3>
+                <p>납품 장비의 설치 및 시운전, 유지보수, A/S 응대</p>
+                <button class="job-modal-btn" data-modal="modal-support">자세히 보기</button>
+            </div>
+            <div class="job-box">
+                <h3>시스템 설계 및 개발</h3>
+                <p>시험 측정 시스템 소프트웨어 개발 및 하드웨어 연동</p>
+                <button class="job-modal-btn" data-modal="modal-systemdev">자세히 보기</button>
+            </div>
+            <div class="job-box">
+                <h3>구매 및 무역관리</h3>
+                <p>해외 계측장비 발주 및 수입관리, 통관·납기 일정 조율</p>
+                <button class="job-modal-btn" data-modal="modal-trading">자세히 보기</button>
+            </div>
+            </div>
 
+            <div class="recruit-link" style="text-align:center; margin-top:40px;">
+            <a href="https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/152731" target="_blank" class="btn btn-lg">채용 공고 보러가기</a>
+            </div>
+        </div>
+
+        <!-- 모달 템플릿 -->
+        <div id="modal-sales" class="job-modal" style="display:none;">
+            <div class="job-modal-content">
+            <span class="job-modal-close">×</span>
+            <h3>기술영업</h3>
+            <ul>
+                <li>고객사 대상 제품 설명 및 기술 문의 대응</li>
+                <li>장비 데모, 기술 프리젠테이션 진행</li>
+                <li>견적서 및 제안서 작성</li>
+                <li>매출 목표 관리 및 신규 고객 발굴</li>
+            </ul>
+            </div>
+        </div>
+
+        <div id="modal-support" class="job-modal" style="display:none;">
+            <div class="job-modal-content">
+            <span class="job-modal-close">×</span>
+            <h3>장비 기술지원</h3>
+            <ul>
+                <li>장비 납품 후 설치 및 현장 셋업</li>
+                <li>고객사 현장 방문 A/S 및 유지보수 지원</li>
+                <li>기기 매뉴얼 작성 및 고객 교육</li>
+                <li>제품 이상 원인 분석 및 대응 보고서 작성</li>
+            </ul>
+            </div>
+        </div>
+
+        <div id="modal-systemdev" class="job-modal" style="display:none;">
+            <div class="job-modal-content">
+            <span class="job-modal-close">×</span>
+            <h3>시스템 설계 및 개발</h3>
+            <ul>
+                <li>측정 시스템의 사용자 인터페이스(UI) 및 소프트웨어 개발</li>
+                <li>센서, 제어기기 등 하드웨어 연동 프로그램 개발</li>
+                <li>LabVIEW, C언어, Python 등 개발 환경 활용</li>
+                <li>시스템 통합 테스트 및 성능 개선</li>
+            </ul>
+            </div>
+        </div>
+
+        <div id="modal-trading" class="job-modal" style="display:none;">
+            <div class="job-modal-content">
+            <span class="job-modal-close">×</span>
+            <h3>구매 및 무역관리</h3>
+            <ul>
+                <li>해외 공급사와의 커뮤니케이션 및 발주 관리</li>
+                <li>수입 통관 진행 및 납기 일정 조율</li>
+                <li>수출입 관련 서류 작성 및 관리</li>
+                <li>내부 구매 요청 및 계약서 검토</li>
+            </ul>
+            </div>
+        </div>
+
+        <!-- 모달 스크립트 -->
+        <script>
+            const modalButtons = document.querySelectorAll(".job-modal-btn");
+            const modals = document.querySelectorAll(".job-modal");
+            const closeButtons = document.querySelectorAll(".job-modal-close");
+
+            modalButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const target = document.getElementById(btn.dataset.modal);
+                if (target) target.style.display = "block";
+            });
+            });
+
+            closeButtons.forEach(btn => {
+            btn.addEventListener("click", () => {
+                btn.parentElement.parentElement.style.display = "none";
+            });
+            });
+
+            window.addEventListener("click", e => {
+            modals.forEach(modal => {
+                if (e.target === modal) modal.style.display = "none";
+            });
+            });
+        </script>
+
+        <style>
+            .job-modal {
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            }
+            .job-modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            }
+            .job-modal-close {
+            position: absolute;
+            top: 12px;
+            right: 20px;
+            color: #aaa;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            }
+            .job-modal-close:hover {
+            color: #000;
+            }
+            .job-modal-btn {
+            background-color: #2c5bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            }
+            .job-modal-btn:hover {
+            background-color: #1e47cc;
+            }
+        </style>
+        </section>
 
         <section id="successful-cases" class="main-page-section">
             <div class="container">
