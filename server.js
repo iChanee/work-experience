@@ -183,14 +183,17 @@ app.post('/api/upload-image', upload.single('image'), (req, res) => {
 // 글 목록
 app.get('/api/posts', (req, res) => {
   const type = req.query.type || 'board'; // 기본값 board
-  db.query(
-    "SELECT * FROM posts WHERE type = ? ORDER BY created_at DESC",
-    [type],
-    (err, rows) => {
-      if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
-      res.json(rows);
-    }
-  );
+  const limit = parseInt(req.query.limit, 10) || null;
+  let query = "SELECT * FROM posts WHERE type = ? ORDER BY created_at DESC";
+  const params = [type];
+  if (limit) {
+    query += " LIMIT ?";
+    params.push(limit);
+  }
+  db.query(query, params, (err, rows) => {
+    if (err) return res.status(500).json({ error: 'DB 오류: ' + err.message });
+    res.json(rows);
+  });
 });
 
 // 글 등록 
