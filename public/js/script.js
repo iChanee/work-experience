@@ -80,44 +80,53 @@ document.addEventListener('DOMContentLoaded', function() {
     // (메인 페이지에만 해당하며, 안정성을 위해 요소 존재 여부 확인)
     const carousel = document.querySelector('.magazine-carousel');
     if (carousel) {
+        // --- 웹 매거진 캐러셀 정확히 카드 하나만큼 이동 ---
+        const carousel = document.querySelector('.magazine-carousel');
         const prevBtn = document.querySelector('.carousel-nav.prev');
         const nextBtn = document.querySelector('.carousel-nav.next');
-        const items = document.querySelectorAll('.magazine-item');
         let currentIndex = 0;
 
-        function updateCarousel() {
-            if (items.length === 0) return; 
-
-            const itemsToShow = window.innerWidth <= 768 ? 1 : 2;
-            const itemStyle = window.getComputedStyle(items[0]);
-            const itemMarginRight = parseFloat(itemStyle.marginRight) || 0;
-            const itemMarginLeft = parseFloat(itemStyle.marginLeft) || 0;
-            const itemFullWidth = items[0].offsetWidth + itemMarginLeft + itemMarginRight; 
-            
-            let transformValue = -currentIndex * itemFullWidth;
-            carousel.style.transform = `translateX(${transformValue}px)`;
-            
-            prevBtn.disabled = currentIndex === 0;
-            nextBtn.disabled = currentIndex >= (items.length - itemsToShow);
+        function getCardFullWidth() {
+            const item = document.querySelector('.magazine-item');
+            if (!item) return 0;
+            const style = window.getComputedStyle(item);
+            const width = item.offsetWidth;
+            const marginRight = parseFloat(style.marginRight || 0);
+            return width + marginRight;
         }
 
-        prevBtn.addEventListener('click', () => {
+        function updateCarousel() {
+            const cardWidth = getCardFullWidth();
+            const items = document.querySelectorAll('.magazine-item');
+            if (items.length === 0 || cardWidth === 0) return;
+
+            const maxIndex = Math.max(0, items.length - 1);
+            const translateX = currentIndex * cardWidth;
+            document.querySelector('.magazine-carousel').style.transform = `translateX(-${translateX}px)`;
+
+            prevBtn.disabled = currentIndex <= 0;
+            nextBtn.disabled = currentIndex >= maxIndex;
+        }
+
+        prevBtn?.addEventListener('click', () => {
+            const items = document.querySelectorAll('.magazine-item');
             if (currentIndex > 0) {
                 currentIndex--;
                 updateCarousel();
             }
         });
 
-        nextBtn.addEventListener('click', () => {
-            const itemsToShow = window.innerWidth <= 768 ? 1 : 2;
-            if (currentIndex < (items.length - itemsToShow)) {
+        nextBtn?.addEventListener('click', () => {
+            const items = document.querySelectorAll('.magazine-item');
+            if (currentIndex < items.length - 1) {
                 currentIndex++;
                 updateCarousel();
             }
         });
 
         window.addEventListener('resize', updateCarousel);
-        updateCarousel();
+        document.addEventListener('DOMContentLoaded', updateCarousel);
+
     }
 
     // --- 4. 로고 클릭 시 메인 페이지 상단으로 스크롤 및 URL 해시 제거 ---
