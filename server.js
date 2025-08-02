@@ -9,6 +9,10 @@ const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
+// server.js 상단에서
+const documents = JSON.parse(fs.readFileSync(path.join(__dirname, 'documents/cti_data.json'), 'utf-8'));
+
+
 const multer = require('multer');
 const uploadPath = path.join(__dirname, 'uploads');
 if (!fs.existsSync(uploadPath)) fs.mkdirSync(uploadPath);
@@ -52,36 +56,26 @@ const TOPIC_FILES = [
 ];
 // 질문→회사데이터 파일 찾는 함수
 function getCompanyDataByTopic(userMsg) {
-    const msg = (userMsg||'').toLowerCase();
-    let filesToUse = [];
-    for (const topic of TOPIC_FILES) {
-        if (topic.keywords.some(kw => msg.includes(kw))) {
-            filesToUse.push(topic.file);
-        }
+  const lowerQ = userMsg.toLowerCase();
+
+  const scored = documents.map(doc => {
+    let score = 0;
+    for (const kw of doc.keyword || []) {
+      if (lowerQ.includes(kw.toLowerCase())) score += 1;
     }
-    // 파일이 여러개면 모두 합쳐서 리턴
-    if (filesToUse.length > 0) {
-        let mergedText = '';
-        for (const file of filesToUse) {
-            const filePath = path.join(DATA_DIR, file);
-            if (fs.existsSync(filePath)) {
-                mergedText += `\n\n[${file.replace('.txt','')}] =====================\n`;
-                mergedText += fs.readFileSync(filePath, 'utf-8') + '\n';
-            }
-        }
-        return mergedText;
-    }
-    // 키워드 없으면 회사개요+회사소개 기본값
-    let mergedText = '';
-    ['1_회사개요.txt','2_회사소개.txt'].forEach(f=>{
-        const filePath = path.join(DATA_DIR, f);
-        if (fs.existsSync(filePath)) {
-            mergedText += `\n\n[${f.replace('.txt','')}] =====================\n`;
-            mergedText += fs.readFileSync(filePath, 'utf-8') + '\n';
-        }
-    });
-    return mergedText;
+    return { doc, score };
+  });
+
+  const matched = scored
+    .filter(s => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 3)  // 상위 3개만 사용
+    .map(s => `• ${s.doc.title}: ${s.doc.summary}`)
+    .join('\n\n');
+
+  return matched || '회사 공식 자료가 발견되지 않았습니다.';
 }
+
 
 // ========================================
 
@@ -431,10 +425,15 @@ app.post('/api/chat', async (req, res) => {
     const companyInfo = getCompanyDataByTopic(userMsg);
 
     const SYSTEM_PROMPT = `
-아래는 우리 회사 공식 자료입니다. 반드시 참고해서 답변만 해주세요.
+당신은 CTI KOREA의 공식 상담 챗봇입니다.
+질문에 대해 항상 **간단히 요약하여** 먼저 답변하고,
+추가 설명이 필요해 보일 때만 구체적으로 안내하거나 "자세히 말씀드릴까요?"라고 물어보세요.
+
+다음은 회사 공식 자료입니다. 반드시 참고해서 답변하세요:
 
 ${companyInfo}
 `;
+
 
     const gptRes = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',

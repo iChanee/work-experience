@@ -66,3 +66,8 @@ async function sendMessage() {
     ${data.reply}
   </span>`;
 }
+
+// 시작 안내 메시지 출력
+window.addEventListener('DOMContentLoaded', () => {
+  appendMessage("챗봇", "안녕하세요! CTI 챗봇입니다.\n회사 정보나 제품에 대해 궁금한 점을 물어보세요.");
+});
