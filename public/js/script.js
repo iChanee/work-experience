@@ -80,8 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // (메인 페이지에만 해당하며, 안정성을 위해 요소 존재 여부 확인)
     const carousel = document.querySelector('.magazine-carousel');
     if (carousel) {
-        // --- 웹 매거진 캐러셀 정확히 카드 하나만큼 이동 ---
-        const carousel = document.querySelector('.magazine-carousel');
         const prevBtn = document.querySelector('.carousel-nav.prev');
         const nextBtn = document.querySelector('.carousel-nav.next');
         let currentIndex = 0;
@@ -100,16 +98,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const items = document.querySelectorAll('.magazine-item');
             if (items.length === 0 || cardWidth === 0) return;
 
-            const maxIndex = Math.max(0, items.length - 1);
+            const visibleCount = Math.floor(carousel.offsetWidth / cardWidth);
+            const maxIndex = Math.max(0, items.length - visibleCount);
+            currentIndex = Math.min(currentIndex, maxIndex);
+
             const translateX = currentIndex * cardWidth;
-            document.querySelector('.magazine-carousel').style.transform = `translateX(-${translateX}px)`;
+            carousel.style.transform = `translateX(-${translateX}px)`;
 
             prevBtn.disabled = currentIndex <= 0;
             nextBtn.disabled = currentIndex >= maxIndex;
         }
 
         prevBtn?.addEventListener('click', () => {
-            const items = document.querySelectorAll('.magazine-item');
             if (currentIndex > 0) {
                 currentIndex--;
                 updateCarousel();
@@ -118,16 +118,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
         nextBtn?.addEventListener('click', () => {
             const items = document.querySelectorAll('.magazine-item');
-            if (currentIndex < items.length - 1) {
+            const cardWidth = getCardFullWidth();
+            const visibleCount = Math.floor(carousel.offsetWidth / cardWidth);
+            const maxIndex = Math.max(0, items.length - visibleCount);
+            if (currentIndex < maxIndex) {
                 currentIndex++;
                 updateCarousel();
             }
         });
 
         window.addEventListener('resize', updateCarousel);
-        document.addEventListener('DOMContentLoaded', updateCarousel);
-
+        updateCarousel(); // 최초 실행
     }
+
 
     // --- 4. 로고 클릭 시 메인 페이지 상단으로 스크롤 및 URL 해시 제거 ---
     const logoLink = document.querySelector('.logo a');

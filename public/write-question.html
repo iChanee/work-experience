@@ -1,0 +1,52 @@
+<div class="container">
+  <form id="questionForm" autocomplete="off" style="max-width:600px; margin:60px auto; background:#fff; padding:40px; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.05);">
+    <h2 style="text-align:center; font-size:1.6rem; margin-bottom:24px;">Q&A 질문 등록</h2>
+
+    <label for="title" style="font-weight:bold; display:block; margin-bottom:6px;">질문 제목</label>
+    <input type="text" id="title" required style="width:100%; padding:12px; font-size:1rem; margin-bottom:18px; border-radius:8px; border:1px solid #ccc; background:#f9fbfd;">
+
+    <label for="content" style="font-weight:bold; display:block; margin-bottom:6px;">질문 내용</label>
+    <textarea id="content" required style="width:100%; min-height:160px; padding:12px; font-size:1rem; border-radius:8px; border:1px solid #ccc; background:#f9fbfd;"></textarea>
+
+    <div style="text-align:right; margin-top:24px;">
+      <button type="submit" style="background:#2c5bff; color:#fff; padding:12px 24px; border:none; border-radius:8px; font-size:1rem;">등록</button>
+    </div>
+
+    <div id="result" style="margin-top:20px; font-size:0.95rem; color:#1976d2;"></div>
+  </form>
+</div>
+
+<script>
+  document.getElementById('questionForm').onsubmit = async function (e) {
+    e.preventDefault();
+
+    const title = document.getElementById('title').value.trim();
+    const content = document.getElementById('content').value.trim();
+    const resultBox = document.getElementById('result');
+
+    const loginRes = await fetch('/api/me', { credentials: 'include' });
+    const loginData = await loginRes.json();
+
+    if (!loginData.loggedIn) {
+      resultBox.style.color = '#d32f2f';
+      resultBox.textContent = '❌ 질문 등록 실패: 로그인 후 작성 가능합니다.';
+      return;
+    }
+
+    const res = await fetch('/api/posts', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
+      body: JSON.stringify({ title, content, type: 'question' })
+    });
+
+    const data = await res.json();
+
+    if (res.ok && data.post_id) {
+      location.href = '/question.html';
+    } else {
+      resultBox.style.color = '#d32f2f';
+      resultBox.textContent = '❌ 질문 등록 실패: ' + (data.error || '오류 발생');
+    }
+  };
+</script>

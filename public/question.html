@@ -145,7 +145,26 @@
     <div class="main-qna-container">
       <div class="top-bar">
         <span class="main-title">Q&A 게시판</span>
-        <button class="write-btn" onclick="location.href='write-question.html'">질문 등록</button>
+        <button id="writeQuestionBtn" class="write-btn">질문 등록</button>
+        <script>
+          document.getElementById('writeQuestionBtn')?.addEventListener('click', async () => {
+            try {
+              const res = await fetch('/api/me', { credentials: 'include' });
+              const data = await res.json();
+
+              if (data.loggedIn) {
+                location.href = '/write-question.html';
+              } else {
+                const goLogin = confirm("로그인한 사용자만 글쓰기가 가능합니다.\n로그인 페이지로 이동하시겠습니까?");
+                if (goLogin) {
+                  location.href = '/login.html';
+                }
+              }
+            } catch (err) {
+              alert('로그인 상태 확인 중 오류가 발생했습니다.');
+            }
+          });
+        </script>
       </div>
       <div class="main-desc">자주 묻는 질문과 답변을 확인하거나, 직접 질문을 남겨보세요.</div>
       <!-- Q&A 카드 목록 (샘플) -->
